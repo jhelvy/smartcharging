@@ -1,0 +1,15 @@
+Type: Website
+Package: smartcharging
+Title: Smart Charging Project
+Maintainer: John Helveston <jph@gwu.edu>
+Author: John Helveston <jph@gwu.edu>
+Authors@R: c(
+    person("John", "Helveston", email = "jph@gwu.edu", role = c("aut", "cre")),
+    )
+Depends: R (>= 3.6.0)
+License: CC-BY
+Encoding: UTF-8
+License: CC-BY-SA
+Encoding: UTF-8
+Imports:
+    quarto
