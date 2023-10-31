@@ -1,0 +1,62 @@
+editor: visual
+
+project:
+  type: website
+
+format:
+  html:
+    toc: true
+    toc-location: right
+    theme: [united, theme.scss]
+    css: styles.css
+    self-contained: true
+    link-external-newwindow: true
+    link-external-icon: false
+    backgroundcolor: "#F5F2E9"
+
+execute: 
+  freeze: false
+  warning: false
+
+website:
+  title: "Home"
+  favicon: favicon.png
+  search:
+    location: navbar
+    type: textbox
+    copy-button: true
+  navbar:
+    left:
+      - icon: person-badge
+        href: qmd_files/0_intro.qmd
+        text: "Intro"
+      - icon: file-text
+        text: "Stage 1"
+        menu:
+          - icon: file-text
+            text: "1. Pilot Survey"
+            href: qmd_files/1_1_pilot_survey.qmd
+          - icon: file-text
+            text: "2. Pilot Analysis"
+            href: qmd_files/1_2_pilot_analysis.qmd
+          - icon: file-text
+            text: "3. Final Survey"
+            href: qmd_files/1_3_final_survey.qmd
+          - icon: file-text
+            text: "4. Final Analysis"
+            href: qmd_files/1_4_final_analysis.qmd
+          - icon: file-text
+            text: "5. Presentation"
+            href: qmd_files/1_5_presentation.qmd
+      - icon: file-text
+        text: "Stage 2"
+        menu:
+          - icon: file-text
+            text: "1. Simulation"
+            href: qmd_files/2_1_simulation.qmd
+          - icon: file-text
+            text: "2. Analysis"
+            href: qmd_files/2_2_analysis.qmd
+          - icon: file-text
+            text: "3. Presentation"
+            href: qmd_files/2_3_presentation.qmd
