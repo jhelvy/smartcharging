@@ -4440,8 +4440,230 @@ vertical-align: -.125em;
   }
 }</script>
 
-<script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<script>$(document).ready(function(){
+    if (typeof $('[data-toggle="tooltip"]').tooltip === 'function') {
+        $('[data-toggle="tooltip"]').tooltip();
+    }
+    if ($('[data-toggle="popover"]').popover === 'function') {
+        $('[data-toggle="popover"]').popover();
+    }
+});
+</script>
+<style type="text/css">
+.lightable-minimal {
+border-collapse: separate;
+border-spacing: 16px 1px;
+width: 100%;
+margin-bottom: 10px;
+}
+.lightable-minimal td {
+margin-left: 5px;
+margin-right: 5px;
+}
+.lightable-minimal th {
+margin-left: 5px;
+margin-right: 5px;
+}
+.lightable-minimal thead tr:last-child th {
+border-bottom: 2px solid #00000050;
+empty-cells: hide;
+}
+.lightable-minimal tbody tr:first-child td {
+padding-top: 0.5em;
+}
+.lightable-minimal.lightable-hover tbody tr:hover {
+background-color: #f5f5f5;
+}
+.lightable-minimal.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-classic {
+border-top: 0.16em solid #111111;
+border-bottom: 0.16em solid #111111;
+width: 100%;
+margin-bottom: 10px;
+margin: 10px 5px;
+}
+.lightable-classic tfoot tr td {
+border: 0;
+}
+.lightable-classic tfoot tr:first-child td {
+border-top: 0.14em solid #111111;
+}
+.lightable-classic caption {
+color: #222222;
+}
+.lightable-classic td {
+padding-left: 5px;
+padding-right: 5px;
+color: #222222;
+}
+.lightable-classic th {
+padding-left: 5px;
+padding-right: 5px;
+font-weight: normal;
+color: #222222;
+}
+.lightable-classic thead tr:last-child th {
+border-bottom: 0.10em solid #111111;
+}
+.lightable-classic.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-classic.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-classic-2 {
+border-top: 3px double #111111;
+border-bottom: 3px double #111111;
+width: 100%;
+margin-bottom: 10px;
+}
+.lightable-classic-2 tfoot tr td {
+border: 0;
+}
+.lightable-classic-2 tfoot tr:first-child td {
+border-top: 3px double #111111;
+}
+.lightable-classic-2 caption {
+color: #222222;
+}
+.lightable-classic-2 td {
+padding-left: 5px;
+padding-right: 5px;
+color: #222222;
+}
+.lightable-classic-2 th {
+padding-left: 5px;
+padding-right: 5px;
+font-weight: normal;
+color: #222222;
+}
+.lightable-classic-2 tbody tr:last-child td {
+border-bottom: 3px double #111111;
+}
+.lightable-classic-2 thead tr:last-child th {
+border-bottom: 1px solid #111111;
+}
+.lightable-classic-2.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-classic-2.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-material {
+min-width: 100%;
+white-space: nowrap;
+table-layout: fixed;
+font-family: Roboto, sans-serif;
+border: 1px solid #EEE;
+border-collapse: collapse;
+margin-bottom: 10px;
+}
+.lightable-material tfoot tr td {
+border: 0;
+}
+.lightable-material tfoot tr:first-child td {
+border-top: 1px solid #EEE;
+}
+.lightable-material th {
+height: 56px;
+padding-left: 16px;
+padding-right: 16px;
+}
+.lightable-material td {
+height: 52px;
+padding-left: 16px;
+padding-right: 16px;
+border-top: 1px solid #eeeeee;
+}
+.lightable-material.lightable-hover tbody tr:hover {
+background-color: #f5f5f5;
+}
+.lightable-material.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-material.lightable-striped tbody td {
+border: 0;
+}
+.lightable-material.lightable-striped thead tr:last-child th {
+border-bottom: 1px solid #ddd;
+}
+.lightable-material-dark {
+min-width: 100%;
+white-space: nowrap;
+table-layout: fixed;
+font-family: Roboto, sans-serif;
+border: 1px solid #FFFFFF12;
+border-collapse: collapse;
+margin-bottom: 10px;
+background-color: #363640;
+}
+.lightable-material-dark tfoot tr td {
+border: 0;
+}
+.lightable-material-dark tfoot tr:first-child td {
+border-top: 1px solid #FFFFFF12;
+}
+.lightable-material-dark th {
+height: 56px;
+padding-left: 16px;
+padding-right: 16px;
+color: #FFFFFF60;
+}
+.lightable-material-dark td {
+height: 52px;
+padding-left: 16px;
+padding-right: 16px;
+color: #FFFFFF;
+border-top: 1px solid #FFFFFF12;
+}
+.lightable-material-dark.lightable-hover tbody tr:hover {
+background-color: #FFFFFF12;
+}
+.lightable-material-dark.lightable-striped tbody tr:nth-child(even) {
+background-color: #FFFFFF12;
+}
+.lightable-material-dark.lightable-striped tbody td {
+border: 0;
+}
+.lightable-material-dark.lightable-striped thead tr:last-child th {
+border-bottom: 1px solid #FFFFFF12;
+}
+.lightable-paper {
+width: 100%;
+margin-bottom: 10px;
+color: #444;
+}
+.lightable-paper tfoot tr td {
+border: 0;
+}
+.lightable-paper tfoot tr:first-child td {
+border-top: 1px solid #00000020;
+}
+.lightable-paper thead tr:last-child th {
+color: #666;
+vertical-align: bottom;
+border-bottom: 1px solid #00000020;
+line-height: 1.15em;
+padding: 10px 5px;
+}
+.lightable-paper td {
+vertical-align: middle;
+border-bottom: 1px solid #00000010;
+line-height: 1.15em;
+padding: 7px 5px;
+}
+.lightable-paper.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-paper.lightable-striped tbody tr:nth-child(even) {
+background-color: #00000008;
+}
+.lightable-paper.lightable-striped tbody td {
+border: 0;
+}
+</style>
 
 
 <style type="text/css">
@@ -4624,7 +4846,7 @@ color: #694696 !important;
 <li>To access the Google sheet of part 1, please go to <a href="https://docs.google.com/spreadsheets/d/1KYjACwzKZ-BmyBlD9X9aIsOgS3F-McoFDdtrPHRd5RI/edit?usp=share_link" target="_blank"><strong>this link</strong></a>.</li>
 <li>To access the Google sheet of part 2, please go to <a href="https://docs.google.com/spreadsheets/d/1I4EJVDbEbrauo_r1YZWRVML4N8At-BKq3VWpVQmhA-A/edit?usp=share_link" target="_blank"><strong>this link</strong></a>.</li>
 <li>To access the Google sheet of part 3, please go to <a href="https://docs.google.com/spreadsheets/d/19ELES0Wu7w9kHXI2v5vfo4Q9oYE1kiZgK4MSUWrwA7k/edit?usp=share_link" target="_blank"><strong>this link</strong></a>.</li>
-<li>In the conjoint part, the attribute of <strong>Guaranteed Range</strong> should be in mileage using the <code>case_when()</code> function with inputs from the users. Here, since we don’t have user inputs, the team chooses to show the percentage instead.</li>
+<li>In the conjoint part, the attribute of <strong>Guaranteed Range</strong> should be in miles using the <code>case_when()</code> function with inputs from the users. Here, since we don’t have user inputs, the team chooses to show the percentage instead.</li>
 </ul>
 </section>
 <section id="welcome-page" class="level2">
@@ -4677,7 +4899,7 @@ color: #694696 !important;
 <ul>
 <li>We provide a list in alphabetical order to show all EVs available in the USA market, including their makes and models. Please go to our survey for details.</li>
 </ul>
-<p><strong>3.</strong> What is the max range (in mileage) of your EV?</p>
+<p><strong>3.</strong> What is the max range (in miles) of your EV?</p>
 <ul>
 <li>Below 100</li>
 <li>100-149</li>
@@ -4755,7 +4977,7 @@ color: #694696 !important;
 <tr class="even">
 <td style="text-align: left;">Guaranteed Range if charged for 8 hrs:</td>
 <td style="text-align: left;">25%, 50%, 75%</td>
-<td style="text-align: left;">It means the guranteed range if your car is charged for 8 hrs during smart charging. It shows percentage here, but will be converted to mileages.</td>
+<td style="text-align: left;">It means the guranteed range if your car is charged for 8 hrs during smart charging. It shows percentage here, but will be converted to miles.</td>
 </tr>
 </tbody>
 </table>
@@ -4838,28 +5060,28 @@ color: #694696 !important;
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Upfront Incentive:</td>
+<td style="text-align: center; width: 10em;">$500</td>
 <td style="text-align: center; width: 10em;">$300</td>
-<td style="text-align: center; width: 10em;">$100</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right; width: 20em;">Free Level 2 Charger:</td>
-<td style="text-align: center; width: 10em;">No</td>
+<td style="text-align: center; width: 10em;">Yes</td>
 <td style="text-align: center; width: 10em;">Yes</td>
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Electricity Price Discount:</td>
+<td style="text-align: center; width: 10em;">25%</td>
 <td style="text-align: center; width: 10em;">10%</td>
-<td style="text-align: center; width: 10em;">50%</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right; width: 20em;">Override Window:</td>
-<td style="text-align: center; width: 10em;">1 hrs</td>
-<td style="text-align: center; width: 10em;">1 hrs</td>
+<td style="text-align: center; width: 10em;">4 hrs</td>
+<td style="text-align: center; width: 10em;">2 hrs</td>
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Guaranteed Range if charged for 8 hrs:</td>
 <td style="text-align: center; width: 10em;">50 %</td>
-<td style="text-align: center; width: 10em;">25 %</td>
+<td style="text-align: center; width: 10em;">75 %</td>
 </tr>
 </tbody>
 </table>
@@ -4888,28 +5110,28 @@ color: #694696 !important;
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Upfront Incentive:</td>
-<td style="text-align: center; width: 10em;">$100</td>
+<td style="text-align: center; width: 10em;">$300</td>
 <td style="text-align: center; width: 10em;">$100</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right; width: 20em;">Free Level 2 Charger:</td>
-<td style="text-align: center; width: 10em;">No</td>
+<td style="text-align: center; width: 10em;">Yes</td>
 <td style="text-align: center; width: 10em;">Yes</td>
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Electricity Price Discount:</td>
-<td style="text-align: center; width: 10em;">25%</td>
 <td style="text-align: center; width: 10em;">50%</td>
+<td style="text-align: center; width: 10em;">10%</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right; width: 20em;">Override Window:</td>
-<td style="text-align: center; width: 10em;">0.5 hrs</td>
+<td style="text-align: center; width: 10em;">2 hrs</td>
 <td style="text-align: center; width: 10em;">0.5 hrs</td>
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Guaranteed Range if charged for 8 hrs:</td>
 <td style="text-align: center; width: 10em;">25 %</td>
-<td style="text-align: center; width: 10em;">25 %</td>
+<td style="text-align: center; width: 10em;">75 %</td>
 </tr>
 </tbody>
 </table>
@@ -4939,21 +5161,21 @@ color: #694696 !important;
 <tr class="even">
 <td style="text-align: right; width: 20em;">Upfront Incentive:</td>
 <td style="text-align: center; width: 10em;">$100</td>
-<td style="text-align: center; width: 10em;">$500</td>
+<td style="text-align: center; width: 10em;">$300</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right; width: 20em;">Free Level 2 Charger:</td>
-<td style="text-align: center; width: 10em;">Yes</td>
+<td style="text-align: center; width: 10em;">No</td>
 <td style="text-align: center; width: 10em;">No</td>
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Electricity Price Discount:</td>
-<td style="text-align: center; width: 10em;">10%</td>
 <td style="text-align: center; width: 10em;">50%</td>
+<td style="text-align: center; width: 10em;">10%</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right; width: 20em;">Override Window:</td>
-<td style="text-align: center; width: 10em;">2 hrs</td>
+<td style="text-align: center; width: 10em;">4 hrs</td>
 <td style="text-align: center; width: 10em;">2 hrs</td>
 </tr>
 <tr class="even">
@@ -4988,7 +5210,7 @@ color: #694696 !important;
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Upfront Incentive:</td>
-<td style="text-align: center; width: 10em;">$300</td>
+<td style="text-align: center; width: 10em;">$500</td>
 <td style="text-align: center; width: 10em;">$100</td>
 </tr>
 <tr class="odd">
@@ -4998,13 +5220,13 @@ color: #694696 !important;
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Electricity Price Discount:</td>
-<td style="text-align: center; width: 10em;">50%</td>
+<td style="text-align: center; width: 10em;">10%</td>
 <td style="text-align: center; width: 10em;">50%</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right; width: 20em;">Override Window:</td>
+<td style="text-align: center; width: 10em;">4 hrs</td>
 <td style="text-align: center; width: 10em;">2 hrs</td>
-<td style="text-align: center; width: 10em;">0.5 hrs</td>
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Guaranteed Range if charged for 8 hrs:</td>
@@ -5038,13 +5260,13 @@ color: #694696 !important;
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Upfront Incentive:</td>
-<td style="text-align: center; width: 10em;">$100</td>
 <td style="text-align: center; width: 10em;">$500</td>
+<td style="text-align: center; width: 10em;">$100</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right; width: 20em;">Free Level 2 Charger:</td>
-<td style="text-align: center; width: 10em;">Yes</td>
 <td style="text-align: center; width: 10em;">No</td>
+<td style="text-align: center; width: 10em;">Yes</td>
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Electricity Price Discount:</td>
@@ -5053,12 +5275,12 @@ color: #694696 !important;
 </tr>
 <tr class="odd">
 <td style="text-align: right; width: 20em;">Override Window:</td>
-<td style="text-align: center; width: 10em;">2 hrs</td>
+<td style="text-align: center; width: 10em;">4 hrs</td>
 <td style="text-align: center; width: 10em;">0.5 hrs</td>
 </tr>
 <tr class="even">
 <td style="text-align: right; width: 20em;">Guaranteed Range if charged for 8 hrs:</td>
-<td style="text-align: center; width: 10em;">75 %</td>
+<td style="text-align: center; width: 10em;">25 %</td>
 <td style="text-align: center; width: 10em;">50 %</td>
 </tr>
 </tbody>
@@ -5163,7 +5385,7 @@ color: #694696 !important;
 <h2 class="anchored" data-anchor-id="end-of-survey">End of Survey</h2>
 <p>Well done! This is the end of the survey!</p>
 <p>Again, if you have any questions, you can reach out to us at <a href="mailto:emsepevteam@gmail.com">emsepevteam@gmail.com</a>. We will respond at our first convenience.</p>
-<p>We appreciate your patience and your time. Your completion code is: <strong>986357</strong>.</p>
+<p>We appreciate your patience and your time. Your completion code is: <strong>549320</strong>.</p>
 
 
 </section>

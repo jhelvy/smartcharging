@@ -9,7 +9,7 @@ page-layout: article
 -   To access the Google sheet of part 1, please go to <a href="https://docs.google.com/spreadsheets/d/1KYjACwzKZ-BmyBlD9X9aIsOgS3F-McoFDdtrPHRd5RI/edit?usp=share_link" target="_blank"><strong>this link</strong></a>.
 -   To access the Google sheet of part 2, please go to <a href="https://docs.google.com/spreadsheets/d/1I4EJVDbEbrauo_r1YZWRVML4N8At-BKq3VWpVQmhA-A/edit?usp=share_link" target="_blank"><strong>this link</strong></a>.
 -   To access the Google sheet of part 3, please go to <a href="https://docs.google.com/spreadsheets/d/19ELES0Wu7w9kHXI2v5vfo4Q9oYE1kiZgK4MSUWrwA7k/edit?usp=share_link" target="_blank"><strong>this link</strong></a>.
--   In the conjoint part, the attribute of **Guaranteed Range** should be in mileage using the `case_when()` function with inputs from the users. Here, since we don't have user inputs, the team chooses to show the percentage instead.
+-   In the conjoint part, the attribute of **Guaranteed Range** should be in miles using the `case_when()` function with inputs from the users. Here, since we don't have user inputs, the team chooses to show the percentage instead.
 
 ## Welcome Page
 
@@ -66,7 +66,7 @@ For more information about **Smart Charging**, please watch this **30 seconds vi
 
 -   We provide a list in alphabetical order to show all EVs available in the USA market, including their makes and models. Please go to our survey for details.
 
-**3.** What is the max range (in mileage) of your EV?
+**3.** What is the max range (in miles) of your EV?
 
 -   Below 100
 -   100-149
@@ -139,7 +139,7 @@ brief <- tibble(
     `Free Level 2 Charger:` = c("No or Yes", "A \"Yes\" means you will get a free level 2 charger. A level 2 charger enables faster charging than a standard home charger."), 
     `Electricity Price Discount:` = c("10%, 25%, 50%", "If you choose to join this smart charging program, this will be your electricity price discount."), 
     `Override Window:` = c("0.5 ~ 4 hrs", "This is the longest time window per day that you can force override to regular charging, during which time your EV is not controlled by the smart charging program."),
-    `Guaranteed Range if charged for 8 hrs:` = c("25%, 50%, 75%", "It means the guranteed range if your car is charged for 8 hrs during smart charging. It shows percentage here, but will be converted to mileages."))
+    `Guaranteed Range if charged for 8 hrs:` = c("25%, 50%, 75%", "It means the guranteed range if your car is charged for 8 hrs during smart charging. It shows percentage here, but will be converted to miles."))
 row.names(brief) <- NULL
 
 kable(t(brief), escape = FALSE) %>% 
