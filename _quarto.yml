@@ -21,11 +21,11 @@ execute:
 website:
   title: "Home"
   favicon: favicon.ico
-  search:
-    location: navbar
-    type: textbox
-    copy-button: true
+  search: false
   navbar:
+    tools:
+      - icon: github
+        href: https://github.com/jhelvy/smartcharging
     left:
       - icon: house-door
         href: pages/1_about.qmd
