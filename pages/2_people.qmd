@@ -1,6 +1,9 @@
 ---
 title: "People"
 page-layout: article
+format:
+  html:
+    toc: false
 ---
 
 This project is led by PI John Paul Helveston from George Washington University, and is currently executed by his PhD student Pingfan Hu. The team consists of the following members.
