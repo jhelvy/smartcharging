@@ -1,43 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/jhelvy/smartcharging/qmd_files/1_1_pilot_survey.html</loc>
-    <lastmod>2023-11-02T12:15:46.138Z</lastmod>
+    <loc>https://github.com/jhelvy/smartcharging/pages/1_about.html</loc>
+    <lastmod>2023-11-04T01:34:51.152Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/jhelvy/smartcharging/qmd_files/1_4_final_analysis.html</loc>
-    <lastmod>2023-11-02T12:15:34.187Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/jhelvy/smartcharging/qmd_files/1_2_pilot_analysis.html</loc>
-    <lastmod>2023-11-02T12:15:27.907Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/jhelvy/smartcharging/qmd_files/2_2_analysis.html</loc>
-    <lastmod>2023-11-02T12:15:21.332Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/jhelvy/smartcharging/qmd_files/1_3_final_survey.html</loc>
-    <lastmod>2023-11-02T12:15:14.592Z</lastmod>
+    <loc>https://github.com/jhelvy/smartcharging/pages/4_faq.html</loc>
+    <lastmod>2023-11-04T01:34:43.462Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/jhelvy/smartcharging/index.html</loc>
-    <lastmod>2023-11-02T12:15:10.295Z</lastmod>
+    <lastmod>2023-11-04T01:34:34.668Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/jhelvy/smartcharging/qmd_files/1_5_presentation.html</loc>
-    <lastmod>2023-11-02T12:15:17.934Z</lastmod>
+    <loc>https://github.com/jhelvy/smartcharging/pages/3_presentation.html</loc>
+    <lastmod>2023-11-04T01:34:39.239Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/jhelvy/smartcharging/qmd_files/0_intro.html</loc>
-    <lastmod>2023-11-02T12:15:24.782Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/jhelvy/smartcharging/qmd_files/2_3_presentation.html</loc>
-    <lastmod>2023-11-02T12:15:31.008Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/jhelvy/smartcharging/qmd_files/2_1_simulation.html</loc>
-    <lastmod>2023-11-02T12:15:37.290Z</lastmod>
+    <loc>https://github.com/jhelvy/smartcharging/pages/2_people.html</loc>
+    <lastmod>2023-11-04T01:34:47.459Z</lastmod>
   </url>
 </urlset>

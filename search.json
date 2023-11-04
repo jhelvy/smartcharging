@@ -1,114 +1,65 @@
 [
   {
-    "objectID": "qmd_files/1_1_pilot_survey.html",
-    "href": "qmd_files/1_1_pilot_survey.html",
-    "title": "Pilot Survey",
+    "objectID": "pages/1_about.html",
+    "href": "pages/1_about.html",
+    "title": "About the Smart Charging Project",
     "section": "",
-    "text": "This is the demo of our pilot survey. To access the real survey, please go to this link.\nTo access the Google sheet of part 1, please go to this link.\nTo access the Google sheet of part 2, please go to this link.\nTo access the Google sheet of part 3, please go to this link.\nIn the conjoint part, the attribute of Guaranteed Range should be in miles using the case_when() function with inputs from the users. Here, since we don’t have user inputs, the team chooses to show the percentage instead."
+    "text": "Figure 1: Smart Charging Illustration"
   },
   {
-    "objectID": "qmd_files/1_1_pilot_survey.html#notes-from-the-team",
-    "href": "qmd_files/1_1_pilot_survey.html#notes-from-the-team",
-    "title": "Pilot Survey",
+    "objectID": "pages/1_about.html#project-summary",
+    "href": "pages/1_about.html#project-summary",
+    "title": "About the Smart Charging Project",
+    "section": "Project Summary",
+    "text": "Project Summary\nThis project is about the costs and benefits of PEV smart charging. It consists of 2 stages:\n\nStage One - Measure and model PEV charging preferences using conjoint survey.\nStage Two - Simulate Smart Charging Scenarios."
+  },
+  {
+    "objectID": "pages/1_about.html#funding",
+    "href": "pages/1_about.html#funding",
+    "title": "About the Smart Charging Project",
+    "section": "Funding",
+    "text": "Funding\nThis project is honorably funded by the Energy and Environment Program of the Alfred P. Sloan Foundation."
+  },
+  {
+    "objectID": "pages/4_faq.html",
+    "href": "pages/4_faq.html",
+    "title": "FAQ",
     "section": "",
-    "text": "This is the demo of our pilot survey. To access the real survey, please go to this link.\nTo access the Google sheet of part 1, please go to this link.\nTo access the Google sheet of part 2, please go to this link.\nTo access the Google sheet of part 3, please go to this link.\nIn the conjoint part, the attribute of Guaranteed Range should be in miles using the case_when() function with inputs from the users. Here, since we don’t have user inputs, the team chooses to show the percentage instead."
+    "text": "PEV - PEV is short for Plug-in Electrical Vehicles. It refers to vehicles that are powered by electricity from the grid. PEVs can either be pure electricity powered (for example Tesla 3) or hybrid (for example Audi Q5 PHEV).\nSmart Charging - The term “smart charging” means to control the charging window and charging amount of the PEVs, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G Charging - V2G is short for vehicle-to-grid. It means to charge the electricity from the PEVs back to the grid.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
   },
   {
-    "objectID": "qmd_files/1_1_pilot_survey.html#welcome-page",
-    "href": "qmd_files/1_1_pilot_survey.html#welcome-page",
-    "title": "Pilot Survey",
-    "section": "Welcome Page",
-    "text": "Welcome Page\nWelcome to the survey of EV Smart Charging! We are a student team of the George Washington University. In this survey, we want to study the users’ willingness to adopt EV smart charging.\nThis survey will take about 20 minutes to complete. It can be stopped and picked up at any time. Your personal information will be kept private and won’t be shared with anyone else.\nThis survey consists of:\n\nSection 1 - EV ownership questions\nSection 2 - Smart charging program selections\nSection 3 - Demographic Questions\n\nIf you have any questions, you can reach out to us at emsepevteam@gmail.com. We will respond at our first convenience.\nThe survey begins upon clicking the “Let’s Begin” button below. We greatly appreciate your cooperation!"
+    "objectID": "pages/4_faq.html#terminologies",
+    "href": "pages/4_faq.html#terminologies",
+    "title": "FAQ",
+    "section": "",
+    "text": "PEV - PEV is short for Plug-in Electrical Vehicles. It refers to vehicles that are powered by electricity from the grid. PEVs can either be pure electricity powered (for example Tesla 3) or hybrid (for example Audi Q5 PHEV).\nSmart Charging - The term “smart charging” means to control the charging window and charging amount of the PEVs, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G Charging - V2G is short for vehicle-to-grid. It means to charge the electricity from the PEVs back to the grid.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
   },
   {
-    "objectID": "qmd_files/1_1_pilot_survey.html#consent-page",
-    "href": "qmd_files/1_1_pilot_survey.html#consent-page",
-    "title": "Pilot Survey",
-    "section": "Consent Page",
-    "text": "Consent Page\nTo take a part in this survey, you must:\n\nBe at least 18 years old.\nAuthorize us to analyze the data exclusively for research purposes.\n\nBy clicking on “I Agree”, you confirm that you have reviewed and understood the information provided in the welcome page and this consent page, and agree to participate in the “Smart Charging Survey”."
-  },
-  {
-    "objectID": "qmd_files/1_1_pilot_survey.html#educational-page",
-    "href": "qmd_files/1_1_pilot_survey.html#educational-page",
-    "title": "Pilot Survey",
-    "section": "Educational Page",
-    "text": "Educational Page\nBefore we start our survey, we want to get you familiarized with EVs and Smart Charging:\n\nEV is short for Electric Vehicle. A Tesla Model 3 is a typical EV. There are also hybrid EVs (using both electricity and gasoline as power source).\nSmart Charging allows the utility to take control of the EV charging process, including time window and charging amount.\n\nFor more information about Smart Charging, please watch this 30 seconds video:\n\n Video 1. Smart Charging Intro [@evbox2019]\n\nWhen you are done reading and watching, please click on the “Next Page” button to proceed."
-  },
-  {
-    "objectID": "qmd_files/1_1_pilot_survey.html#section-1---ev-ownership-questions",
-    "href": "qmd_files/1_1_pilot_survey.html#section-1---ev-ownership-questions",
-    "title": "Pilot Survey",
-    "section": "Section 1 - EV Ownership Questions",
-    "text": "Section 1 - EV Ownership Questions\n\nStart of Section 1\n1. Do you own or lease an EV?\n\nI own an EV\nI lease an EV\nI don’t have EV, but plan to buy in the near future\nNo, I don’t have an EV\n\n2. Which EV do you own/lease/plan/like?\n\nWe provide a list in alphabetical order to show all EVs available in the USA market, including their makes and models. Please go to our survey for details.\n\n3. What is the max range (in miles) of your EV?\n\nBelow 100\n100-149\n150-199\n200-249\n250-299\n300 and Over\n\n4. If you charge at home, when do you usually charge your car? (Select all that apply)\n\nIn the Morning (9am ~ 12pm)\nIn the Afternoon (12pm ~ 5pm)\nIn the Evening (5pm ~ 9pm)\nAt Night (9pm ~ 9am)\nI don’t charge at home\n\n5. If you charge at work, when do you usually charge your car? (Select all that apply)\n\nIn the Morning (9am ~ 11am)\nAt Noon (11am ~ 1pm)\nIn the Afternoon (1pm ~ 5pm)\nIn the Evening (5pm ~ 9pm)\nAt Night (9pm ~ 9am)\nI don’t charge at work\n\n\n\nEnd of Section 1\nGood job! Now we are 1/3 complete! This is the end of Section 1.\nIn Section 2:\n\nThere are 5 questions. Each one provides you with 2 Smart Charging Programs.\nYou need to choose as if they were your only options (aka you compare the 2 programs and choose the best one for you).\nIf you are not interested in either of them, you can choose “I am not interested”.\n\nWe will start with an explanation page and an example question to get you familiarized. Please click on the button below to proceed."
-  },
-  {
-    "objectID": "qmd_files/1_1_pilot_survey.html#section-2---smart-charging-programs",
-    "href": "qmd_files/1_1_pilot_survey.html#section-2---smart-charging-programs",
-    "title": "Pilot Survey",
-    "section": "Section 2 - Smart Charging Programs",
-    "text": "Section 2 - Smart Charging Programs\n\nStart of Section 2\nNow that we have known basics about your EV ownership and your charging habits, let’s move on to Smart Charging program selections!\nA Smart Charging program consists of 5 attributes: Upfront Incentive, Free Level 2 Charger, Electricity Price Discount, Override Window, and Guaranteed Range if charged for 8 hrs.\nHere is a brief explanation of each attribute:\n\n\n\n\n\nAttribute\nRange\nExplanation\n\n\nUpfront Incentive:\n$100, $300, $500\nIt means the amount of money you will be instantly paid if you join the smart charging program. The unit is in USD.\n\n\nFree Level 2 Charger:\nNo or Yes\nA \"Yes\" means you will get a free level 2 charger. A level 2 charger enables faster charging than a standard home charger.\n\n\nElectricity Price Discount:\n10%, 25%, 50%\nIf you choose to join this smart charging program, this will be your electricity price discount.\n\n\nOverride Window:\n0.5 ~ 4 hrs\nThis is the longest time window per day that you can force override to regular charging, during which time your EV is not controlled by the smart charging program.\n\n\nGuaranteed Range if charged for 8 hrs:\n25%, 50%, 75%\nIt means the guranteed range if your car is charged for 8 hrs during smart charging. It shows percentage here, but will be converted to miles.\n\n\n\n\n\n\n\nThe above table can be accessed via this link. It’s available on top of each question so that you can refer at any time.\nThe next page provides a sample question to enhance your understanding.\n\n\nSection 2 - Sample Question\nYou are provided with 2 options of smart charging programs, and an “I am not interested” option. You need to treat them as if they were your only options and choose the one that you most prefer. You can choose the “I am not interested” option if you are not interested in either.\nYou can access the attribute table using this link.\n\n\n\n\n\nOptions:\nOption 1\nOption 2\n\n\nUpfront Incentive:\n$100\n$500\n\n\nFree Level 2 Charger:\nNo\nYes\n\n\nElectricity Price Discount:\n25%\n50%\n\n\nOverride Window:\n0.5 hrs\n4 hrs\n\n\nGuaranteed Range if charged for 8 hrs:\n100 miles\n300 miles\n\n\n\n\n\n\n\n\nOption 1\nOption 2\nI am not interested\n\n\n\nSection 2 - Ready to Start the Questions\nThe sample question is quite straight-forward. Since Option 2 has every attribute better than Option 1, I bet you have chosen it.\nHowever, this simplicity is not always the case. There will be trade-offs between the 2 options, and you need to make your own decision. For example, one option might have a large up-front but a low discount, while the other one is the inverse. Then, you need to make decisions based on your preference.\nThere are 5 choice questions in total. For each question, you have 2 valid options to choose from. Again, you make your choice as if they were your ONLY options. If you are really not interested in either of them, you can choose “I am not interested”.\nClick on “Next Page” to proceed.\n\n\nQuestion 1 of 5\n(1 of 5) If your utility offers you these 2 smart charging programs, which one do you prefer?\nYou can access the attribute table using this link.\n\n\n\n\n\nOptions:\nOption 1\nOption 2\n\n\nUpfront Incentive:\n$300\n$100\n\n\nFree Level 2 Charger:\nNo\nYes\n\n\nElectricity Price Discount:\n10%\n50%\n\n\nOverride Window:\n1 hrs\n1 hrs\n\n\nGuaranteed Range if charged for 8 hrs:\n50 %\n25 %\n\n\n\n\n\n\n\n\nOption 1\nOption 2\nI am not interested\n\n\n\nQuestion 2 of 5\n(2 of 5) If your utility offers you these 2 smart charging programs, which one do you prefer?\nYou can access the attribute table using this link.\n\n\n\n\n\nOptions:\nOption 1\nOption 2\n\n\nUpfront Incentive:\n$100\n$100\n\n\nFree Level 2 Charger:\nNo\nYes\n\n\nElectricity Price Discount:\n25%\n50%\n\n\nOverride Window:\n0.5 hrs\n0.5 hrs\n\n\nGuaranteed Range if charged for 8 hrs:\n25 %\n25 %\n\n\n\n\n\n\n\n\nOption 1\nOption 2\nI am not interested\n\n\n\nQuestion 3 of 5\n(3 of 5) If your utility offers you these 2 smart charging programs, which one do you prefer?\nYou can access the attribute table using this link.\n\n\n\n\n\nOptions:\nOption 1\nOption 2\n\n\nUpfront Incentive:\n$100\n$500\n\n\nFree Level 2 Charger:\nYes\nNo\n\n\nElectricity Price Discount:\n10%\n50%\n\n\nOverride Window:\n2 hrs\n2 hrs\n\n\nGuaranteed Range if charged for 8 hrs:\n50 %\n50 %\n\n\n\n\n\n\n\n\nOption 1\nOption 2\nI am not interested\n\n\n\nQuestion 4 of 5\n(4 of 5) If your utility offers you these 2 smart charging programs, which one do you prefer?\nYou can access the attribute table using this link.\n\n\n\n\n\nOptions:\nOption 1\nOption 2\n\n\nUpfront Incentive:\n$300\n$100\n\n\nFree Level 2 Charger:\nYes\nNo\n\n\nElectricity Price Discount:\n50%\n50%\n\n\nOverride Window:\n2 hrs\n0.5 hrs\n\n\nGuaranteed Range if charged for 8 hrs:\n75 %\n25 %\n\n\n\n\n\n\n\n\nOption 1\nOption 2\nI am not interested\n\n\n\nQuestion 5 of 5\n(5 of 5) If your utility offers you these 2 smart charging programs, which one do you prefer?\nYou can access the attribute table using this link.\n\n\n\n\n\nOptions:\nOption 1\nOption 2\n\n\nUpfront Incentive:\n$100\n$500\n\n\nFree Level 2 Charger:\nYes\nNo\n\n\nElectricity Price Discount:\n50%\n10%\n\n\nOverride Window:\n2 hrs\n0.5 hrs\n\n\nGuaranteed Range if charged for 8 hrs:\n75 %\n50 %\n\n\n\n\n\n\n\n\nOption 1\nOption 2\nI am not interested\n\n\n\nEnd of Section 2\nGood job! Now we are 2/3 complete! This is the end of Section 2.\nIn Section 3:\nWe will ask about your basic demographic info, and then some other questions including your opinions regarding climate change and commuting preferences.\nPlease click on the button below to proceed."
-  },
-  {
-    "objectID": "qmd_files/1_1_pilot_survey.html#section-3---demographic-questions",
-    "href": "qmd_files/1_1_pilot_survey.html#section-3---demographic-questions",
-    "title": "Pilot Survey",
-    "section": "Section 3 - Demographic Questions",
-    "text": "Section 3 - Demographic Questions\n\nStart of Section 3\n1. In what year were you born?\n\nA list of years ranging from 1920 to 2005.\n\n2. What is your current gender identity?\n\nA list of genders.\n\n3. You identify your race as (select all that apply):\n\nA list of races.\n\n4. What is the highest degree or level of school you have completed? (If currently enrolled, please use the highest degree received.)\n\nA list of degrees.\n\n5. What is your annual household income (from all sources) before taxes and other deductions from pay?\n\nA range of income from below $60,000 to over $400,000.\n\n6. To what extent do you care about the environment and climate change? You may choose from 1 to 5 where:\n\n1 being least concerned,\n5 being most concerned\n\n7. Which party did you vote for in the last election?\n\nDemocratic\nRepublican\nI didn’t vote\nPrefer not to say\n\n8. In what state do you live?\n\nA list of states in the USA.\nAn option in the end saying “Outside of USA”.\n\n(Optional) If you chose “Outside of USA”, please type in your country here:\n\nA text input box.\n\n9. What is your commute method?\n\nOn foot\nBy bus\nBy train/subway\nSelf-driving\nOthers\n\n(Optional) If you chose “Others”, please specify your commute method here:\n\nA text input box.\n\n10. How many cars do you have in your household?\n\nA list ranging from 0 to over 6.\n\n11. Do you have a backup car?\n\nYes, I have one or more backup EV\nYes, I have one or more backup gas car\nYes, I have both backup EV and gas cars\nNo, I don’t have a backup car\n\n\n\nEnd of Section 3\nGood job! This is the end of Section 3.\nPlease let us know if you have any other thoughts or feedback on this survey. Your feedback will help us make future improvements :)\n\nA big text input box."
-  },
-  {
-    "objectID": "qmd_files/1_1_pilot_survey.html#end-of-survey",
-    "href": "qmd_files/1_1_pilot_survey.html#end-of-survey",
-    "title": "Pilot Survey",
-    "section": "End of Survey",
-    "text": "End of Survey\nWell done! This is the end of the survey!\nAgain, if you have any questions, you can reach out to us at emsepevteam@gmail.com. We will respond at our first convenience.\nWe appreciate your patience and your time. Your completion code is: 915345."
+    "objectID": "pages/4_faq.html#q-a",
+    "href": "pages/4_faq.html#q-a",
+    "title": "FAQ",
+    "section": "Q & A",
+    "text": "Q & A\nWhy Smart Charging - As PEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. Smart charging and V2G both contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the PEV owners.\nWhy Conjoint Survey - A conjoint survey is a pilot simulation to people’s willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we’ll know in what conditions will PEV owners participate in the smart charging program, and how the program will be in details."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "As PEVs are becoming popular as an important commuting method, it is urgent to ensure a more sustainable electricity flow for the grid suppliers. The smart charging project is thus motivated to help achieve this.\nThis project aims to study PEV owners’ willingness to adopt to smart charging. It is expected to last for 3 years and will be performed in 2 stages:\n\nStage One - Measure and model PEV charging preferences using conjoint survey.\nStage Two - Simulate Smart Charging Scenarios.\n\nThe team is currently in stage one, and has generated a well-structured pilot survey. The pilot survey is available online, and is documented here as well."
+    "text": "As PEVs are becoming popular as an important commuting method, it is urgent to ensure a more sustainable electricity flow for the grid suppliers. The smart charging project is thus motivated to help achieve this.\nThis project aims to study PEV owners’ willingness to adopt to smart charging. It is expected to last for 3 years and will be performed in 2 stages:\n\nStage One - Measure and model PEV charging preferences using conjoint survey.\nStage Two - Simulate Smart Charging Scenarios.\n\nThe team is currently in stage one, and has generated a well-structured pilot survey. The pilot survey is available online."
   },
   {
     "objectID": "index.html#the-smart-charging-project",
     "href": "index.html#the-smart-charging-project",
     "title": "Home",
     "section": "",
-    "text": "As PEVs are becoming popular as an important commuting method, it is urgent to ensure a more sustainable electricity flow for the grid suppliers. The smart charging project is thus motivated to help achieve this.\nThis project aims to study PEV owners’ willingness to adopt to smart charging. It is expected to last for 3 years and will be performed in 2 stages:\n\nStage One - Measure and model PEV charging preferences using conjoint survey.\nStage Two - Simulate Smart Charging Scenarios.\n\nThe team is currently in stage one, and has generated a well-structured pilot survey. The pilot survey is available online, and is documented here as well."
+    "text": "As PEVs are becoming popular as an important commuting method, it is urgent to ensure a more sustainable electricity flow for the grid suppliers. The smart charging project is thus motivated to help achieve this.\nThis project aims to study PEV owners’ willingness to adopt to smart charging. It is expected to last for 3 years and will be performed in 2 stages:\n\nStage One - Measure and model PEV charging preferences using conjoint survey.\nStage Two - Simulate Smart Charging Scenarios.\n\nThe team is currently in stage one, and has generated a well-structured pilot survey. The pilot survey is available online."
   },
   {
-    "objectID": "qmd_files/0_intro.html",
-    "href": "qmd_files/0_intro.html",
-    "title": "Introduction of the Smart Charging Project",
+    "objectID": "pages/2_people.html",
+    "href": "pages/2_people.html",
+    "title": "People",
     "section": "",
-    "text": "Figure 1: Smart Charging Illustration"
-  },
-  {
-    "objectID": "qmd_files/0_intro.html#the-team",
-    "href": "qmd_files/0_intro.html#the-team",
-    "title": "Introduction of the Smart Charging Project",
-    "section": "The Team",
-    "text": "The Team\nThis project is led by PI John Paul Helveston from George Washington University, and is currently executed by his PhD student Pingfan Hu. The team consists of the following members:\n\nJohn Paul Helveston, George Washington University\nPingfan Hu, George Washington University\nBrian Tarroja, University of California, Irvine\nKate Forrest, University of California, Irvine\nEric Hittinger, Rochester Institute of Technology\nAlan Jenn, University of California, Davis"
-  },
-  {
-    "objectID": "qmd_files/0_intro.html#terminologies",
-    "href": "qmd_files/0_intro.html#terminologies",
-    "title": "Introduction of the Smart Charging Project",
-    "section": "Terminologies",
-    "text": "Terminologies\nPEV - PEV is short for Plug-in Electrical Vehicles. It refers to vehicles that are powered by electricity from the grid. PEVs can either be pure electricity powered (for example Tesla 3) or hybrid (for example Audi Q5 PHEV).\nSmart Charging - The term “smart charging” means to control the charging window and charging amount of the PEVs, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G Charging - V2G is short for vehicle-to-grid. It means to charge the electricity from the PEVs back to the grid.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
-  },
-  {
-    "objectID": "qmd_files/0_intro.html#stage-1-motivation",
-    "href": "qmd_files/0_intro.html#stage-1-motivation",
-    "title": "Introduction of the Smart Charging Project",
-    "section": "Stage 1 Motivation",
-    "text": "Stage 1 Motivation\nWhy Smart Charging - As PEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. Smart charging and V2G both contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the PEV owners.\nWhy Conjoint Survey - A conjoint survey is a pilot simulation to people’s willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we’ll know in what conditions will PEV owners participate in the smart charging program, and how the program will be in details."
-  },
-  {
-    "objectID": "qmd_files/0_intro.html#stage-2-motivation",
-    "href": "qmd_files/0_intro.html#stage-2-motivation",
-    "title": "Introduction of the Smart Charging Project",
-    "section": "Stage 2 Motivation",
-    "text": "Stage 2 Motivation\nThe team will document this part while moving to stage 2."
+    "text": "This project is led by PI John Paul Helveston from George Washington University, and is currently executed by his PhD student Pingfan Hu. The team consists of the following members.\n\n\n\n\n\n\nJohn Paul Helveston, Ph.D.\nJohn Paul Helveston is an Assistant Professor in the Department of Engineering Management and Systems Engineering at the George Washington University. He studies technological change, with a particular interest in accelerating the transition to environmentally sustainable and energy-saving technologies.\n\n\n\n\n\n\n\n\nPingfan Hu\nPingfan Hu is a Ph.D. student in Systems Engineering at the George Washington University, supervised by PI John Helveston. His primary research interest is the adoption of PEV smart charging and V2G charging by conjoint surveys.\n\n\n\n\n\n\n\n\nBrian Tarroja, PhD., P.E.\nBrian Tarroja is a researcher and educator focused on improving the robustness of strategies to carry out the transition to a cleaner, decarbonized energy system. His research centers on understanding how to co-optimize concurrent transitions in energy, water, and transportation infrastructures to maximize beneficial outcomes and avoid or minimize harmful consequences.\n\n\n\n\n\n\n\n\nKate Forrest, Ph.D.\nKate E. Forrest is currently a Ph.D. candidate at the University of California, Irvine where she works as a graduate student researcher at the Advanced Power and Energy Program. Kate does research focusing on Sustainable Energy and Transportation and the Water-Energy Nexus.\n\n\n\n\n\n\n\n\nEric Hittinger, Ph.D.\nEric Hittinger is an Associate Professor of Public Policy at Rochester Institute of Technology, WILL International Chair at University of Lille, and President-Elect of the US Association for Energy Economics. His research is focused on energy policy, particularly the opportunities and challenges associated with new technologies such as energy storage, renewables, electric vehicles, and efficiency.\n\n\n\n\n\n\n\n\nAlan Jenn, Ph.D.\nAlan Jenn is currently an Assistant Professor at the Electric Vehicle (EV) group of the Institute of Transportation Studies (ITS) at the University of California, Davis as well as an affiliate at Lawrence Berkeley National Laboratory. His research is focused on plug-in electric vehicles (PEVs): integration with the electric grid, adoption of the technology, use in ride-hailing companies (such as Uber and Lyft), and its impact on transportation finance."
   }
 ]
