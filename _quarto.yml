@@ -27,36 +27,15 @@ website:
     copy-button: true
   navbar:
     left:
+      - icon: house-door
+        href: pages/1_about.qmd
+        text: "About"
       - icon: person-badge
-        href: qmd_files/0_intro.qmd
-        text: "Intro"
-      - icon: file-text
-        text: "Stage 1"
-        menu:
-          - icon: file-text
-            text: "1. Pilot Survey"
-            href: qmd_files/1_1_pilot_survey.qmd
-          - icon: file-text
-            text: "2. Pilot Analysis"
-            href: qmd_files/1_2_pilot_analysis.qmd
-          - icon: file-text
-            text: "3. Final Survey"
-            href: qmd_files/1_3_final_survey.qmd
-          - icon: file-text
-            text: "4. Final Analysis"
-            href: qmd_files/1_4_final_analysis.qmd
-          - icon: file-text
-            text: "5. Presentation"
-            href: qmd_files/1_5_presentation.qmd
-      - icon: file-text
-        text: "Stage 2"
-        menu:
-          - icon: file-text
-            text: "1. Simulation"
-            href: qmd_files/2_1_simulation.qmd
-          - icon: file-text
-            text: "2. Analysis"
-            href: qmd_files/2_2_analysis.qmd
-          - icon: file-text
-            text: "3. Presentation"
-            href: qmd_files/2_3_presentation.qmd
+        href: pages/2_people.qmd
+        text: "People"
+      - icon: file-slides
+        href: pages/3_presentation.qmd
+        text: "Presentation"
+      - icon: question-circle-fill
+        href: pages/4_faq.qmd
+        text: "FAQ"

@@ -1,4 +1,0 @@
----
-title: "Pilot Analysis"
-page-layout: article
----

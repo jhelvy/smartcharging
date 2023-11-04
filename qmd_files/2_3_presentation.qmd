@@ -1,4 +1,0 @@
----
-title: "Simulation Presentation"
-page-layout: article
----

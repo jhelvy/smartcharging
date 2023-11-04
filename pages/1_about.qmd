@@ -1,0 +1,19 @@
+---
+title: "About the Smart Charging Project"
+page-layout: article
+---
+
+![*Figure 1: Smart Charging Illustration*](/resources/about.jpeg){fig-align="center"}
+
+[*Figure 1 Prompt to DALLE 3*: Illustration in Japanese manga style depicting a cozy home setting. The focus is on the electric car plugged into a sleek wall-mounted smart charger in the garage. The ambient lighting emphasizes the charger and the car. In the background, subtly depicted, a young girl and an older man watch the charging progress on a tablet, their figures less pronounced to ensure the primary attention remains on the eco-friendly technology of the electric vehicle.]{.aside}
+
+## Project Summary
+
+This project is about the costs and benefits of PEV smart charging. It consists of 2 stages:
+
+1.  Stage One - Measure and model PEV charging preferences using conjoint survey.
+2.  Stage Two - Simulate Smart Charging Scenarios.
+
+## Funding
+
+This project is honorably funded by the [Energy and Environment Program](https://sloan.org/programs/research/energy-and-environment) of the Alfred P. Sloan Foundation.

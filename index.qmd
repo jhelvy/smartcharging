@@ -1,5 +1,5 @@
 ---
-image: resources/1_home.jpeg
+image: resources/home.jpeg
 toc: false
 about:
   template: trestles
@@ -15,4 +15,4 @@ This project aims to study PEV owners' willingness to adopt to smart charging. I
 1.  Stage One - Measure and model PEV charging preferences using conjoint survey.
 2.  Stage Two - Simulate Smart Charging Scenarios.
 
-The team is currently in stage one, and has generated a well-structured pilot survey. The pilot survey is [available online](http://pevconjoint.formr.org), and is documented here as well.
+The team is currently in stage one, and has generated a well-structured pilot survey. The pilot survey is [available online](http://pevpilot.formr.org).

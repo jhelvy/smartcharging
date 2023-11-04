@@ -1,0 +1,20 @@
+---
+title: "FAQ"
+page-layout: article
+---
+
+## Terminologies
+
+**PEV** - PEV is short for Plug-in Electrical Vehicles. It refers to vehicles that are powered by electricity from the grid. PEVs can either be pure electricity powered (for example Tesla 3) or hybrid (for example Audi Q5 PHEV).
+
+**Smart Charging** - The term "smart charging" means to control the charging window and charging amount of the PEVs, to make sure they are mostly charged during the off-peak periods of the electricity demand.
+
+**V2G Charging** - V2G is short for vehicle-to-grid. It means to charge the electricity from the PEVs back to the grid.
+
+**Conjoint Survey** - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question.
+
+## Q & A
+
+**Why Smart Charging** - As PEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. Smart charging and V2G both contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the PEV owners.
+
+**Why Conjoint Survey** - A conjoint survey is a pilot simulation to people's willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we'll know in what conditions will PEV owners participate in the smart charging program, and how the program will be in details.

@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "As PEVs are becoming popular as an important commuting method, it is urgent to ensure a more sustainable electricity flow for the grid suppliers. The smart charging project is thus motivated to help achieve this.\nThis project aims to study PEV owners’ willingness to adopt to smart charging. It is expected to last for 3 years and will be performed in 2 stages:\n\nStage One - Measure and model PEV charging preferences using conjoint survey.\nStage Two - Simulate Smart Charging Scenarios.\n\nThe team is currently in stage one, and has generated a well-structured pilot survey. The pilot survey is available online, and is documented here as well."
+    "text": "As PEVs are becoming popular as an important commuting method, it is urgent to ensure a more sustainable electricity flow for the grid suppliers. The smart charging project is thus motivated to help achieve this.\nThis project aims to study PEV owners’ willingness to adopt to smart charging. It is expected to last for 3 years and will be performed in 2 stages:\n\nStage One - Measure and model PEV charging preferences using conjoint survey.\nStage Two - Simulate Smart Charging Scenarios.\n\nThe team is currently in stage one, and has generated a well-structured pilot survey. The pilot survey is available online."
   },
   {
     "objectID": "index.html#the-smart-charging-project",
     "href": "index.html#the-smart-charging-project",
     "title": "Home",
     "section": "",
-    "text": "As PEVs are becoming popular as an important commuting method, it is urgent to ensure a more sustainable electricity flow for the grid suppliers. The smart charging project is thus motivated to help achieve this.\nThis project aims to study PEV owners’ willingness to adopt to smart charging. It is expected to last for 3 years and will be performed in 2 stages:\n\nStage One - Measure and model PEV charging preferences using conjoint survey.\nStage Two - Simulate Smart Charging Scenarios.\n\nThe team is currently in stage one, and has generated a well-structured pilot survey. The pilot survey is available online, and is documented here as well."
+    "text": "As PEVs are becoming popular as an important commuting method, it is urgent to ensure a more sustainable electricity flow for the grid suppliers. The smart charging project is thus motivated to help achieve this.\nThis project aims to study PEV owners’ willingness to adopt to smart charging. It is expected to last for 3 years and will be performed in 2 stages:\n\nStage One - Measure and model PEV charging preferences using conjoint survey.\nStage Two - Simulate Smart Charging Scenarios.\n\nThe team is currently in stage one, and has generated a well-structured pilot survey. The pilot survey is available online."
   },
   {
     "objectID": "qmd_files/1_1_pilot_survey.html",
@@ -110,5 +110,159 @@
     "title": "Introduction of the Smart Charging Project",
     "section": "",
     "text": "Figure 1: Smart Charging Illustration"
+  },
+  {
+    "objectID": "pages/2_people.html",
+    "href": "pages/2_people.html",
+    "title": "People",
+    "section": "",
+    "text": "This project is led by PI John Paul Helveston from George Washington University, and is currently executed by his PhD student Pingfan Hu. The team consists of the following members.\n\n\n\n\n\n\nJohn Paul Helveston, Ph.D.\nJohn Paul Helveston is an Assistant Professor in the Department of Engineering Management and Systems Engineering at the George Washington University. He studies technological change, with a particular interest in accelerating the transition to environmentally sustainable and energy-saving technologies.\n\n\n\n\n\n\n\n\nPingfan Hu\nPingfan Hu is a Ph.D. student in Systems Engineering at the George Washington University, supervised by PI John Helveston. His primary research interest is the adoption of PEV smart charging and V2G charging by conjoint surveys.\n\n\n\n\n\n\n\n\nBrian Tarroja, PhD., P.E.\nBrian Tarroja is a researcher and educator focused on improving the robustness of strategies to carry out the transition to a cleaner, decarbonized energy system. His research centers on understanding how to co-optimize concurrent transitions in energy, water, and transportation infrastructures to maximize beneficial outcomes and avoid or minimize harmful consequences.\n\n\n\n\n\n\n\n\nKate Forrest, Ph.D.\nKate E. Forrest is currently a Ph.D. candidate at the University of California, Irvine where she works as a graduate student researcher at the Advanced Power and Energy Program. Kate does research focusing on Sustainable Energy and Transportation and the Water-Energy Nexus.\n\n\n\n\n\n\n\n\nEric Hittinger, Ph.D.\nEric Hittinger is an Associate Professor of Public Policy at Rochester Institute of Technology, WILL International Chair at University of Lille, and President-Elect of the US Association for Energy Economics. His research is focused on energy policy, particularly the opportunities and challenges associated with new technologies such as energy storage, renewables, electric vehicles, and efficiency.\n\n\n\n\n\n\n\n\nAlan Jenn, Ph.D.\nAlan Jenn is currently an Assistant Professor at the Electric Vehicle (EV) group of the Institute of Transportation Studies (ITS) at the University of California, Davis as well as an affiliate at Lawrence Berkeley National Laboratory. His research is focused on plug-in electric vehicles (PEVs): integration with the electric grid, adoption of the technology, use in ride-hailing companies (such as Uber and Lyft), and its impact on transportation finance."
+  },
+  {
+    "objectID": "pages/2_people.html#terminologies",
+    "href": "pages/2_people.html#terminologies",
+    "title": "People",
+    "section": "Terminologies",
+    "text": "Terminologies\nPEV - PEV is short for Plug-in Electrical Vehicles. It refers to vehicles that are powered by electricity from the grid. PEVs can either be pure electricity powered (for example Tesla 3) or hybrid (for example Audi Q5 PHEV).\nSmart Charging - The term “smart charging” means to control the charging window and charging amount of the PEVs, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G Charging - V2G is short for vehicle-to-grid. It means to charge the electricity from the PEVs back to the grid.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
+  },
+  {
+    "objectID": "pages/2_people.html#stage-1-motivation",
+    "href": "pages/2_people.html#stage-1-motivation",
+    "title": "People",
+    "section": "Stage 1 Motivation",
+    "text": "Stage 1 Motivation\nWhy Smart Charging - As PEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. Smart charging and V2G both contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the PEV owners.\nWhy Conjoint Survey - A conjoint survey is a pilot simulation to people’s willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we’ll know in what conditions will PEV owners participate in the smart charging program, and how the program will be in details."
+  },
+  {
+    "objectID": "pages/2_people.html#stage-2-motivation",
+    "href": "pages/2_people.html#stage-2-motivation",
+    "title": "People",
+    "section": "Stage 2 Motivation",
+    "text": "Stage 2 Motivation\nThe team will document this part while moving to stage 2."
+  },
+  {
+    "objectID": "pages/1_about.html",
+    "href": "pages/1_about.html",
+    "title": "About the Smart Charging Project",
+    "section": "",
+    "text": "Figure 1: Smart Charging Illustration"
+  },
+  {
+    "objectID": "pages/1_about.html#project-summary",
+    "href": "pages/1_about.html#project-summary",
+    "title": "About the Smart Charging Project",
+    "section": "Project Summary",
+    "text": "Project Summary\nThis project is about the costs and benefits of PEV smart charging. It consists of 2 stages:\n\nStage One - Measure and model PEV charging preferences using conjoint survey.\nStage Two - Simulate Smart Charging Scenarios."
+  },
+  {
+    "objectID": "pages/1_about.html#people",
+    "href": "pages/1_about.html#people",
+    "title": "About the Smart Charging Project",
+    "section": "People",
+    "text": "People\nThis project is led by PI John Paul Helveston from George Washington University, and is currently executed by his PhD student Pingfan Hu. The team consists of the following members:\n\nJohn Paul Helveston, George Washington University\nPingfan Hu, George Washington University\nBrian Tarroja, University of California, Irvine\nKate Forrest, University of California, Irvine\nEric Hittinger, Rochester Institute of Technology\nAlan Jenn, University of California, Davis"
+  },
+  {
+    "objectID": "pages/1_about.html#terminologies",
+    "href": "pages/1_about.html#terminologies",
+    "title": "About the Smart Charging Project",
+    "section": "Terminologies",
+    "text": "Terminologies\nPEV - PEV is short for Plug-in Electrical Vehicles. It refers to vehicles that are powered by electricity from the grid. PEVs can either be pure electricity powered (for example Tesla 3) or hybrid (for example Audi Q5 PHEV).\nSmart Charging - The term “smart charging” means to control the charging window and charging amount of the PEVs, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G Charging - V2G is short for vehicle-to-grid. It means to charge the electricity from the PEVs back to the grid.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
+  },
+  {
+    "objectID": "pages/1_about.html#stage-1-motivation",
+    "href": "pages/1_about.html#stage-1-motivation",
+    "title": "About the Smart Charging Project",
+    "section": "Stage 1 Motivation",
+    "text": "Stage 1 Motivation\nWhy Smart Charging - As PEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. Smart charging and V2G both contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the PEV owners.\nWhy Conjoint Survey - A conjoint survey is a pilot simulation to people’s willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we’ll know in what conditions will PEV owners participate in the smart charging program, and how the program will be in details."
+  },
+  {
+    "objectID": "pages/1_about.html#stage-2-motivation",
+    "href": "pages/1_about.html#stage-2-motivation",
+    "title": "About the Smart Charging Project",
+    "section": "Stage 2 Motivation",
+    "text": "Stage 2 Motivation\nThe team will document this part while moving to stage 2."
+  },
+  {
+    "objectID": "pages/3_presentation.html",
+    "href": "pages/3_presentation.html",
+    "title": "Introduction of the Smart Charging Project",
+    "section": "",
+    "text": "Figure 1: Smart Charging Illustration"
+  },
+  {
+    "objectID": "pages/3_presentation.html#the-team",
+    "href": "pages/3_presentation.html#the-team",
+    "title": "Introduction of the Smart Charging Project",
+    "section": "The Team",
+    "text": "The Team\nThis project is led by PI John Paul Helveston from George Washington University, and is currently executed by his PhD student Pingfan Hu. The team consists of the following members:\n\nJohn Paul Helveston, George Washington University\nPingfan Hu, George Washington University\nBrian Tarroja, University of California, Irvine\nKate Forrest, University of California, Irvine\nEric Hittinger, Rochester Institute of Technology\nAlan Jenn, University of California, Davis"
+  },
+  {
+    "objectID": "pages/3_presentation.html#terminologies",
+    "href": "pages/3_presentation.html#terminologies",
+    "title": "Introduction of the Smart Charging Project",
+    "section": "Terminologies",
+    "text": "Terminologies\nPEV - PEV is short for Plug-in Electrical Vehicles. It refers to vehicles that are powered by electricity from the grid. PEVs can either be pure electricity powered (for example Tesla 3) or hybrid (for example Audi Q5 PHEV).\nSmart Charging - The term “smart charging” means to control the charging window and charging amount of the PEVs, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G Charging - V2G is short for vehicle-to-grid. It means to charge the electricity from the PEVs back to the grid.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
+  },
+  {
+    "objectID": "pages/3_presentation.html#stage-1-motivation",
+    "href": "pages/3_presentation.html#stage-1-motivation",
+    "title": "Introduction of the Smart Charging Project",
+    "section": "Stage 1 Motivation",
+    "text": "Stage 1 Motivation\nWhy Smart Charging - As PEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. Smart charging and V2G both contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the PEV owners.\nWhy Conjoint Survey - A conjoint survey is a pilot simulation to people’s willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we’ll know in what conditions will PEV owners participate in the smart charging program, and how the program will be in details."
+  },
+  {
+    "objectID": "pages/3_presentation.html#stage-2-motivation",
+    "href": "pages/3_presentation.html#stage-2-motivation",
+    "title": "Introduction of the Smart Charging Project",
+    "section": "Stage 2 Motivation",
+    "text": "Stage 2 Motivation\nThe team will document this part while moving to stage 2."
+  },
+  {
+    "objectID": "pages/4_faq.html",
+    "href": "pages/4_faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "PEV - PEV is short for Plug-in Electrical Vehicles. It refers to vehicles that are powered by electricity from the grid. PEVs can either be pure electricity powered (for example Tesla 3) or hybrid (for example Audi Q5 PHEV).\nSmart Charging - The term “smart charging” means to control the charging window and charging amount of the PEVs, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G Charging - V2G is short for vehicle-to-grid. It means to charge the electricity from the PEVs back to the grid.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
+  },
+  {
+    "objectID": "pages/4_faq.html#the-team",
+    "href": "pages/4_faq.html#the-team",
+    "title": "Introduction of the Smart Charging Project",
+    "section": "The Team",
+    "text": "The Team\nThis project is led by PI John Paul Helveston from George Washington University, and is currently executed by his PhD student Pingfan Hu. The team consists of the following members:\n\nJohn Paul Helveston, George Washington University\nPingfan Hu, George Washington University\nBrian Tarroja, University of California, Irvine\nKate Forrest, University of California, Irvine\nEric Hittinger, Rochester Institute of Technology\nAlan Jenn, University of California, Davis"
+  },
+  {
+    "objectID": "pages/4_faq.html#terminologies",
+    "href": "pages/4_faq.html#terminologies",
+    "title": "FAQ",
+    "section": "",
+    "text": "PEV - PEV is short for Plug-in Electrical Vehicles. It refers to vehicles that are powered by electricity from the grid. PEVs can either be pure electricity powered (for example Tesla 3) or hybrid (for example Audi Q5 PHEV).\nSmart Charging - The term “smart charging” means to control the charging window and charging amount of the PEVs, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G Charging - V2G is short for vehicle-to-grid. It means to charge the electricity from the PEVs back to the grid.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
+  },
+  {
+    "objectID": "pages/4_faq.html#stage-1-motivation",
+    "href": "pages/4_faq.html#stage-1-motivation",
+    "title": "Introduction of the Smart Charging Project",
+    "section": "Stage 1 Motivation",
+    "text": "Stage 1 Motivation\nWhy Smart Charging - As PEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. Smart charging and V2G both contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the PEV owners.\nWhy Conjoint Survey - A conjoint survey is a pilot simulation to people’s willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we’ll know in what conditions will PEV owners participate in the smart charging program, and how the program will be in details."
+  },
+  {
+    "objectID": "pages/4_faq.html#stage-2-motivation",
+    "href": "pages/4_faq.html#stage-2-motivation",
+    "title": "Introduction of the Smart Charging Project",
+    "section": "Stage 2 Motivation",
+    "text": "Stage 2 Motivation\nThe team will document this part while moving to stage 2."
+  },
+  {
+    "objectID": "pages/1_about.html#funding",
+    "href": "pages/1_about.html#funding",
+    "title": "About the Smart Charging Project",
+    "section": "Funding",
+    "text": "Funding\nThis project is honorably funded by the Energy and Environment Program of the Alfred P. Sloan Foundation."
+  },
+  {
+    "objectID": "pages/4_faq.html#q-a",
+    "href": "pages/4_faq.html#q-a",
+    "title": "FAQ",
+    "section": "Q & A",
+    "text": "Q & A\nWhy Smart Charging - As PEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. Smart charging and V2G both contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the PEV owners.\nWhy Conjoint Survey - A conjoint survey is a pilot simulation to people’s willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we’ll know in what conditions will PEV owners participate in the smart charging program, and how the program will be in details."
   }
 ]

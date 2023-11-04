@@ -1,0 +1,96 @@
+---
+title: "People"
+page-layout: article
+---
+
+This project is led by PI John Paul Helveston from George Washington University, and is currently executed by his PhD student Pingfan Hu. The team consists of the following members.
+
+::: columns
+::: {.column width="22%"}
+![](/resources/image_jp.jpeg){width="200"}
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="76%"}
+**John Paul Helveston, Ph.D.**
+
+[John Paul Helveston](https://www.jhelvy.com) is an Assistant Professor in the Department of Engineering Management and Systems Engineering at the George Washington University. He studies technological change, with a particular interest in accelerating the transition to environmentally sustainable and energy-saving technologies.
+:::
+:::
+
+::: columns
+::: {.column width="22%"}
+![](/resources/image_pingfan_hu.jpeg){width="200"}
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="76%"}
+**Pingfan Hu**
+
+[Pingfan Hu](https://pingfanhu.com) is a Ph.D. student in Systems Engineering at the George Washington University, supervised by PI John Helveston. His primary research interest is the adoption of PEV smart charging and V2G charging by conjoint surveys.
+:::
+:::
+
+::: columns
+::: {.column width="22%"}
+![](/resources/image_brian_tarroja.jpeg){width="200"}
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="76%"}
+**Brian Tarroja, PhD., P.E.**
+
+[Brian Tarroja](https://btarroja.wixsite.com/btarroja) is a researcher and educator focused on improving the robustness of strategies to carry out the transition to a cleaner, decarbonized energy system. His research centers on understanding how to co-optimize concurrent transitions in energy, water, and transportation infrastructures to maximize beneficial outcomes and avoid or minimize harmful consequences.
+:::
+:::
+
+::: columns
+::: {.column width="22%"}
+![](/resources/image_kate_forrest.jpeg){width="200"}
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="76%"}
+**Kate Forrest, Ph.D.**
+
+[Kate E. Forrest](https://www.linkedin.com/in/kate-forrest-ph-d-7688112b/) is currently a Ph.D. candidate at the University of California, Irvine where she works as a graduate student researcher at the Advanced Power and Energy Program. Kate does research focusing on Sustainable Energy and Transportation and the Water-Energy Nexus.
+:::
+:::
+
+::: columns
+::: {.column width="22%"}
+![](/resources/image_eric_hittinger.jpeg){width="200"}
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="76%"}
+**Eric Hittinger, Ph.D.**
+
+[Eric Hittinger](https://www.rit.edu/directory/eshgpt-eric-hittinger) is an Associate Professor of Public Policy at Rochester Institute of Technology, WILL International Chair at University of Lille, and President-Elect of the US Association for Energy Economics. His research is focused on energy policy, particularly the opportunities and challenges associated with new technologies such as energy storage, renewables, electric vehicles, and efficiency.
+:::
+:::
+
+::: columns
+::: {.column width="22%"}
+![](/resources/image_alan_jenn.jpeg){width="200"}
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="76%"}
+**Alan Jenn, Ph.D.**
+
+[Alan Jenn](https://its.ucdavis.edu/people/alan-jenn/) is currently an Assistant Professor at the Electric Vehicle (EV) group of the Institute of Transportation Studies (ITS) at the University of California, Davis as well as an affiliate at Lawrence Berkeley National Laboratory. His research is focused on plug-in electric vehicles (PEVs): integration with the electric grid, adoption of the technology, use in ride-hailing companies (such as Uber and Lyft), and its impact on transportation finance.
+:::
+:::

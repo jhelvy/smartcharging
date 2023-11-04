@@ -1,4 +1,0 @@
----
-title: "Survey Presentation"
-page-layout: article
----

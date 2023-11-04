@@ -1,4 +1,0 @@
----
-title: "Final Analysis"
-page-layout: article
----

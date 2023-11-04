@@ -1,4 +1,0 @@
----
-title: "Simulation Analysis"
-page-layout: article
----
