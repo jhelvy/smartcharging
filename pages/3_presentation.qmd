@@ -1,9 +1,0 @@
----
-title: "Presentation"
-page-layout: article
-format:
-  html:
-    toc: false
----
-
-## 

@@ -8,11 +8,8 @@ about:
 
 ## The Smart Charging Project
 
-As PEVs are becoming popular as an important commuting method, it is urgent to ensure a more sustainable electricity flow for the grid suppliers. The smart charging project is thus motivated to help achieve this.
+Plug-in Electric Vehicles (PEVs) are an important technology to reduce CO2 and air pollution from vehicles. As PEVs become increasingly popular, managing their electric load on the grid will become increasingly important. 
 
-This project aims to study PEV owners' willingness to adopt to smart charging. It is expected to last for 3 years and will be performed in 2 stages:
+This project aims to understand PEV owners' preferences with respect to participating in "Smart Charging" and "Vehicle-to-Grid" (V2G) programs to improve grid resilience and enable greater integration of renewable energy onto the grid. See the [about](./pages/about.html) page for more details on the project. 
 
-1.  Stage One - Measure and model PEV charging preferences using conjoint survey.
-2.  Stage Two - Simulate Smart Charging Scenarios.
-
-The team is currently in stage one, and has generated a well-structured pilot survey. The pilot survey is [available online](http://pevpilot.formr.org).
+This project is supported by the the Alfred P. Sloan Foundation's [Energy and Environment Program](https://sloan.org/programs/research/energy-and-environment).

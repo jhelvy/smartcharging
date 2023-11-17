@@ -1,0 +1,21 @@
+---
+title: "About the Smart Charging Project"
+page-layout: article
+toc: false
+---
+
+![](/resources/about.jpeg){fig-align="center" width=500px}
+[*This image was generated using the following prompt to DALLE 3*: Illustration in Japanese manga style depicting a cozy home setting. The focus is on the electric car plugged into a sleek wall-mounted smart charger in the garage. The ambient lighting emphasizes the charger and the car. In the background, subtly depicted, a young girl and an older man watch the charging progress on a tablet, their figures less pronounced to ensure the primary attention remains on the eco-friendly technology of the electric vehicle.]{.aside}
+
+## Project Summary
+
+This project aims to understand PEV owners' preferences with respect to participating in "Smart Charging" and "Vehicle-to-Grid" (V2G) programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The three-year project will be performed in two research thrusts:
+
+1. Thrust One: Measure and model PEV charging preferences using conjoint survey.
+2. Thrust Two: Simulate grid performance under different smart charging and V2G scenarios.
+
+The team is currently designing a pilot survey for the first thrust, which can be previewed [here](http://pevpilot.formr.org).
+
+The second thrust is also in early stages, and we are coordinating with partners to begin modeling grid performance under different PEV loading scenarios.
+
+This project is supported by the the Alfred P. Sloan Foundation's [Energy and Environment Program](https://sloan.org/programs/research/energy-and-environment).

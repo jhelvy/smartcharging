@@ -28,14 +28,14 @@ website:
         href: https://github.com/jhelvy/smartcharging
     left:
       - icon: house-door
-        href: pages/1_about.qmd
+        href: pages/about.qmd
         text: "About"
       - icon: person-badge
-        href: pages/2_people.qmd
+        href: pages/people.qmd
         text: "People"
       - icon: file-slides
-        href: pages/3_presentation.qmd
+        href: pages/slides.qmd
         text: "Presentation"
       - icon: question-circle-fill
-        href: pages/4_faq.qmd
+        href: pages/faq.qmd
         text: "FAQ"
