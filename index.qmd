@@ -8,8 +8,8 @@ about:
 
 ## The Smart Charging Project
 
-Plug-in Electric Vehicles (PEVs) are an important technology to reduce CO2 and air pollution from vehicles. As PEVs become increasingly popular, managing their electric load on the grid will become increasingly important. 
+Plug-in Electric Vehicles (PEVs) are an important technology to reduce CO2 and air pollution from vehicles. As PEVs become increasingly popular, managing their electric load on the grid will become increasingly important.
 
-This project aims to understand PEV owners' preferences with respect to participating in "Smart Charging" and "Vehicle-to-Grid" (V2G) programs to improve grid resilience and enable greater integration of renewable energy onto the grid. See the [about](./pages/about.html) page for more details on the project. 
+This project aims to understand PEV owners' preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The program contains both SMC (Supplier-Managed Charging) and V2G (Vehicle-to-Grid). See the [about](./pages/about.html) page for more details on the project.
 
 This project is supported by the the Alfred P. Sloan Foundation's [Energy and Environment Program](https://sloan.org/programs/research/energy-and-environment).
