@@ -34,7 +34,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 ::: {.column width="76%"}
 **Pingfan Hu**
 
-[Pingfan Hu](https://pingfanhu.com) is a Ph.D. student in Systems Engineering at the George Washington University, supervised by PI John Helveston. His primary research interest is the adoption of PEV smart charging and V2G charging by conjoint surveys.
+[Pingfan Hu](https://pingfanhu.com) is a Ph.D. student in Systems Engineering at the George Washington University, supervised by PI John Helveston. His primary research topic is the adoption of PEV Smart Charging by conjoint surveys.
 :::
 :::
 
@@ -94,7 +94,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 ::: {.column width="76%"}
 **Eric Hittinger, Ph.D.**
 
-[Eric Hittinger](https://www.rit.edu/directory/eshgpt-eric-hittinger) is an Associate Professor of Public Policy at Rochester Institute of Technology, WILL International Chair at University of Lille, and President-Elect of the US Association for Energy Economics. His research is focused on energy policy, particularly the opportunities and challenges associated with new technologies such as energy storage, renewables, electric vehicles, and efficiency.
+[Eric Hittinger](https://www.rit.edu/directory/eshgpt-eric-hittinger) is an Associate Professor of Public Policy at Rochester Institute of Technology, WILL International Chair at University of Lille, and President-Elect of the US Association for Energy Economics. His research is focused on energy policy, particularly the opportunities and challenges associated with new technologies such as energy storage, renewables, EVs, and efficiency.
 :::
 :::
 
@@ -109,6 +109,6 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 ::: {.column width="76%"}
 **Alan Jenn, Ph.D.**
 
-[Alan Jenn](https://its.ucdavis.edu/people/alan-jenn/) is currently an Assistant Professor at the Electric Vehicle (EV) group of the Institute of Transportation Studies (ITS) at the University of California, Davis as well as an affiliate at Lawrence Berkeley National Laboratory. His research is focused on plug-in electric vehicles (PEVs): integration with the electric grid, adoption of the technology, use in ride-hailing companies (such as Uber and Lyft), and its impact on transportation finance.
+[Alan Jenn](https://its.ucdavis.edu/people/alan-jenn/) is an Assistant Professor at the EV group of the Institute of Transportation Studies at the University of California, Davis as well as an affiliate at Lawrence Berkeley National Laboratory. His research is focused on PEVs: integration with the electric grid, adoption of the technology, use in ride-hailing companies, and its impact on transportation finance.
 :::
 :::
