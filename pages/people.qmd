@@ -1,16 +1,13 @@
 ---
 title: "People"
-page-layout: article
-format:
-  html:
-    toc: false
+toc: false
 ---
 
 This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from The George Washington University in a partnership with researchers from UC Irvine, UC Davis, and RIT. The team consists of the following members:
 
 ::: columns
 ::: {.column width="22%"}
-![](/resources/image_jp.jpeg){width="200"}
+![](/figs/jph.jpeg){width="200"}
 :::
 
 ::: {.column width="2%"}
@@ -25,7 +22,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 
 ::: columns
 ::: {.column width="22%"}
-![](/resources/image_pingfan_hu.jpeg){width="200"}
+![](/figs/pingfan_hu.jpeg){width="200"}
 :::
 
 ::: {.column width="2%"}
@@ -40,7 +37,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 
 ::: columns
 ::: {.column width="22%"}
-![](/resources/image_brian_tarroja.jpeg){width="200"}
+![](/figs/brian_tarroja.jpeg){width="200"}
 :::
 
 ::: {.column width="2%"}
@@ -55,7 +52,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 
 ::: columns
 ::: {.column width="22%"}
-![](/resources/image_matthew_dean.jpeg){width="200"}
+![](/figs/matthew_dean.jpeg){width="200"}
 :::
 
 ::: {.column width="2%"}
@@ -70,7 +67,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 
 ::: columns
 ::: {.column width="22%"}
-![](/resources/image_kate_forrest.jpeg){width="200"}
+![](/figs/kate_forrest.jpeg){width="200"}
 :::
 
 ::: {.column width="2%"}
@@ -85,7 +82,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 
 ::: columns
 ::: {.column width="22%"}
-![](/resources/image_eric_hittinger.jpeg){width="200"}
+![](/figs/eric_hittinger.jpeg){width="200"}
 :::
 
 ::: {.column width="2%"}
@@ -100,7 +97,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 
 ::: columns
 ::: {.column width="22%"}
-![](/resources/image_alan_jenn.jpeg){width="200"}
+![](/figs/alan_jenn.jpeg){width="200"}
 :::
 
 ::: {.column width="2%"}

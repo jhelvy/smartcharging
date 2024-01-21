@@ -1,5 +1,6 @@
 ---
-image: resources/home.jpeg
+image: figs/home.jpeg
+page-layout: full
 toc: false
 about:
   template: trestles

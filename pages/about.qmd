@@ -1,10 +1,9 @@
 ---
 title: "About the Smart Charging Project"
-page-layout: article
 toc: false
 ---
 
-![](/resources/about.jpeg){fig-align="center" width="600"} [*This image was generated using the following prompt to DALLE 3*: Illustration in Japanese manga style depicting a cozy home setting. The focus is on the electric car plugged into a sleek wall-mounted smart charger in the garage. The ambient lighting emphasizes the charger and the car. In the background, subtly depicted, a young girl and an older man watch the charging progress on a tablet, their figures less pronounced to ensure the primary attention remains on the eco-friendly technology of the electric vehicle.]{.aside}
+![](/figs/about.jpeg){fig-align="center" width="800"} [*This image was generated using the following prompt to DALLE 3*: Illustration in Japanese manga style depicting a cozy home setting. The focus is on the electric car plugged into a sleek wall-mounted smart charger in the garage. The ambient lighting emphasizes the charger and the car. In the background, subtly depicted, a young girl and an older man watch the charging progress on a tablet, their figures less pronounced to ensure the primary attention remains on the eco-friendly technology of the electric vehicle.]{.aside}
 
 ## Project Summary
 
