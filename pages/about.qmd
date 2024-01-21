@@ -11,7 +11,7 @@ toc: false
 This project aims to understand PEV owners' preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The three-year project will be performed in two research thrusts:
 
 1.  Thrust One: Measure and model PEV charging preferences using conjoint survey.
-2.  Thrust Two: Simulate grid performance under different smart charging and V2G scenarios.
+2.  Thrust Two: Simulate grid performance under different SMC and V2G scenarios.
 
 The Smart Charging programs contain both SMC and V2G:
 
