@@ -7,9 +7,9 @@ toc: false
 
 ## Project Summary
 
-This project aims to understand PEV owners' preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The three-year project will be performed in two research thrusts:
+This project aims to understand BEV owners' preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The three-year project will be performed in two research thrusts:
 
-1.  Thrust One: Measure and model PEV charging preferences using conjoint survey.
+1.  Thrust One: Measure and model BEV charging preferences using conjoint survey.
 2.  Thrust Two: Simulate grid performance under different SMC and V2G scenarios.
 
 The Smart Charging programs contain both SMC and V2G:
@@ -19,8 +19,8 @@ The Smart Charging programs contain both SMC and V2G:
 
 The team is currently designing a pilot survey for the first thrust.
 
-Access the pilot survey here: <a href="http://pevconjoint.formr.org" class="btn btn-primary btn-sm" role="button"> Pilot Survey </a>
+Access the pilot survey here: <a href="http://bevconjoint.formr.org" class="btn btn-primary btn-sm" role="button"> Pilot Survey </a>
 
-The second thrust is also in early stages, and we are coordinating with partners to begin modeling grid performance under different PEV loading scenarios.
+The second thrust is also in early stages, and we are coordinating with partners to begin modeling grid performance under different BEV loading scenarios.
 
 This project is supported by the the Alfred P. Sloan Foundation's [Energy and Environment Program](https://sloan.org/programs/research/energy-and-environment).

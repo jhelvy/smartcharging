@@ -4,9 +4,9 @@ title: "FAQ"
 
 ## Terminologies
 
-**PEV** - PEV is short for "Plug-in Electrical Vehicles". It refers to vehicles that are powered by electricity from the grid. PEVs can either be pure electricity powered (for example Tesla 3) or hybrid (for example Audi Q5 PHEV).
+**BEV** - BEV is short for "Battery Electrical Vehicles". It is a type of electric vehicle (EV) that solely rely on electricity stored in batteries for propulsion. BEV does not have a gasoline engine. The key components of a BEV include an electric motor, a battery pack, and a control system.
 
-**Smart Charging** - Smart Charging means to control and monitor the PEV charging process. In our project, it contains SMC and V2G.
+**Smart Charging** - Smart Charging means to control and monitor the BEV charging process. In our project, it contains SMC and V2G.
 
 **SMC** - SMC is short for "Supplier-Managed Charging". It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. Specifically, SMC monitors and controls charging window and amount, to make sure they are mostly charged during the off-peak periods of the electricity demand.
 
@@ -16,6 +16,6 @@ title: "FAQ"
 
 ## Q & A
 
-**Why Smart Charging** - As PEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. The Smart Charging programs contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the PEV owners.
+**Why Smart Charging** - As BEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. The Smart Charging programs contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the BEV owners.
 
-**Why Conjoint Survey** - A conjoint survey is a pilot simulation to people's willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we'll know in what conditions will PEV owners participate in the smart charging program, and how the program will be in details.
+**Why Conjoint Survey** - A conjoint survey is a pilot simulation to people's willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we'll know in what conditions will BEV owners participate in the smart charging program, and how the program will be in details.

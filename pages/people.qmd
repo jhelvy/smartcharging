@@ -31,7 +31,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 ::: {.column width="76%"}
 **Pingfan Hu**
 
-[Pingfan Hu](https://pingfanhu.com) is a Ph.D. student in Systems Engineering at the George Washington University, supervised by PI John Helveston. His primary research topic is the adoption of PEV Smart Charging by conjoint surveys.
+[Pingfan Hu](https://pingfanhu.com) is a Ph.D. student in Systems Engineering at the George Washington University, supervised by PI John Helveston. His primary research topic is the adoption of BEV Smart Charging by conjoint surveys.
 :::
 :::
 
