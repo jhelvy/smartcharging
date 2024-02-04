@@ -1,1 +1,1 @@
-Sitemap: https://github.com/jhelvy/smartcharging/sitemap.xml
+Sitemap: https://jhelvy.github.io/smartcharging/sitemap.xml
