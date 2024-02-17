@@ -19,7 +19,7 @@ The Smart Charging programs contain both SMC and V2G:
 
 The team is currently designing a pilot survey for the first thrust.
 
-Access the pilot survey here: <a href="http://bevconjoint.formr.org" class="btn btn-primary btn-sm" role="button"> Pilot Survey </a>
+Access the pilot survey here: <a href="https://go.gwu.edu/carpanel" class="btn btn-primary btn-sm" role="button"> Pilot Survey </a>
 
 The second thrust is also in early stages, and we are coordinating with partners to begin modeling grid performance under different BEV loading scenarios.
 
