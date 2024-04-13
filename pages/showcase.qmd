@@ -8,6 +8,6 @@ Access the full screen version here: <a href="project_showcase.pdf" class="btn b
 
 ::: slide-wrapper
 ```{=html}
-<iframe class="slide-iframe" src="project_showcase.pdf"></iframe>
+<iframe class="slide-iframe" src="project_showcase.pdf#view=FitH"></iframe>
 ```
 :::
