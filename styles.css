@@ -41,3 +41,15 @@ thead {
   height: 100%;
   border: 2px solid #5654A2;
 }
+
+@media (max-width: 600px) {
+  .slide-iframe {
+    height: 600px;
+  }
+}
+
+@media (max-width: 400px) {
+  .slide-iframe {
+    height: 400px;
+  }
+}
