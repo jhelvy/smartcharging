@@ -3373,9 +3373,10 @@ color: #694696 !important;
 .slide-wrapper {
 position: relative;
 width: 100%;
-height: 0%;
+height: 0;
 padding-bottom: 75.2%;
 overflow: hidden;
+display: none; 
 }
 .slide-iframe {
 position: absolute;
@@ -3384,6 +3385,12 @@ left: 0;
 width: 100%;
 height: 100%;
 border: 2px solid #5654A2;
+}
+
+@media (min-width: 768px) {
+.slide-wrapper {
+display: block; 
+}
 }
 </style>
 </head>
