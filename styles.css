@@ -29,9 +29,10 @@ thead {
 .slide-wrapper {
   position: relative;
   width: 100%;
-  height: 0%;
+  height: 0;
   padding-bottom: 75.2%;
   overflow: hidden;
+  display: none; /* Default to not display */
 }
 
 .slide-iframe {
@@ -42,4 +43,12 @@ thead {
   height: 100%;
   border: 2px solid #5654A2;
 }
+
+/* Media query for screens wider than 768 pixels */
+@media (min-width: 768px) {
+  .slide-wrapper {
+    display: block; /* Only display on wide screens */
+  }
+}
+
 
