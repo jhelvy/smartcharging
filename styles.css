@@ -32,7 +32,7 @@ thead {
   height: 0;
   padding-bottom: 75.2%;
   overflow: hidden;
-  display: none; /* Default to not display */
+  display: block; /* Default to display */
 }
 
 .slide-iframe {
@@ -44,10 +44,10 @@ thead {
   border: 2px solid #5654A2;
 }
 
-/* Media query for screens wider than 768 pixels */
-@media (min-width: 768px) {
+/* Media query for screens narrower than 768 pixels */
+@media (max-width: 767px) {
   .slide-wrapper {
-    display: block; /* Only display on wide screens */
+    display: none; /* Hide on narrow screens */
   }
 }
 
