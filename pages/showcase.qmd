@@ -7,5 +7,5 @@ toc: false
 Access the full screen version here: <a href="project_showcase.pdf" class="btn btn-primary btn-sm" role="button" target="_blank"> Project Showcase </a>.
 
 ::: slide-wrapper
-<iframe class="slide-iframe" src="project_showcase.pdf"></iframe>
+<iframe class="slide-iframe" src="project_showcase.pdf" allowfullscreen></iframe>
 :::
