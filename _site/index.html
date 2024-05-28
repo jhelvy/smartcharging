@@ -3505,7 +3505,7 @@ width: 100%;
 height: 0;
 padding-bottom: 75.2%;
 overflow: hidden;
-display: none; 
+display: block;
 }
 .slide-iframe {
 position: absolute;
@@ -3514,11 +3514,12 @@ left: 0;
 width: 100%;
 height: 100%;
 border: 2px solid #5654A2;
+display: block;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
 .slide-wrapper {
-display: block; 
+display: none; 
 }
 }
 </style>
