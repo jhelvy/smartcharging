@@ -1,0 +1,592 @@
+---
+title: "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs"
+format:
+  revealjs: 
+    smaller: true
+    theme: theme.scss
+    css: slides.css
+    slide-number: true
+    embed-resources: true
+    preview-links: auto
+    logo: logo.jpeg
+    footer: "<a href='http://pingfanhu.com'>Pingfan Hu</a>"
+    link-external-newwindow: true
+    link-external-icon: false
+
+execute: 
+  warning: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+knitr::opts_chunk$set(
+    comment = "#>",
+    fig.align = "center",
+    fig.show = "hold",
+    fig.path = "figs/",
+    fig.width = 6,
+    fig.asp = 0.618,
+    fig.retina = 3,
+    out.width = "70%"
+)
+library(tidyverse)
+library(logitr)
+library(kableExtra)
+```
+
+```{r}
+# Define the beta hat values
+beta_1_hat <- "&beta;<sup style='font-size: smaller; position: relative; bottom: 1em; left: 0.15em;'>&#94;</sup><sub>1</sub>"
+beta_2_hat <- "&beta;<sup style='font-size: smaller; position: relative; bottom: 1em; left: 0.15em;'>&#94;</sup><sub>2</sub>"
+beta_m_hat <- "&beta;<sup style='font-size: smaller; position: relative; bottom: 1em; left: 0.15em;'>&#94;</sup><sub>m</sub>"
+
+# Define the mu hat values
+mu_1_hat <- "&mu;<sup style='font-size: smaller; position: relative; bottom: 1em; left: 0.15em;'>&#94;</sup><sub>1</sub>"
+mu_2_hat <- "&mu;<sup style='font-size: smaller; position: relative; bottom: 1em; left: 0.15em;'>&#94;</sup><sub>2</sub>"
+mu_m_hat <- "&mu;<sup style='font-size: smaller; position: relative; bottom: 1em; left: 0.15em;'>&#94;</sup><sub>m</sub>"
+
+# Define the sigma hat values
+sigma_1_hat <- "&sigma;<sup style='font-size: smaller; position: relative; bottom: 1em; left: 0.15em;'>&#94;</sup><sub>1</sub>"
+sigma_2_hat <- "&sigma;<sup style='font-size: smaller; position: relative; bottom: 1em; left: 0.15em;'>&#94;</sup><sub>2</sub>"
+sigma_m_hat <- "&sigma;<sup style='font-size: smaller; position: relative; bottom: 1em; left: 0.15em;'>&#94;</sup><sub>m</sub>"
+
+```
+
+## Recall: Homogeneous Utility Model
+
+All our past analyses are **Homogeneous Utility Models**, meaning we consider all participants as homogeneous, so that everyone has the same utility coefficients of $\boldsymbol{\beta}$.
+
+$$
+\tilde {u_j} = \boldsymbol{\beta}'\mathbf{x}_j + \tilde {\epsilon_j} = \beta_1 x_{j1} + \beta_2 x_{j2} + \ldots + \tilde {\epsilon_j}
+$$
+
+The $\boldsymbol{\beta}$ values consist of $\hat {\beta}$ and $\sigma$, which are estimated values and Std Err:
+
+```{r}
+estimates <- c(beta_1_hat, beta_2_hat, "...", beta_m_hat)
+std_errors <- c("&sigma;<sub>1</sub>",
+                "&sigma;<sub>2</sub>", "...",
+                "&sigma;<sub>m</sub>")
+beta_df <- t(data.frame(Est = estimates, `Std.Err.` = std_errors)) %>% 
+    as.data.frame()
+beta_df %>% 
+    kable(format = 'html', escape = FALSE, align = 'c', col.names = NULL,
+          table.attr = 'style="border-collapse: collapse;
+                               border: 1px solid black;"')
+```
+
+However, in real world, it's impossible to have homogeneous participants. We use different methods to create heterogeneous models. The 2 of them are:
+
+1.  **Interaction Model**, where we divide participants into groups, each with their own $\beta$ coefficients.
+2.  **Mixed Logit Model**, where we span each $\beta$ coefficient as normal distribution (or other dist.) instead of point estimate.
+
+## Heterogeneous Models
+
+Heterogeneous models allow for *different* participants to have *different* coefficients. There are 2 models that we want to discuss:
+
+::: columns
+::: {.column width="48%"}
+#### 1. Interaction Model
+
+aka Observed Heterogeneity
+
+```{r}
+interaction_df <- data.frame(
+  c(beta_1_hat, beta_2_hat, "...", beta_m_hat),
+  c("&sigma;<sub>1</sub>", "&sigma;<sub>2</sub>", "...",
+    "&sigma;<sub>m</sub>"),
+  c(beta_1_hat, beta_2_hat, "...", beta_m_hat),
+  c("&sigma;<sub>1</sub>", "&sigma;<sub>2</sub>", "...",
+    "&sigma;<sub>m</sub>")
+)
+
+colnames(interaction_df) <- c("Estimate", "Std. Err.", "Estimate", "Std. Err.")
+
+interaction_df %>% 
+    kable(format = 'html', escape = FALSE, align = 'c',
+          table.attr = 'style="border-collapse: collapse;
+                               border: 1px solid black;"') %>%
+    add_header_above(c("Group 1" = 2, "Group 2" = 2))
+```
+
+Participants are divided into 2 groups, each with their own $\beta$ coefficients.
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+#### 2. Mixed Logit Model
+
+aka Unobserved Heterogeneity
+
+```{r}
+mxl_df <- data.frame(
+    Estimate = c(
+      paste(beta_1_hat, "&sim; N(", mu_1_hat, ", ", sigma_1_hat, ")"),
+      paste(beta_2_hat, "&sim; N(", mu_2_hat, ", ", sigma_2_hat, ")"),
+      "...",
+      paste(beta_m_hat, "&sim; N(", mu_m_hat, ", ", sigma_m_hat, ")")
+    )
+)
+
+mxl_df %>%
+  kable(format = 'html', escape = FALSE, align = 'c',
+        table.attr = 'style="border-collapse: collapse;
+                               border: 1px solid black;"')
+```
+
+Each $\beta$ coefficient is spanned as normal distribution instead of point estimate.
+:::
+:::
+
+## Model 1: Interaction Model
+
+::: columns
+::: {.column width="48%"}
+We start from a simple homogeneous model:
+
+$$
+\tilde {u_j} = \beta_1 x_{j1} + \tilde {\epsilon_j}
+$$
+
+We assign 2 groups A and B, where $\delta^B$ is an indicator:
+
+$$
+\begin{align}
+\tilde {u_j} &= \beta_1 x_{j1} + \beta_2 x_{j1} \delta^B + \tilde {\epsilon_j} \\
+&= (\beta_1 + \beta_2 \delta^B) x_{j1} + \tilde {\epsilon_j}
+\end{align}
+$$
+
+The reason why we can directly add the $\beta$s of A and B with a uniformed $\tilde {\epsilon_j}$ is that the error term follows the same Gumbel distribution.
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+The effect of $x_{j1}$ is different for Groups A and B:
+
+-   For Group A, it's only $\hat{\beta}_1$;
+-   For Group B, it's $\hat{\beta}_1 + \hat{\beta}_2$.
+
+In the interaction model, the $\hat{\beta}_1$ and $\hat{\beta}_2$ values are:
+
+```{r}
+beta_interpretation_df <- data.frame(
+  `Par.` = c(beta_1_hat, beta_2_hat),
+  Interpretation = c("Effect of x<sub>j1</sub> for group A", "Difference in effect of x<sub>j1</sub> between groups A and B")
+)
+beta_interpretation_df %>%
+  kable(format = 'html', escape = FALSE, align = 'c',
+        table.attr = 'style="border-collapse: collapse;
+                               border: 1px solid black;"')
+```
+:::
+:::
+
+## Practice Question 1
+
+Suppose we use the following utility model to describe preferences for cars:
+
+$$
+\tilde {u_j} = \beta_1 x_j^{price} + \beta_2 x_j^{mpg} + \beta_3 \delta_j^{elec} + \tilde {\epsilon_j}
+$$
+
+a)  Using interactions, write out a model that accounts for differences in the effects of $x_j^{price}$, $x_j^{mpg}$, and $\delta_j^{elec}$ between two groups: A and B.
+
+    $$
+    \tilde {u_j} = \beta_1 x_j^{price} + \beta_2 x_j^{mpg} + \beta_3 \delta_j^{elec} + \beta_4 x_j^{price} \delta^B + \beta_5 x_j^{mpg} \delta^B + \beta_6 \delta_j^{elec} \delta^B + \tilde {\epsilon_j}
+    $$
+
+b)  Write out the effects of $x_j^{price}$, $x_j^{mpg}$, and $\delta_j^{elec}$ for each group.
+
+```{r}
+effects_q1_df <- data.frame(
+    Group = c('x<sub>j</sub><sup>price</sup>',
+              'x<sub>j</sub><sup>mpg</sup>',
+              '&delta;<sub>j</sub><sup>elec</sup>'),
+    A = c('&beta;<sub>1</sub>', '&beta;<sub>2</sub>', '&beta;<sub>3</sub>'),
+    B = c('&beta;<sub>1</sub> + &beta;<sub>4</sub>',
+          '&beta;<sub>2</sub> + &beta;<sub>5</sub>',
+          '&beta;<sub>3</sub> + &beta;<sub>6</sub>')
+)
+effects_q1_df %>% 
+    kable(format = 'html', escape = FALSE, align = 'c',
+          table.attr = 'style="border-collapse: collapse;
+                               border: 1px solid black;"') %>% 
+    column_spec(column = 1, width = '5em', border_right = TRUE) %>%
+    column_spec(column = 2, width = '5em', border_right = TRUE) %>%
+    column_spec(column = 3, width = '10em')
+```
+
+## Hypothesis Test
+
+We use the simulation method to perform the hypothesis test, and see **if there is significant difference between Group A and Group B**.
+
+::: columns
+::: {.column width="48%"}
+Use **R** code to perform the simulation:
+
+``` r
+# Construct beta and hessian
+beta = c(b1 = -0.7, b2 = 0.1)
+hessian = matrix(c(-6000,  50,
+                    50,   -6000),
+                 ncol = 2, byrow = TRUE)
+covariance = -1*(solve(hessian))
+
+# Simulate draws for 10^5 times
+draws = as.data.frame(MASS::mvrnorm(10^5, beta, covariance))
+
+# Work out the utility model coefficients beta
+b1_A = draws$b1
+b1_B = draws$b1 + draws$b2
+
+# Calculate confidence Intervals
+mean(b1_A)
+mean(b1_B)
+quantile(b1_A, c(0.025, 0.975))
+quantile(b1_B, c(0.025, 0.975))
+```
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+The mean and quantile values are:
+
+``` r
+> mean(b1_A)
+[1] -0.7000618
+> mean(b1_B)
+[1] -0.6000408
+> quantile(b1_A, c(0.025, 0.975))
+      2.5%      97.5%
+-0.7253724 -0.6748339
+> quantile(b1_B, c(0.025, 0.975))
+      2.5%      97.5%
+-0.6358317 -0.5642215
+```
+
+Since these 2 confidence intervals do not overlap, there is significant evidence that Group A is different from Group B.
+:::
+:::
+
+## Practice Question 2
+
+Suppose we estimate the following utility model describing preferences for chocolate bars between two groups: A & B
+
+$$
+\tilde {u_j} = \beta_1 x_j^{price} + \beta_2 x_j^{cacao} + \beta_3 x_j^{price} \delta^B + \beta_4 x_j^{cacao} \delta^B + \tilde {\epsilon_j}
+$$
+
+::: columns
+::: {.column width="34%"}
+a)  Use the `mvrnorm()` function from the `MASS` library to generate 10,000 draws of the model coefficients.
+b)  Use the draws to compute the mean and 95% confidence intervals of the effects of $x_j^{price}$ and $x_j^{cacao}$ for each group (A&B).
+:::
+
+::: {.column width="1%"}
+:::
+
+::: {.column width="65%"}
+::: columns
+::: {.column width="29%"}
+```{r}
+beta_q2_df <- data.frame(
+    `Par.` = c('&beta;<sub>1</sub>', '&beta;<sub>2</sub>',
+                  '&beta;<sub>3</sub>', '&beta;<sub>4</sub>'),
+    `Coef.` = c(-0.7, 0.1, 0.2, 0.8)
+)
+
+beta_q2_df %>% 
+    kable(format = 'html', escape = FALSE, align = 'c',
+          caption = "Parameters",
+          table.attr = 'style="border-collapse: collapse;
+                               border: 1px solid black;"')
+```
+:::
+
+::: {.column width="68%"}
+```{r}
+hessian_q2 <- matrix(c(-6000, 50,  60,  70,
+                     50,  -700, 50,  100,
+                     60,   50, -300, 20,
+                     70,   100, 20, -6000),
+                  ncol = 4, byrow = TRUE)
+hessian_q2_df <- as.data.frame(hessian_q2)
+
+hessian_q2_df %>% 
+    kable(format = 'html', escape = FALSE, align = 'c',
+          caption = "Hessian", col.names = NULL,
+          table.attr = 'style="border-collapse: collapse;
+                               border: 1px solid black;"')
+```
+:::
+:::
+:::
+:::
+
+## Question 2 Solution
+
+::: columns
+::: {.column width="60%"}
+#### Codes
+
+``` r
+# Construct beta and hessian
+beta = c(b1 = -0.7, b2 = 0.1, b3 = 0.2, b4 = 0.8)
+hessian = matrix(c(-6000, 50,  60,  70,
+                    50,  -700, 50,  100,
+                    60,   50, -300, 20,
+                    70,   100, 20, -6000),
+                 ncol = 4, byrow = TRUE)
+covariance = -1*(solve(hessian))
+
+# Simulate draws for 10^5 times
+draws = as.data.frame(MASS::mvrnorm(10^5, beta, covariance))
+
+# Work out the utility model coefficients beta
+b1_A = draws$b1
+b2_A = draws$b2
+b1_B = draws$b1 + draws$b3
+b2_B = draws$b2 + draws$b4
+
+# Calculate confidence Intervals
+mean(b1_A)
+mean(b2_A)
+mean(b1_B)
+mean(b2_B)
+quantile(b1_A, c(0.025, 0.975))
+quantile(b2_A, c(0.025, 0.975))
+quantile(b1_B, c(0.025, 0.975))
+quantile(b2_B, c(0.025, 0.975))
+```
+:::
+
+::: {.column width="40%"}
+#### Results
+
+``` r
+> mean(b1_A)
+[1] -0.7000142
+> mean(b2_A)
+[1] 0.1000435
+> mean(b1_B)
+[1] -0.4998727
+> mean(b2_B)
+[1] 0.9000659
+> quantile(b1_A, c(0.025, 0.975))
+      2.5%      97.5% 
+-0.7254443 -0.6747621 
+> quantile(b2_A, c(0.025, 0.975))
+      2.5%      97.5% 
+0.02545381 0.17482052 
+> quantile(b1_B, c(0.025, 0.975))
+      2.5%      97.5% 
+-0.6186359 -0.3814665 
+> quantile(b2_B, c(0.025, 0.975))
+     2.5%     97.5% 
+0.8200561 0.9804029 
+```
+
+Both $\beta$ values of A and B are significantly different.
+:::
+:::
+
+## Model 2: Mixed Logit Model (MXL)
+
+In the MXL model, we assume each $\beta$ is distributed across the population, so that we convert from a **point estimate** $\hat {\beta}$ to a **range** containing an estimated mean $\hat {\mu}$ and Std Err $\hat {\sigma}$.
+
+::: columns
+::: {.column width="48%"}
+#### Standard vs Mixed Logit
+
+A **standard logit** uses point estimate, whose PDF is a solid value:
+
+$$
+P_j = \frac{e^{v_j}}{\sum_{k=1}^{J} e^{v_k}}
+$$
+
+A **mixed logit** uses integration, whose PDF is an area under the curve:
+
+$$
+P_j = \int \left( \frac{e^{v_j}}{\sum_{k=1}^{J} e^{v_k}} \right) f(\beta) d\beta
+$$
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+#### Use Simulation for MXL
+
+1.  Draw a $\beta$ value from $f(\beta)$, label it $\beta^r$.
+
+2.  Calculate the standard logit function using $\beta^r$:
+
+    $$
+    P_j^r = \frac{e^{v_j^r}}{\sum_{k=1}^{J} e^{v_k^r}}
+    $$
+
+3.  Simulate R times of draws, sum and divide by R:
+
+    $$
+    \hat{P}_j = \frac{1}{R} \sum_{r=1}^{R} P_j^r
+    $$
+:::
+:::
+
+## MXL Simulation using R Code
+
+We use the `logitr` package to simulate the MXL model. Take this chocolate example:
+
+$$
+\tilde{u}_j = \beta_1 x_j^{\text{price}} + \beta_2 x_j^{\text{cacao}} + \varepsilon_j \\
+\beta_1 \sim N(\mu_1, \sigma_1), \quad \beta_2 \sim N(\mu_2, \sigma_2)
+$$
+
+::: columns
+::: {.column width="48%"}
+#### R Code
+
+```{r}
+#| eval: false
+#| echo: true
+#| code-line-numbers: "8"
+library(logitr)
+
+model = logitr(
+    data     = data,
+    outcome  = 'choice',
+    obsID    = 'obsID',
+    pars     = c('price', 'cacao'),
+    randPars = c(price = 'n', cacao = 'n')
+)
+```
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+#### Interpretation
+
+1.  Use the `logitr()` function to generate standard and mixed logit models.
+
+2.  By setting `randPars`, we define the individually distributed variables `price` and `cacao`, which results in a mixed logit model.
+
+3.  By setting `randPars` values as `'n'`, we define them as "Normally Distributed". The value `'ln'` means log normal distribution.
+:::
+:::
+
+## Practice Question 3
+
+a.  Load the logitr package, which loads the yogurt data frame.
+b.  Use the logitr package to estimate the following homogeneous model: $$
+    \tilde{u}_j = \beta_1 x_j^{\text{price}} + \beta_2 \delta_j^{\text{feat}} + \beta_3 \delta_j^{\text{dannon}} + \beta_4 \delta_j^{\text{highland}} + \beta_5 \delta_j^{\text{weight}} + \varepsilon_j
+    $$ where the three $\sigma$ coefficients are dummies for Dannon, Highland, and Weight Watchers brands and Yoplait is the baseline brand.
+c.  Use the logitr package to estimate the same model but with the following mixing distributions: $$
+    \beta_1 \sim N(\mu_1, \sigma_1) \\
+    \beta_2 \sim N(\mu_2, \sigma_2)
+    $$
+
+## Question 3 Solution
+
+::: columns
+::: {.column width="48%"}
+#### Standard Logit Model
+
+Code:
+
+``` r
+# Load package
+library(logitr)
+
+# Standard model
+model_standard = logitr(
+    data     = yogurt,
+    outcome  = 'choice',
+    obsID    = 'obsID',
+    pars     = c('price', 'feat', 'brand')
+)
+
+# Model coefficients
+coef(model_standard)
+```
+
+Result:
+
+``` r
+> coef(model_standard)
+       price         feat  brandhiland  brandweight 
+  -0.3665546    0.4914392   -3.7154773   -0.6411384 
+brandyoplait 
+   0.7345195 
+```
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+#### Mixed Logit Model
+
+Code:
+
+``` r
+# Load package
+library(logitr)
+
+# Standard model
+model_mixed = logitr(
+    data     = yogurt,
+    outcome  = 'choice',
+    obsID    = 'obsID',
+    pars     = c('price', 'feat', 'brand'),
+    randPars = c(price = 'n', feat = 'n')
+)
+
+# Model coefficients
+coef(model_mixed)
+```
+
+Result:
+
+``` r
+> coef(model_mixed)
+        price          feat   brandhiland   brandweight 
+-0.3930417945  0.2637660327 -3.9897865512 -0.6637300503 
+ brandyoplait      sd_price       sd_feat 
+ 0.7949907357 -0.0009494817 -2.4318056761 
+```
+:::
+:::
+
+## Reflect
+
+::: columns
+::: {.column width="48%"}
+#### What I have learned
+
+1.  Constructed my own `theme.scss` for a good-looking revealjs slides.
+2.  Learned 2 heterogeneous models: **interaction model** and **mixed logit model**.
+3.  Practiced on using **R** code to solve for both models. For **interaction model**, we simulate the draws with `mvrnorm()`; for **mixed logit model**, we use `logitr()` to construct and analyze the models.
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+#### My questions
+
+1.  I'm getting used to make revealjs slides, but I wonder how it can be compatible with my notes website. I also want to upload it online and have it accessed in my notes.
+
+2.  I'm having trouble with applying personalized fonts. For example, I tried "Ubuntu" and "Noto" fonts but they didn't work. I didn't have this problem in webpages. I suspect revealjs can only access online-sourced fonts.
+:::
+:::

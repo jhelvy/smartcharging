@@ -1,0 +1,11 @@
+---
+title: "Poster"
+page-layout: full
+toc: false
+---
+
+Access the full screen version here: <a href="poster.pdf" class="btn btn-primary btn-sm" role="button" target="_blank"> Project Poster </a>.
+
+::: slide-wrapper
+<iframe class="slide-iframe" src="poster.pdf"></iframe>
+:::

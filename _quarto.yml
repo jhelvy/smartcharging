@@ -45,8 +45,12 @@ website:
         href: pages/people.qmd
         text: "People"
       - icon: file-slides
-        href: pages/showcase.qmd
-        text: "Showcase"
+        href: pages/poster.qmd
+        text: "Poster"
+      - icon: file-earmark-slides
+        href: pages/slides.qmd
+        text: "Slides"
+    right:
       - icon: question-circle-fill
         href: pages/faq.qmd
         text: "FAQ"
