@@ -39,18 +39,18 @@ website:
         href: https://github.com/jhelvy/smartcharging
     left:
       - icon: house-door
-        href: pages/about.qmd
+        href: about.qmd
         text: "About"
       - icon: person-badge
-        href: pages/people.qmd
+        href: people.qmd
         text: "People"
       - icon: file-slides
-        href: pages/poster.qmd
+        href: poster.qmd
         text: "Poster"
       - icon: file-earmark-slides
-        href: pages/slides.qmd
+        href: slides.qmd
         text: "Slides"
     right:
       - icon: question-circle-fill
-        href: pages/faq.qmd
+        href: faq.qmd
         text: "FAQ"
