@@ -1,0 +1,28 @@
+---
+title: "About the Smart Charging Project"
+toc: false
+---
+
+![](/figs/about.jpeg){fig-align="center" width="800"} [*This image was generated using DALLE 3.*]{.aside}
+
+## Project Summary
+
+This project aims to understand BEV owners' preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The three-year project will be performed in two research thrusts:
+
+1.  Thrust One: Measure and model BEV charging preferences using conjoint survey.
+2.  Thrust Two: Simulate grid performance under different SMC and V2G scenarios.
+
+The Smart Charging programs contain both SMC and V2G:
+
+1.  SMC is short for "Supplier-Managed Charging". It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption.
+2.  V2G is short for "Vehicle-to-Grid". It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.
+
+The EV charging survey for the first thrust can be accessed here:
+
+::: {style="text-align: center;"}
+<a href="https://carsurvey3.formr.org" class="btn btn-primary btn-sm" role="button"> EV Charging Survey </a>
+:::
+
+The second thrust is also in early stages, and we are coordinating with partners to begin modeling grid performance under different BEV loading scenarios.
+
+This project is supported by the the Alfred P. Sloan Foundation's [Energy and Environment Program](https://sloan.org/programs/research/energy-and-environment).

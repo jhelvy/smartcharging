@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the Smart Charging Project",
+    "section": "",
+    "text": "This image was generated using DALLE 3."
+  },
+  {
+    "objectID": "about.html#project-summary",
+    "href": "about.html#project-summary",
+    "title": "About the Smart Charging Project",
+    "section": "Project Summary",
+    "text": "Project Summary\nThis project aims to understand BEV owners’ preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The three-year project will be performed in two research thrusts:\n\nThrust One: Measure and model BEV charging preferences using conjoint survey.\nThrust Two: Simulate grid performance under different SMC and V2G scenarios.\n\nThe Smart Charging programs contain both SMC and V2G:\n\nSMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption.\nV2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\n\nThe EV charging survey for the first thrust can be accessed here:\n\n EV Charging Survey \n\nThe second thrust is also in early stages, and we are coordinating with partners to begin modeling grid performance under different BEV loading scenarios.\nThis project is supported by the the Alfred P. Sloan Foundation’s Energy and Environment Program."
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "BEV - BEV is short for “Battery Electrical Vehicles”. It is a type of electric vehicle (EV) that solely rely on electricity stored in batteries for propulsion. BEV does not have a gasoline engine. The key components of a BEV include an electric motor, a battery pack, and a control system.\nSmart Charging - Smart Charging means to control and monitor the BEV charging process. In our project, it contains SMC and V2G.\nSMC - SMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. Specifically, SMC monitors and controls charging window and amount, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G - V2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
+  },
+  {
+    "objectID": "faq.html#terminologies",
+    "href": "faq.html#terminologies",
+    "title": "FAQ",
+    "section": "",
+    "text": "BEV - BEV is short for “Battery Electrical Vehicles”. It is a type of electric vehicle (EV) that solely rely on electricity stored in batteries for propulsion. BEV does not have a gasoline engine. The key components of a BEV include an electric motor, a battery pack, and a control system.\nSmart Charging - Smart Charging means to control and monitor the BEV charging process. In our project, it contains SMC and V2G.\nSMC - SMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. Specifically, SMC monitors and controls charging window and amount, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G - V2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
+  },
+  {
+    "objectID": "faq.html#q-a",
+    "href": "faq.html#q-a",
+    "title": "FAQ",
+    "section": "Q & A",
+    "text": "Q & A\nWhy Smart Charging - As BEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. The Smart Charging programs contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the BEV owners.\nWhy Conjoint Survey - A conjoint survey is a pilot simulation to people’s willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we’ll know in what conditions will BEV owners participate in the smart charging program, and how the program will be in details."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
@@ -14,59 +49,346 @@
     "text": "BEV (Battery Electric Vehicle) is an important solution to reduce \\(CO_2\\) and air pollution from vehicles. As BEVs gain popularity, managing their electric load on the grid will become increasingly important.\nThis project aims to understand BEV owners’ preferences of adopting the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The program contains both SMC (Supplier-Managed Charging) and V2G (Vehicle-to-Grid). See the About page for more details on the project.\nThis project is supported by the the Alfred P. Sloan Foundation’s Energy and Environment Program."
   },
   {
-    "objectID": "pages/people.html",
-    "href": "pages/people.html",
+    "objectID": "people.html",
+    "href": "people.html",
     "title": "People",
     "section": "",
     "text": "This project is led by PI John Paul Helveston from The George Washington University in a partnership with researchers from UC Irvine, UC Davis, and RIT. The team consists of the following members:\n\n\n\n\n\nJohn Paul Helveston, Ph.D.\nJohn Paul Helveston is an Assistant Professor in the Department of Engineering Management and Systems Engineering at the George Washington University. He studies technological change, with a particular interest in accelerating the transition to environmentally sustainable and energy-saving technologies.\n\n\n\n\n\n\n\nPingfan Hu\nPingfan Hu is a Ph.D. student in Systems Engineering at the George Washington University, supervised by PI John Helveston. His primary research topic is the adoption of BEV Smart Charging by conjoint surveys.\n\n\n\n\n\n\n\nBrian Tarroja, Ph.D., P.E.\nBrian Tarroja is a researcher and educator focused on improving the robustness of strategies to carry out the transition to a cleaner, decarbonized energy system. His research centers on understanding how to co-optimize concurrent transitions in energy, water, and transportation infrastructures to maximize beneficial outcomes and avoid or minimize harmful consequences.\n\n\n\n\n\n\n\nMatthew Dean, Ph.D.\nMatthew Dean is an Assistant Professor at UC Irvine conducting research at the intersection of transportation engineering and energy systems. His work prepares cities for emergent shared mobility services, strengthens our decarbonization goals by managing distributed energy assets, and creates healthy communities by getting people out biking, walking, and rolling.\n\n\n\n\n\n\n\nKate Forrest, Ph.D.\nKate E. Forrest is currently a Senior Scientist at Advanced Power and Energy Program (APEP) at the University of California, Irvine. She is an environmental scientist and engineer passionate about clean energy, environmental advocacy, sustainable energy and transportation solutions, science policy, and educational outreach.\n\n\n\n\n\n\n\nEric Hittinger, Ph.D.\nEric Hittinger is an Associate Professor of Public Policy at Rochester Institute of Technology, WILL International Chair at University of Lille, and President-Elect of the US Association for Energy Economics. His research is focused on energy policy, particularly the opportunities and challenges associated with new technologies such as energy storage, renewables, EVs, and efficiency.\n\n\n\n\n\n\n\nAlan Jenn, Ph.D.\nAlan Jenn is an Assistant Professor at the EV group of the Institute of Transportation Studies at the University of California, Davis as well as an affiliate at Lawrence Berkeley National Laboratory. His research is focused on PEVs: integration with the electric grid, adoption of the technology, use in ride-hailing companies, and its impact on transportation finance."
   },
   {
-    "objectID": "pages/about.html",
-    "href": "pages/about.html",
-    "title": "About the Smart Charging Project",
+    "objectID": "poster.html",
+    "href": "poster.html",
+    "title": "Poster",
     "section": "",
-    "text": "This image was generated using DALLE 3."
+    "text": "Access the full screen version here:  Project Poster ."
   },
   {
-    "objectID": "pages/about.html#project-summary",
-    "href": "pages/about.html#project-summary",
-    "title": "About the Smart Charging Project",
-    "section": "Project Summary",
-    "text": "Project Summary\nThis project aims to understand BEV owners’ preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The three-year project will be performed in two research thrusts:\n\nThrust One: Measure and model BEV charging preferences using conjoint survey.\nThrust Two: Simulate grid performance under different SMC and V2G scenarios.\n\nThe Smart Charging programs contain both SMC and V2G:\n\nSMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption.\nV2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\n\nThe EV charging survey for the first thrust can be accessed here:\n\n EV Charging Survey \n\nThe second thrust is also in early stages, and we are coordinating with partners to begin modeling grid performance under different BEV loading scenarios.\nThis project is supported by the the Alfred P. Sloan Foundation’s Energy and Environment Program."
+    "objectID": "slide_file/index.html#recall-homogeneous-utility-model",
+    "href": "slide_file/index.html#recall-homogeneous-utility-model",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "Recall: Homogeneous Utility Model",
+    "text": "Recall: Homogeneous Utility Model\nAll our past analyses are Homogeneous Utility Models, meaning we consider all participants as homogeneous, so that everyone has the same utility coefficients of \\(\\boldsymbol{\\beta}\\).\n\\[\n\\tilde {u_j} = \\boldsymbol{\\beta}'\\mathbf{x}_j + \\tilde {\\epsilon_j} = \\beta_1 x_{j1} + \\beta_2 x_{j2} + \\ldots + \\tilde {\\epsilon_j}\n\\]\nThe \\(\\boldsymbol{\\beta}\\) values consist of \\(\\hat {\\beta}\\) and \\(\\sigma\\), which are estimated values and Std Err:\n\n\n\n\n\nEst\nβ^1\nβ^2\n...\nβ^m\n\n\nStd.Err.\nσ1\nσ2\n...\nσm\n\n\n\n\n\n\n\nHowever, in real world, it’s impossible to have homogeneous participants. We use different methods to create heterogeneous models. The 2 of them are:\n\nInteraction Model, where we divide participants into groups, each with their own \\(\\beta\\) coefficients.\nMixed Logit Model, where we span each \\(\\beta\\) coefficient as normal distribution (or other dist.) instead of point estimate."
   },
   {
-    "objectID": "pages/faq.html",
-    "href": "pages/faq.html",
-    "title": "FAQ",
+    "objectID": "slide_file/index.html#heterogeneous-models",
+    "href": "slide_file/index.html#heterogeneous-models",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "Heterogeneous Models",
+    "text": "Heterogeneous Models\nHeterogeneous models allow for different participants to have different coefficients. There are 2 models that we want to discuss:\n\n\n1. Interaction Model\naka Observed Heterogeneity\n\n\n\n\n\n\n\n\n\n\n\n\nGroup 1\n\n\nGroup 2\n\n\n\nEstimate\nStd. Err.\nEstimate\nStd. Err.\n\n\n\n\nβ^1\nσ1\nβ^1\nσ1\n\n\nβ^2\nσ2\nβ^2\nσ2\n\n\n...\n...\n...\n...\n\n\nβ^m\nσm\nβ^m\nσm\n\n\n\n\n\n\n\nParticipants are divided into 2 groups, each with their own \\(\\beta\\) coefficients.\n\n\n\n2. Mixed Logit Model\naka Unobserved Heterogeneity\n\n\n\n\n\nEstimate\n\n\n\n\nβ^1 ∼ N( μ^1 , σ^1 )\n\n\nβ^2 ∼ N( μ^2 , σ^2 )\n\n\n...\n\n\nβ^m ∼ N( μ^m , σ^m )\n\n\n\n\n\n\n\nEach \\(\\beta\\) coefficient is spanned as normal distribution instead of point estimate."
+  },
+  {
+    "objectID": "slide_file/index.html#model-1-interaction-model",
+    "href": "slide_file/index.html#model-1-interaction-model",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "Model 1: Interaction Model",
+    "text": "Model 1: Interaction Model\n\n\nWe start from a simple homogeneous model:\n\\[\n\\tilde {u_j} = \\beta_1 x_{j1} + \\tilde {\\epsilon_j}\n\\]\nWe assign 2 groups A and B, where \\(\\delta^B\\) is an indicator:\n\\[\n\\begin{align}\n\\tilde {u_j} &= \\beta_1 x_{j1} + \\beta_2 x_{j1} \\delta^B + \\tilde {\\epsilon_j} \\\\\n&= (\\beta_1 + \\beta_2 \\delta^B) x_{j1} + \\tilde {\\epsilon_j}\n\\end{align}\n\\]\nThe reason why we can directly add the \\(\\beta\\)s of A and B with a uniformed \\(\\tilde {\\epsilon_j}\\) is that the error term follows the same Gumbel distribution.\n\n\n\nThe effect of \\(x_{j1}\\) is different for Groups A and B:\n\nFor Group A, it’s only \\(\\hat{\\beta}_1\\);\nFor Group B, it’s \\(\\hat{\\beta}_1 + \\hat{\\beta}_2\\).\n\nIn the interaction model, the \\(\\hat{\\beta}_1\\) and \\(\\hat{\\beta}_2\\) values are:\n\n\n\n\n\nPar.\nInterpretation\n\n\n\n\nβ^1\nEffect of xj1 for group A\n\n\nβ^2\nDifference in effect of xj1 between groups A and B"
+  },
+  {
+    "objectID": "slide_file/index.html#practice-question-1",
+    "href": "slide_file/index.html#practice-question-1",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "Practice Question 1",
+    "text": "Practice Question 1\nSuppose we use the following utility model to describe preferences for cars:\n\\[\n\\tilde {u_j} = \\beta_1 x_j^{price} + \\beta_2 x_j^{mpg} + \\beta_3 \\delta_j^{elec} + \\tilde {\\epsilon_j}\n\\]\n\nUsing interactions, write out a model that accounts for differences in the effects of \\(x_j^{price}\\), \\(x_j^{mpg}\\), and \\(\\delta_j^{elec}\\) between two groups: A and B.\n\\[\n\\tilde {u_j} = \\beta_1 x_j^{price} + \\beta_2 x_j^{mpg} + \\beta_3 \\delta_j^{elec} + \\beta_4 x_j^{price} \\delta^B + \\beta_5 x_j^{mpg} \\delta^B + \\beta_6 \\delta_j^{elec} \\delta^B + \\tilde {\\epsilon_j}\n\\]\nWrite out the effects of \\(x_j^{price}\\), \\(x_j^{mpg}\\), and \\(\\delta_j^{elec}\\) for each group.\n\n\n\n\n\n\nGroup\nA\nB\n\n\n\n\nxjprice\nβ1\nβ1 + β4\n\n\nxjmpg\nβ2\nβ2 + β5\n\n\nδjelec\nβ3\nβ3 + β6"
+  },
+  {
+    "objectID": "slide_file/index.html#hypothesis-test",
+    "href": "slide_file/index.html#hypothesis-test",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "Hypothesis Test",
+    "text": "Hypothesis Test\nWe use the simulation method to perform the hypothesis test, and see if there is significant difference between Group A and Group B.\n\n\nUse R code to perform the simulation:\n# Construct beta and hessian\nbeta = c(b1 = -0.7, b2 = 0.1)\nhessian = matrix(c(-6000,  50,\n                    50,   -6000),\n                 ncol = 2, byrow = TRUE)\ncovariance = -1*(solve(hessian))\n\n# Simulate draws for 10^5 times\ndraws = as.data.frame(MASS::mvrnorm(10^5, beta, covariance))\n\n# Work out the utility model coefficients beta\nb1_A = draws$b1\nb1_B = draws$b1 + draws$b2\n\n# Calculate confidence Intervals\nmean(b1_A)\nmean(b1_B)\nquantile(b1_A, c(0.025, 0.975))\nquantile(b1_B, c(0.025, 0.975))\n\n\n\nThe mean and quantile values are:\n&gt; mean(b1_A)\n[1] -0.7000618\n&gt; mean(b1_B)\n[1] -0.6000408\n&gt; quantile(b1_A, c(0.025, 0.975))\n      2.5%      97.5%\n-0.7253724 -0.6748339\n&gt; quantile(b1_B, c(0.025, 0.975))\n      2.5%      97.5%\n-0.6358317 -0.5642215\nSince these 2 confidence intervals do not overlap, there is significant evidence that Group A is different from Group B."
+  },
+  {
+    "objectID": "slide_file/index.html#practice-question-2",
+    "href": "slide_file/index.html#practice-question-2",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "Practice Question 2",
+    "text": "Practice Question 2\nSuppose we estimate the following utility model describing preferences for chocolate bars between two groups: A & B\n\\[\n\\tilde {u_j} = \\beta_1 x_j^{price} + \\beta_2 x_j^{cacao} + \\beta_3 x_j^{price} \\delta^B + \\beta_4 x_j^{cacao} \\delta^B + \\tilde {\\epsilon_j}\n\\]\n\n\n\nUse the mvrnorm() function from the MASS library to generate 10,000 draws of the model coefficients.\nUse the draws to compute the mean and 95% confidence intervals of the effects of \\(x_j^{price}\\) and \\(x_j^{cacao}\\) for each group (A&B).\n\n\n\n\n\n\n\n\n\nParameters\n\n\nPar.\nCoef.\n\n\n\n\nβ1\n-0.7\n\n\nβ2\n0.1\n\n\nβ3\n0.2\n\n\nβ4\n0.8\n\n\n\n\n\n\n\n\n\n\n\nHessian\n\n\n-6000\n50\n60\n70\n\n\n50\n-700\n50\n100\n\n\n60\n50\n-300\n20\n\n\n70\n100\n20\n-6000"
+  },
+  {
+    "objectID": "slide_file/index.html#question-2-solution",
+    "href": "slide_file/index.html#question-2-solution",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "Question 2 Solution",
+    "text": "Question 2 Solution\n\n\nCodes\n# Construct beta and hessian\nbeta = c(b1 = -0.7, b2 = 0.1, b3 = 0.2, b4 = 0.8)\nhessian = matrix(c(-6000, 50,  60,  70,\n                    50,  -700, 50,  100,\n                    60,   50, -300, 20,\n                    70,   100, 20, -6000),\n                 ncol = 4, byrow = TRUE)\ncovariance = -1*(solve(hessian))\n\n# Simulate draws for 10^5 times\ndraws = as.data.frame(MASS::mvrnorm(10^5, beta, covariance))\n\n# Work out the utility model coefficients beta\nb1_A = draws$b1\nb2_A = draws$b2\nb1_B = draws$b1 + draws$b3\nb2_B = draws$b2 + draws$b4\n\n# Calculate confidence Intervals\nmean(b1_A)\nmean(b2_A)\nmean(b1_B)\nmean(b2_B)\nquantile(b1_A, c(0.025, 0.975))\nquantile(b2_A, c(0.025, 0.975))\nquantile(b1_B, c(0.025, 0.975))\nquantile(b2_B, c(0.025, 0.975))\n\nResults\n&gt; mean(b1_A)\n[1] -0.7000142\n&gt; mean(b2_A)\n[1] 0.1000435\n&gt; mean(b1_B)\n[1] -0.4998727\n&gt; mean(b2_B)\n[1] 0.9000659\n&gt; quantile(b1_A, c(0.025, 0.975))\n      2.5%      97.5% \n-0.7254443 -0.6747621 \n&gt; quantile(b2_A, c(0.025, 0.975))\n      2.5%      97.5% \n0.02545381 0.17482052 \n&gt; quantile(b1_B, c(0.025, 0.975))\n      2.5%      97.5% \n-0.6186359 -0.3814665 \n&gt; quantile(b2_B, c(0.025, 0.975))\n     2.5%     97.5% \n0.8200561 0.9804029 \nBoth \\(\\beta\\) values of A and B are significantly different."
+  },
+  {
+    "objectID": "slide_file/index.html#model-2-mixed-logit-model-mxl",
+    "href": "slide_file/index.html#model-2-mixed-logit-model-mxl",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "Model 2: Mixed Logit Model (MXL)",
+    "text": "Model 2: Mixed Logit Model (MXL)\nIn the MXL model, we assume each \\(\\beta\\) is distributed across the population, so that we convert from a point estimate \\(\\hat {\\beta}\\) to a range containing an estimated mean \\(\\hat {\\mu}\\) and Std Err \\(\\hat {\\sigma}\\).\n\n\nStandard vs Mixed Logit\nA standard logit uses point estimate, whose PDF is a solid value:\n\\[\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\]\nA mixed logit uses integration, whose PDF is an area under the curve:\n\\[\nP_j = \\int \\left( \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}} \\right) f(\\beta) d\\beta\n\\]\n\n\n\nUse Simulation for MXL\n\nDraw a \\(\\beta\\) value from \\(f(\\beta)\\), label it \\(\\beta^r\\).\nCalculate the standard logit function using \\(\\beta^r\\):\n\\[\nP_j^r = \\frac{e^{v_j^r}}{\\sum_{k=1}^{J} e^{v_k^r}}\n\\]\nSimulate R times of draws, sum and divide by R:\n\\[\n\\hat{P}_j = \\frac{1}{R} \\sum_{r=1}^{R} P_j^r\n\\]"
+  },
+  {
+    "objectID": "slide_file/index.html#mxl-simulation-using-r-code",
+    "href": "slide_file/index.html#mxl-simulation-using-r-code",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "MXL Simulation using R Code",
+    "text": "MXL Simulation using R Code\nWe use the logitr package to simulate the MXL model. Take this chocolate example:\n\\[\n\\tilde{u}_j = \\beta_1 x_j^{\\text{price}} + \\beta_2 x_j^{\\text{cacao}} + \\varepsilon_j \\\\\n\\beta_1 \\sim N(\\mu_1, \\sigma_1), \\quad \\beta_2 \\sim N(\\mu_2, \\sigma_2)\n\\]\n\n\nR Code\n\nlibrary(logitr)\n\nmodel = logitr(\n    data     = data,\n    outcome  = 'choice',\n    obsID    = 'obsID',\n    pars     = c('price', 'cacao'),\n    randPars = c(price = 'n', cacao = 'n')\n)\n\n\n\n\nInterpretation\n\nUse the logitr() function to generate standard and mixed logit models.\nBy setting randPars, we define the individually distributed variables price and cacao, which results in a mixed logit model.\nBy setting randPars values as 'n', we define them as “Normally Distributed”. The value 'ln' means log normal distribution."
+  },
+  {
+    "objectID": "slide_file/index.html#practice-question-3",
+    "href": "slide_file/index.html#practice-question-3",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "Practice Question 3",
+    "text": "Practice Question 3\n\nLoad the logitr package, which loads the yogurt data frame.\nUse the logitr package to estimate the following homogeneous model: \\[\n\\tilde{u}_j = \\beta_1 x_j^{\\text{price}} + \\beta_2 \\delta_j^{\\text{feat}} + \\beta_3 \\delta_j^{\\text{dannon}} + \\beta_4 \\delta_j^{\\text{highland}} + \\beta_5 \\delta_j^{\\text{weight}} + \\varepsilon_j\n\\] where the three \\(\\sigma\\) coefficients are dummies for Dannon, Highland, and Weight Watchers brands and Yoplait is the baseline brand.\nUse the logitr package to estimate the same model but with the following mixing distributions: \\[\n\\beta_1 \\sim N(\\mu_1, \\sigma_1) \\\\\n\\beta_2 \\sim N(\\mu_2, \\sigma_2)\n\\]"
+  },
+  {
+    "objectID": "slide_file/index.html#question-3-solution",
+    "href": "slide_file/index.html#question-3-solution",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "Question 3 Solution",
+    "text": "Question 3 Solution\n\n\nStandard Logit Model\nCode:\n# Load package\nlibrary(logitr)\n\n# Standard model\nmodel_standard = logitr(\n    data     = yogurt,\n    outcome  = 'choice',\n    obsID    = 'obsID',\n    pars     = c('price', 'feat', 'brand')\n)\n\n# Model coefficients\ncoef(model_standard)\nResult:\n&gt; coef(model_standard)\n       price         feat  brandhiland  brandweight \n  -0.3665546    0.4914392   -3.7154773   -0.6411384 \nbrandyoplait \n   0.7345195 \n\n\n\nMixed Logit Model\nCode:\n# Load package\nlibrary(logitr)\n\n# Standard model\nmodel_mixed = logitr(\n    data     = yogurt,\n    outcome  = 'choice',\n    obsID    = 'obsID',\n    pars     = c('price', 'feat', 'brand'),\n    randPars = c(price = 'n', feat = 'n')\n)\n\n# Model coefficients\ncoef(model_mixed)\nResult:\n&gt; coef(model_mixed)\n        price          feat   brandhiland   brandweight \n-0.3930417945  0.2637660327 -3.9897865512 -0.6637300503 \n brandyoplait      sd_price       sd_feat \n 0.7949907357 -0.0009494817 -2.4318056761"
+  },
+  {
+    "objectID": "slide_file/index.html#reflect",
+    "href": "slide_file/index.html#reflect",
+    "title": "Measuring Consumer Willingness to Enroll in BEV Smart Charging Programs",
+    "section": "Reflect",
+    "text": "Reflect\n\n\nWhat I have learned\n\nConstructed my own theme.scss for a good-looking revealjs slides.\nLearned 2 heterogeneous models: interaction model and mixed logit model.\nPracticed on using R code to solve for both models. For interaction model, we simulate the draws with mvrnorm(); for mixed logit model, we use logitr() to construct and analyze the models.\n\n\n\n\nMy questions\n\nI’m getting used to make revealjs slides, but I wonder how it can be compatible with my notes website. I also want to upload it online and have it accessed in my notes.\nI’m having trouble with applying personalized fonts. For example, I tried “Ubuntu” and “Noto” fonts but they didn’t work. I didn’t have this problem in webpages. I suspect revealjs can only access online-sourced fonts.\n\n\n\n\n\n\n\nPingfan Hu"
+  },
+  {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "Slides",
     "section": "",
-    "text": "BEV - BEV is short for “Battery Electrical Vehicles”. It is a type of electric vehicle (EV) that solely rely on electricity stored in batteries for propulsion. BEV does not have a gasoline engine. The key components of a BEV include an electric motor, a battery pack, and a control system.\nSmart Charging - Smart Charging means to control and monitor the BEV charging process. In our project, it contains SMC and V2G.\nSMC - SMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. Specifically, SMC monitors and controls charging window and amount, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G - V2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
+    "text": "Press “F” for full screen, or access the full screen version here:  Project Slides ."
   },
   {
-    "objectID": "pages/faq.html#terminologies",
-    "href": "pages/faq.html#terminologies",
-    "title": "FAQ",
-    "section": "",
-    "text": "BEV - BEV is short for “Battery Electrical Vehicles”. It is a type of electric vehicle (EV) that solely rely on electricity stored in batteries for propulsion. BEV does not have a gasoline engine. The key components of a BEV include an electric motor, a battery pack, and a control system.\nSmart Charging - Smart Charging means to control and monitor the BEV charging process. In our project, it contains SMC and V2G.\nSMC - SMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. Specifically, SMC monitors and controls charging window and amount, to make sure they are mostly charged during the off-peak periods of the electricity demand.\nV2G - V2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\nConjoint Survey - A conjoint survey question packs different attributes together into each option, so that when participants make choices, they choose the whole package instead of only one attribute. For example, when I choose to buy an iPhone, I accept its expensive price, moderate signal, and durable quality at the same time. In this case, choosing to buy a phone is a conjoint question."
+    "objectID": "slide_file/index.html#introduction",
+    "href": "slide_file/index.html#introduction",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Introduction",
+    "text": "Introduction\n\nBEV (Battery Electric Vehicle) reduces \\(CO_2\\) and prevents air pollution.\nHowever, managing BEV loads has become a problem.\nIntroducing smart charging: SMC and V2G."
   },
   {
-    "objectID": "pages/faq.html#q-a",
-    "href": "pages/faq.html#q-a",
-    "title": "FAQ",
-    "section": "Q & A",
-    "text": "Q & A\nWhy Smart Charging - As BEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. The Smart Charging programs contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the BEV owners.\nWhy Conjoint Survey - A conjoint survey is a pilot simulation to people’s willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we’ll know in what conditions will BEV owners participate in the smart charging program, and how the program will be in details."
+    "objectID": "slide_file/index.html#research-questions",
+    "href": "slide_file/index.html#research-questions",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Research Questions",
+    "text": "Research Questions\n\nSensitivity: How do changes in smart charging program features influence BEV owners’ willingness to opt in?\nMarket Share: Under what conditions will BEV owners be more willing to opt in to smart charging programs?\n\n\nConjoint survey to collect BEV owners’ willingness.\n\n\nMixed logit model to evaluate utilities for simulations."
   },
   {
-    "objectID": "pages/slides.html",
-    "href": "pages/slides.html",
-    "title": "Showcase",
-    "section": "",
-    "text": "Access the full screen version here:  Project Showcase ."
+    "objectID": "slide_file/index.html#method-survey-design",
+    "href": "slide_file/index.html#method-survey-design",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Method: Survey Design",
+    "text": "Method: Survey Design\n\nDiscrete choice experiment (conjoint analysis)\nTwo types of programs: SMC and V2G\n5 attributes for each program type\n6 choice questions for SMC, 6 for V2G\nEach question: 2 program options + “not interested” option\n\n\n\nSMC Attributes:\n\nEnrollment Cash\nMonthly Cash\nOverride Allowance\nMinimum Threshold\nGuaranteed Threshold\n\n\nV2G Attributes:\n\nEnrollment Cash\nOccurrence Cash\nMonthly Occurrence\nLower Bound\nGuaranteed Threshold"
   },
   {
-    "objectID": "pages/showcase.html",
-    "href": "pages/showcase.html",
-    "title": "Showcase",
-    "section": "",
-    "text": "Access the full screen version here:  Project Showcase ."
+    "objectID": "slide_file/index.html#data-collection",
+    "href": "slide_file/index.html#data-collection",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Data Collection",
+    "text": "Data Collection\n\nOnline survey via Facebook and Instagram ads\nTarget: Current BEV owners\nScreening process to ensure BEV ownership\nCurrent sample: 858 total responses\n\n815 completed SMC questions\n414 completed V2G questions\n\nOngoing data collection, target: ~1,500 responses"
+  },
+  {
+    "objectID": "slide_file/index.html#model-specification",
+    "href": "slide_file/index.html#model-specification",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Model Specification",
+    "text": "Model Specification\n\nRandom utility model\nProbability of choosing alternative j:\n\n\\[ P_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}} \\]\n\nMixed logit (MXL) model to account for preference heterogeneity\nEstimated using logitr R package\n100 multi-starts, 500 Sobol draws for simulation"
+  },
+  {
+    "objectID": "slide_file/index.html#results-smc-model",
+    "href": "slide_file/index.html#results-smc-model",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Results: SMC Model",
+    "text": "Results: SMC Model\n\nUtility of “No Choice”: 5.52\nMost influential attributes:\n\nMonthly Cash\nGuaranteed Threshold\n\nLeast influential: Minimum Threshold"
+  },
+  {
+    "objectID": "slide_file/index.html#results-v2g-model",
+    "href": "slide_file/index.html#results-v2g-model",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Results: V2G Model",
+    "text": "Results: V2G Model\n\nUtility of “No Choice”: 5.42\nMost influential attributes:\n\nOccurrence Cash\nEnrollment Cash\n\nHigher baseline participation rate compared to SMC"
+  },
+  {
+    "objectID": "slide_file/index.html#sensitivity-analysis",
+    "href": "slide_file/index.html#sensitivity-analysis",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Sensitivity Analysis",
+    "text": "Sensitivity Analysis\n\nSteeper slop indicates higher sensitivity."
+  },
+  {
+    "objectID": "slide_file/index.html#market-simulations",
+    "href": "slide_file/index.html#market-simulations",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Market Simulations",
+    "text": "Market Simulations\n\n\nSMC Simulation:\n\n78% enrollment with $20 Monthly Cash\n88% enrollment with additional $300 Enrollment Cash\nFlexibility can substitute for some monetary incentives\n\n\n\n\n\n\n\n\n\n\n\nV2G Simulation:\n\n93% enrollment with full monetary incentives\nV2G success highly dependent on utility budget"
+  },
+  {
+    "objectID": "slide_file/index.html#discussion",
+    "href": "slide_file/index.html#discussion",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Discussion",
+    "text": "Discussion\n\nRecurring payments (Monthly Cash) more important than one-time incentives\nRange anxiety reflected in importance of Guaranteed Threshold for SMC\nV2G participants show higher willingness to participate, but sample size smaller\nTrade-off between monetary incentives and flexibility in program design"
+  },
+  {
+    "objectID": "slide_file/index.html#conclusion",
+    "href": "slide_file/index.html#conclusion",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nIncentives are vital for smart charging programs to success.\nBEV owners show willingness to participate in smart charging programs\nKey factors: monetary incentives and guaranteed driving ranges\nV2G programs may attract more willing participants\nFuture work:\n\nCollect more data for subgroup analysis\nIntegrate consumer preferences into grid simulations\nEstimate benefit-cost trade-offs for utilities\n\n\n\n\n\n\nPingfan Hu - IEEE VPPC 2024"
+  },
+  {
+    "objectID": "slide_file/index.html#thank-you",
+    "href": "slide_file/index.html#thank-you",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Thank You!",
+    "text": "Thank You!\nQuestions?\nContact: pingfan.hu@gwu.edu\n\n\n\n\nPingfan Hu - IEEE VPPC 2024"
+  },
+  {
+    "objectID": "slide_file/index.html#background",
+    "href": "slide_file/index.html#background",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Background",
+    "text": "Background\nBEVs (Battery Electric Vehicles) are clean, but the source of electricity might not be clean."
+  },
+  {
+    "objectID": "slide_file/index.html#intro",
+    "href": "slide_file/index.html#intro",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Intro",
+    "text": "Intro\n\nBattery Electric Vehicles (BEVs) are crucial for decarbonization\nUnmanaged BEV charging can strain the grid\nSmart charging programs can help manage demand\nTwo types: Supplier-Managed Charging (SMC) and Vehicle-to-Grid (V2G)\nChallenge: Ensuring BEV owner participation"
+  },
+  {
+    "objectID": "slide_file/index.html#introducing-smart-charging",
+    "href": "slide_file/index.html#introducing-smart-charging",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Introducing Smart Charging",
+    "text": "Introducing Smart Charging\n\n\nSupplier Managed Charging (SMC)\n\nV2G Attributes:\n\nEnrollment Cash\nOccurrence Cash\nMonthly Occurrence\nLower Bound\nGuaranteed Threshold\n\n\n\n\nUnmanaged BEV charging can strain the grid\nSmart charging programs can help manage demand\nTwo types: Supplier-Managed Charging (SMC) and Vehicle-to-Grid (V2G)\nChallenge: Ensuring BEV owner participation"
+  },
+  {
+    "objectID": "slide_file/index.html#smc---supplier-managed-charging",
+    "href": "slide_file/index.html#smc---supplier-managed-charging",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "SMC - Supplier Managed Charging",
+    "text": "SMC - Supplier Managed Charging\n\nSMC smooths out overnight EV charging demand.\nElectricity demand is controlled below capacity threshold."
+  },
+  {
+    "objectID": "slide_file/index.html#v2g---vehicle-to-grid",
+    "href": "slide_file/index.html#v2g---vehicle-to-grid",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "V2G - Vehicle-to-Grid",
+    "text": "V2G - Vehicle-to-Grid"
+  },
+  {
+    "objectID": "slide_file/index.html#program-design",
+    "href": "slide_file/index.html#program-design",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Program Design",
+    "text": "Program Design\n\n\nConjoint Questions:\n\nMonetary Incentives: one-time payment upon enrollment and recurring payment per month (SMC) or per event (V2G).\nCharging Limitations: battery lower bound and guaranteed threshold.\nFlexibility: override allowance (SMC) and monthly occurrence (V2G).\n\nDemographic Questions:\n\nHeterogeneity: How different the BEV owners are based on their demographic information.\n\n\n\n\nConjoint Questions + Demographic Questions"
+  },
+  {
+    "objectID": "slide_file/index.html#program-design-1",
+    "href": "slide_file/index.html#program-design-1",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Program Design",
+    "text": "Program Design\n\n\n\n\nV2G Attributes:\n\nEnrollment Cash\nOccurrence Cash\nMonthly Occurrence\nLower Bound\nGuaranteed Threshold\n\n\n\n\nUnmanaged BEV charging can strain the grid\nSmart charging programs can help manage demand\nTwo types: Supplier-Managed Charging (SMC) and Vehicle-to-Grid (V2G)\nChallenge: Ensuring BEV owner participation"
+  },
+  {
+    "objectID": "slide_file/index.html#program-design-.smallerfalse",
+    "href": "slide_file/index.html#program-design-.smallerfalse",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Program Design {.smaller=false}",
+    "text": "Program Design {.smaller=false}\n\nMonetary Incentives: including one-time payment upon enrollment, and recurring payment per month (SMC) or per event (V2G).\nCharging Limitations: battery lower bound and guaranteed threshold.\nFlexibility: override allowance (SMC) and monthly occurrence (V2G)."
+  },
+  {
+    "objectID": "slide_file/index.html#smc-programs",
+    "href": "slide_file/index.html#smc-programs",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "SMC Programs",
+    "text": "SMC Programs\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nMonthly Cash\n$2 to $20\n\n\n3\nMonthly Override\n0 to 5\n\n\n4\nMin Battery\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nMonthly Cash\n$20\n\n\nMonthly Override\n5"
+  },
+  {
+    "objectID": "slide_file/index.html#v2g-programs",
+    "href": "slide_file/index.html#v2g-programs",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "V2G Programs",
+    "text": "V2G Programs\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nOccurrence Cash\n$2 to $20\n\n\n3\nMonthly Occurrence\n1 to 4\n\n\n4\nLower Bound\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nOccurrence Cash\n$20\n\n\nMonthly Occurrence\n1"
+  },
+  {
+    "objectID": "slide_file/index.html#sample-smc-question",
+    "href": "slide_file/index.html#sample-smc-question",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Sample SMC Question",
+    "text": "Sample SMC Question"
+  },
+  {
+    "objectID": "slide_file/index.html#sample-v2g-question",
+    "href": "slide_file/index.html#sample-v2g-question",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Sample V2G Question",
+    "text": "Sample V2G Question"
+  },
+  {
+    "objectID": "slide_file/index.html#mixed-logit-models",
+    "href": "slide_file/index.html#mixed-logit-models",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Mixed Logit Models",
+    "text": "Mixed Logit Models\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates\n\n\n\n\n\n\n\n(Utilized the logitr R package by prof John Helveston.)"
+  },
+  {
+    "objectID": "slide_file/index.html#survey-results",
+    "href": "slide_file/index.html#survey-results",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Survey Results",
+    "text": "Survey Results\n\nOver 800 valid results from social media.\nConjoint: all attributes are contributive to enrollment, including “No Choice”.\nDemographic: rich elders with 2 or more vehicles."
+  },
+  {
+    "objectID": "slide_file/index.html#sensitivity-analysis-1",
+    "href": "slide_file/index.html#sensitivity-analysis-1",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Sensitivity Analysis",
+    "text": "Sensitivity Analysis\n\n\n\n\n\n\n\n\n\n\nMonetary incentives show higher sensitivity in both programs\nImportance of guaranteed threshold for SMC"
+  },
+  {
+    "objectID": "slide_file/index.html#tornado-plots",
+    "href": "slide_file/index.html#tornado-plots",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Tornado Plots",
+    "text": "Tornado Plots\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonetary incentives are important.\nRecurring incentive is more important than one-time.\nFor SMC, range anxiety is vital, since it happens regularly.\nFor V2G, usability is compromised.\nDiminishing returns exist."
+  },
+  {
+    "objectID": "slide_file/index.html#market-simulation-for-smc",
+    "href": "slide_file/index.html#market-simulation-for-smc",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Market Simulation for SMC",
+    "text": "Market Simulation for SMC"
+  },
+  {
+    "objectID": "slide_file/index.html#market-simulation-for-v2g",
+    "href": "slide_file/index.html#market-simulation-for-v2g",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Market Simulation for V2G",
+    "text": "Market Simulation for V2G"
+  },
+  {
+    "objectID": "slide_file/index.html#survey-structure",
+    "href": "slide_file/index.html#survey-structure",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Survey Structure",
+    "text": "Survey Structure\n\n\nConjoint Questions:\n\nMonetary Incentives: one-time + recurring payment.\nCharging Limitations: remaining battery.\nFlexibility: monthly override (SMC) or occurrence (V2G).\n\nDemographic Questions:\n\nHeterogeneity: How different the BEV owners are based on their demographic information.\nAspects: BEV ownership, charging habits, commute method, age, income, house type, family size, etc."
+  },
+  {
+    "objectID": "slide_file/index.html#mixed-logit-models-using-logitr-r-package",
+    "href": "slide_file/index.html#mixed-logit-models-using-logitr-r-package",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Mixed Logit Models Using logitr R Package",
+    "text": "Mixed Logit Models Using logitr R Package\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates"
+  },
+  {
+    "objectID": "slide_file/index.html#future-work",
+    "href": "slide_file/index.html#future-work",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Future Work",
+    "text": "Future Work\nData Collection\n\nOther than social media, use survey panels to collect more responses.\nIncrease data size from 800 to 2000.\n\nModeling\n\nSubgroup analysis considering heterogeneity.\nMore modeling techniques such as Apollo Choice Modeling.\n\nSimulation\n\nApply customer preferences to grid simulation.\nEstimate benefit-cost trade-offs for utilities.\n\n\n\n\n\nPingfan Hu - IEEE VPPC 2024"
+  },
+  {
+    "objectID": "slide_file/index.html#survey-design-with-formr",
+    "href": "slide_file/index.html#survey-design-with-formr",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Survey Design with formr",
+    "text": "Survey Design with formr\n\n\nConjoint Questions:\n\nMonetary Incentives: one-time + recurring payment.\nCharging Limitations: remaining battery.\nFlexibility: monthly override (SMC) or occurrence (V2G).\n\nDemographic Questions:\n\nHeterogeneity: How different the BEV owners are based on their demographic information.\nAspects: BEV ownership, charging habits, commute method, age, income, house type, family size, etc."
   }
 ]
