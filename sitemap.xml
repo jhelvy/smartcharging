@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jhelvy.github.io/smartcharging/pages/people.html</loc>
-    <lastmod>2024-07-31T14:06:54.049Z</lastmod>
+    <loc>https://jhelvy.github.io/smartcharging/slide_file/index.html</loc>
+    <lastmod>2024-09-15T21:37:39.416Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/smartcharging/pages/about.html</loc>
-    <lastmod>2024-07-31T14:06:54.049Z</lastmod>
+    <loc>https://jhelvy.github.io/smartcharging/faq.html</loc>
+    <lastmod>2024-09-15T21:37:39.356Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/smartcharging/index.html</loc>
-    <lastmod>2024-07-31T14:06:54.048Z</lastmod>
+    <lastmod>2024-09-15T21:37:39.378Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/smartcharging/pages/showcase.html</loc>
-    <lastmod>2024-07-31T14:06:54.053Z</lastmod>
+    <loc>https://jhelvy.github.io/smartcharging/poster.html</loc>
+    <lastmod>2024-09-15T21:37:39.379Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/smartcharging/pages/faq.html</loc>
-    <lastmod>2024-07-31T14:06:54.049Z</lastmod>
+    <loc>https://jhelvy.github.io/smartcharging/slides.html</loc>
+    <lastmod>2024-09-15T21:37:39.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jhelvy.github.io/smartcharging/about.html</loc>
+    <lastmod>2024-09-15T21:37:39.356Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jhelvy.github.io/smartcharging/people.html</loc>
+    <lastmod>2024-09-15T21:37:39.378Z</lastmod>
   </url>
 </urlset>
