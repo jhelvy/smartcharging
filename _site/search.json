@@ -152,5 +152,243 @@
     "title": "Slides",
     "section": "",
     "text": "Press “F” for full screen, or access the full screen version here:  Project Slides ."
+  },
+  {
+    "objectID": "slide_file/index.html#introduction",
+    "href": "slide_file/index.html#introduction",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Introduction",
+    "text": "Introduction\n\nBEV (Battery Electric Vehicle) reduces \\(CO_2\\) and prevents air pollution.\nHowever, managing BEV loads has become a problem.\nIntroducing smart charging: SMC and V2G."
+  },
+  {
+    "objectID": "slide_file/index.html#research-questions",
+    "href": "slide_file/index.html#research-questions",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Research Questions",
+    "text": "Research Questions\n\nSensitivity: How do changes in smart charging program features influence BEV owners’ willingness to opt in?\nMarket Share: Under what conditions will BEV owners be more willing to opt in to smart charging programs?\n\n\nConjoint survey to collect BEV owners’ willingness.\n\n\nMixed logit model to evaluate utilities for simulations."
+  },
+  {
+    "objectID": "slide_file/index.html#method-survey-design",
+    "href": "slide_file/index.html#method-survey-design",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Method: Survey Design",
+    "text": "Method: Survey Design\n\nDiscrete choice experiment (conjoint analysis)\nTwo types of programs: SMC and V2G\n5 attributes for each program type\n6 choice questions for SMC, 6 for V2G\nEach question: 2 program options + “not interested” option\n\n\n\nSMC Attributes:\n\nEnrollment Cash\nMonthly Cash\nOverride Allowance\nMinimum Threshold\nGuaranteed Threshold\n\n\nV2G Attributes:\n\nEnrollment Cash\nOccurrence Cash\nMonthly Occurrence\nLower Bound\nGuaranteed Threshold"
+  },
+  {
+    "objectID": "slide_file/index.html#data-collection",
+    "href": "slide_file/index.html#data-collection",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Data Collection",
+    "text": "Data Collection\n\nOnline survey via Facebook and Instagram ads\nTarget: Current BEV owners\nScreening process to ensure BEV ownership\nCurrent sample: 858 total responses\n\n815 completed SMC questions\n414 completed V2G questions\n\nOngoing data collection, target: ~1,500 responses"
+  },
+  {
+    "objectID": "slide_file/index.html#model-specification",
+    "href": "slide_file/index.html#model-specification",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Model Specification",
+    "text": "Model Specification\n\nRandom utility model\nProbability of choosing alternative j:\n\n\\[ P_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}} \\]\n\nMixed logit (MXL) model to account for preference heterogeneity\nEstimated using logitr R package\n100 multi-starts, 500 Sobol draws for simulation"
+  },
+  {
+    "objectID": "slide_file/index.html#results-smc-model",
+    "href": "slide_file/index.html#results-smc-model",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Results: SMC Model",
+    "text": "Results: SMC Model\n\nUtility of “No Choice”: 5.52\nMost influential attributes:\n\nMonthly Cash\nGuaranteed Threshold\n\nLeast influential: Minimum Threshold"
+  },
+  {
+    "objectID": "slide_file/index.html#results-v2g-model",
+    "href": "slide_file/index.html#results-v2g-model",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Results: V2G Model",
+    "text": "Results: V2G Model\n\nUtility of “No Choice”: 5.42\nMost influential attributes:\n\nOccurrence Cash\nEnrollment Cash\n\nHigher baseline participation rate compared to SMC"
+  },
+  {
+    "objectID": "slide_file/index.html#sensitivity-analysis",
+    "href": "slide_file/index.html#sensitivity-analysis",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Sensitivity Analysis",
+    "text": "Sensitivity Analysis\n\nSteeper slop indicates higher sensitivity."
+  },
+  {
+    "objectID": "slide_file/index.html#market-simulations",
+    "href": "slide_file/index.html#market-simulations",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Market Simulations",
+    "text": "Market Simulations\n\n\nSMC Simulation:\n\n78% enrollment with $20 Monthly Cash\n88% enrollment with additional $300 Enrollment Cash\nFlexibility can substitute for some monetary incentives\n\n\n\n\n\n\n\n\n\n\n\nV2G Simulation:\n\n93% enrollment with full monetary incentives\nV2G success highly dependent on utility budget"
+  },
+  {
+    "objectID": "slide_file/index.html#discussion",
+    "href": "slide_file/index.html#discussion",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Discussion",
+    "text": "Discussion\n\nRecurring payments (Monthly Cash) more important than one-time incentives\nRange anxiety reflected in importance of Guaranteed Threshold for SMC\nV2G participants show higher willingness to participate, but sample size smaller\nTrade-off between monetary incentives and flexibility in program design"
+  },
+  {
+    "objectID": "slide_file/index.html#conclusion",
+    "href": "slide_file/index.html#conclusion",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nIncentives are vital for smart charging programs to success.\nBEV owners show willingness to participate in smart charging programs\nKey factors: monetary incentives and guaranteed driving ranges\nV2G programs may attract more willing participants\nFuture work:\n\nCollect more data for subgroup analysis\nIntegrate consumer preferences into grid simulations\nEstimate benefit-cost trade-offs for utilities\n\n\n\n\n\n\nPingfan Hu - IEEE VPPC 2024"
+  },
+  {
+    "objectID": "slide_file/index.html#thank-you",
+    "href": "slide_file/index.html#thank-you",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Thank You!",
+    "text": "Thank You!\nQuestions?\nContact: pingfan.hu@gwu.edu\n\n\n\n\nPingfan Hu - IEEE VPPC 2024"
+  },
+  {
+    "objectID": "slide_file/index.html#background",
+    "href": "slide_file/index.html#background",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Background",
+    "text": "Background\nBEVs (Battery Electric Vehicles) are clean, but the source of electricity might not be clean."
+  },
+  {
+    "objectID": "slide_file/index.html#intro",
+    "href": "slide_file/index.html#intro",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Intro",
+    "text": "Intro\n\nBattery Electric Vehicles (BEVs) are crucial for decarbonization\nUnmanaged BEV charging can strain the grid\nSmart charging programs can help manage demand\nTwo types: Supplier-Managed Charging (SMC) and Vehicle-to-Grid (V2G)\nChallenge: Ensuring BEV owner participation"
+  },
+  {
+    "objectID": "slide_file/index.html#introducing-smart-charging",
+    "href": "slide_file/index.html#introducing-smart-charging",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Introducing Smart Charging",
+    "text": "Introducing Smart Charging\n\n\nSupplier Managed Charging (SMC)\n\nV2G Attributes:\n\nEnrollment Cash\nOccurrence Cash\nMonthly Occurrence\nLower Bound\nGuaranteed Threshold\n\n\n\n\nUnmanaged BEV charging can strain the grid\nSmart charging programs can help manage demand\nTwo types: Supplier-Managed Charging (SMC) and Vehicle-to-Grid (V2G)\nChallenge: Ensuring BEV owner participation"
+  },
+  {
+    "objectID": "slide_file/index.html#smc---supplier-managed-charging",
+    "href": "slide_file/index.html#smc---supplier-managed-charging",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "SMC - Supplier Managed Charging",
+    "text": "SMC - Supplier Managed Charging\n\nSMC smooths out overnight EV charging demand.\nElectricity demand is controlled below capacity threshold."
+  },
+  {
+    "objectID": "slide_file/index.html#v2g---vehicle-to-grid",
+    "href": "slide_file/index.html#v2g---vehicle-to-grid",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "V2G - Vehicle-to-Grid",
+    "text": "V2G - Vehicle-to-Grid"
+  },
+  {
+    "objectID": "slide_file/index.html#program-design",
+    "href": "slide_file/index.html#program-design",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Program Design",
+    "text": "Program Design\n\n\nConjoint Questions:\n\nMonetary Incentives: one-time payment upon enrollment and recurring payment per month (SMC) or per event (V2G).\nCharging Limitations: battery lower bound and guaranteed threshold.\nFlexibility: override allowance (SMC) and monthly occurrence (V2G).\n\nDemographic Questions:\n\nHeterogeneity: How different the BEV owners are based on their demographic information.\n\n\n\n\nConjoint Questions + Demographic Questions"
+  },
+  {
+    "objectID": "slide_file/index.html#program-design-1",
+    "href": "slide_file/index.html#program-design-1",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Program Design",
+    "text": "Program Design\n\n\n\n\nV2G Attributes:\n\nEnrollment Cash\nOccurrence Cash\nMonthly Occurrence\nLower Bound\nGuaranteed Threshold\n\n\n\n\nUnmanaged BEV charging can strain the grid\nSmart charging programs can help manage demand\nTwo types: Supplier-Managed Charging (SMC) and Vehicle-to-Grid (V2G)\nChallenge: Ensuring BEV owner participation"
+  },
+  {
+    "objectID": "slide_file/index.html#program-design-.smallerfalse",
+    "href": "slide_file/index.html#program-design-.smallerfalse",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Program Design {.smaller=false}",
+    "text": "Program Design {.smaller=false}\n\nMonetary Incentives: including one-time payment upon enrollment, and recurring payment per month (SMC) or per event (V2G).\nCharging Limitations: battery lower bound and guaranteed threshold.\nFlexibility: override allowance (SMC) and monthly occurrence (V2G)."
+  },
+  {
+    "objectID": "slide_file/index.html#smc-programs",
+    "href": "slide_file/index.html#smc-programs",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "SMC Programs",
+    "text": "SMC Programs\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nMonthly Cash\n$2 to $20\n\n\n3\nMonthly Override\n0 to 5\n\n\n4\nMin Battery\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nMonthly Cash\n$20\n\n\nMonthly Override\n5"
+  },
+  {
+    "objectID": "slide_file/index.html#v2g-programs",
+    "href": "slide_file/index.html#v2g-programs",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "V2G Programs",
+    "text": "V2G Programs\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nOccurrence Cash\n$2 to $20\n\n\n3\nMonthly Occurrence\n1 to 4\n\n\n4\nLower Bound\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nOccurrence Cash\n$20\n\n\nMonthly Occurrence\n1"
+  },
+  {
+    "objectID": "slide_file/index.html#sample-smc-question",
+    "href": "slide_file/index.html#sample-smc-question",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Sample SMC Question",
+    "text": "Sample SMC Question"
+  },
+  {
+    "objectID": "slide_file/index.html#sample-v2g-question",
+    "href": "slide_file/index.html#sample-v2g-question",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Sample V2G Question",
+    "text": "Sample V2G Question"
+  },
+  {
+    "objectID": "slide_file/index.html#mixed-logit-models",
+    "href": "slide_file/index.html#mixed-logit-models",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Mixed Logit Models",
+    "text": "Mixed Logit Models\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates\n\n\n\n\n\n\n\n(Utilized the logitr R package by prof John Helveston.)"
+  },
+  {
+    "objectID": "slide_file/index.html#survey-results",
+    "href": "slide_file/index.html#survey-results",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Survey Results",
+    "text": "Survey Results\n\nOver 800 valid results from social media.\nConjoint: all attributes are contributive to enrollment, including “No Choice”.\nDemographic: rich elders with 2 or more vehicles."
+  },
+  {
+    "objectID": "slide_file/index.html#sensitivity-analysis-1",
+    "href": "slide_file/index.html#sensitivity-analysis-1",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Sensitivity Analysis",
+    "text": "Sensitivity Analysis\n\n\n\n\n\n\n\n\n\n\nMonetary incentives show higher sensitivity in both programs\nImportance of guaranteed threshold for SMC"
+  },
+  {
+    "objectID": "slide_file/index.html#tornado-plots",
+    "href": "slide_file/index.html#tornado-plots",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Tornado Plots",
+    "text": "Tornado Plots\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonetary incentives are important.\nRecurring incentive is more important than one-time.\nFor SMC, range anxiety is vital, since it happens regularly.\nFor V2G, usability is compromised.\nDiminishing returns exist."
+  },
+  {
+    "objectID": "slide_file/index.html#market-simulation-for-smc",
+    "href": "slide_file/index.html#market-simulation-for-smc",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Market Simulation for SMC",
+    "text": "Market Simulation for SMC"
+  },
+  {
+    "objectID": "slide_file/index.html#market-simulation-for-v2g",
+    "href": "slide_file/index.html#market-simulation-for-v2g",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Market Simulation for V2G",
+    "text": "Market Simulation for V2G"
+  },
+  {
+    "objectID": "slide_file/index.html#survey-structure",
+    "href": "slide_file/index.html#survey-structure",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Survey Structure",
+    "text": "Survey Structure\n\n\nConjoint Questions:\n\nMonetary Incentives: one-time + recurring payment.\nCharging Limitations: remaining battery.\nFlexibility: monthly override (SMC) or occurrence (V2G).\n\nDemographic Questions:\n\nHeterogeneity: How different the BEV owners are based on their demographic information.\nAspects: BEV ownership, charging habits, commute method, age, income, house type, family size, etc."
+  },
+  {
+    "objectID": "slide_file/index.html#mixed-logit-models-using-logitr-r-package",
+    "href": "slide_file/index.html#mixed-logit-models-using-logitr-r-package",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Mixed Logit Models Using logitr R Package",
+    "text": "Mixed Logit Models Using logitr R Package\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates"
+  },
+  {
+    "objectID": "slide_file/index.html#future-work",
+    "href": "slide_file/index.html#future-work",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Future Work",
+    "text": "Future Work\nData Collection\n\nOther than social media, use survey panels to collect more responses.\nIncrease data size from 800 to 2000.\n\nModeling\n\nSubgroup analysis considering heterogeneity.\nMore modeling techniques such as Apollo Choice Modeling.\n\nSimulation\n\nApply customer preferences to grid simulation.\nEstimate benefit-cost trade-offs for utilities.\n\n\n\n\n\nPingfan Hu - IEEE VPPC 2024"
+  },
+  {
+    "objectID": "slide_file/index.html#survey-design-with-formr",
+    "href": "slide_file/index.html#survey-design-with-formr",
+    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "section": "Survey Design with formr",
+    "text": "Survey Design with formr\n\n\nConjoint Questions:\n\nMonetary Incentives: one-time + recurring payment.\nCharging Limitations: remaining battery.\nFlexibility: monthly override (SMC) or occurrence (V2G).\n\nDemographic Questions:\n\nHeterogeneity: How different the BEV owners are based on their demographic information.\nAspects: BEV ownership, charging habits, commute method, age, income, house type, family size, etc."
   }
 ]
