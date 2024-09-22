@@ -4,8 +4,8 @@ page-layout: full
 toc: false
 ---
 
-Press **"F"** for full screen, or access the full screen version here: <a href="slide_file" class="btn btn-primary btn-sm" role="button" target="_blank"> Project Slides </a>.
+Press **"F"** for full screen, or access the full screen version here: <a href="slide_folder" class="btn btn-primary btn-sm" role="button" target="_blank"> Project Slides </a>.
 
 ::: slide-wrapper
-<iframe class="slide-iframe" src="slide_file"></iframe>
+<iframe class="slide-iframe" src="slide_folder"></iframe>
 :::
