@@ -1,115 +1,185 @@
 [
   {
-    "objectID": "slide_file/index.html#introduction",
-    "href": "slide_file/index.html#introduction",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "This project is led by PI John Paul Helveston from The George Washington University in a partnership with researchers from UC Irvine, UC Davis, and RIT. The team consists of the following members:\n\n\n\n\n\nJohn Paul Helveston, Ph.D.\nJohn Paul Helveston is an Assistant Professor in the Department of Engineering Management and Systems Engineering at the George Washington University. He studies technological change, with a particular interest in accelerating the transition to environmentally sustainable and energy-saving technologies.\n\n\n\n\n\n\n\nPingfan Hu\nPingfan Hu is a Ph.D. student in Systems Engineering at the George Washington University, supervised by PI John Helveston. His primary research topic is the adoption of BEV Smart Charging by conjoint surveys.\n\n\n\n\n\n\n\nBrian Tarroja, Ph.D., P.E.\nBrian Tarroja is a researcher and educator focused on improving the robustness of strategies to carry out the transition to a cleaner, decarbonized energy system. His research centers on understanding how to co-optimize concurrent transitions in energy, water, and transportation infrastructures to maximize beneficial outcomes and avoid or minimize harmful consequences.\n\n\n\n\n\n\n\nMatthew Dean, Ph.D.\nMatthew Dean is an Assistant Professor at UC Irvine conducting research at the intersection of transportation engineering and energy systems. His work prepares cities for emergent shared mobility services, strengthens our decarbonization goals by managing distributed energy assets, and creates healthy communities by getting people out biking, walking, and rolling.\n\n\n\n\n\n\n\nKate Forrest, Ph.D.\nKate E. Forrest is currently a Senior Scientist at Advanced Power and Energy Program (APEP) at the University of California, Irvine. She is an environmental scientist and engineer passionate about clean energy, environmental advocacy, sustainable energy and transportation solutions, science policy, and educational outreach.\n\n\n\n\n\n\n\nEric Hittinger, Ph.D.\nEric Hittinger is an Associate Professor of Public Policy at Rochester Institute of Technology, WILL International Chair at University of Lille, and President-Elect of the US Association for Energy Economics. His research is focused on energy policy, particularly the opportunities and challenges associated with new technologies such as energy storage, renewables, EVs, and efficiency.\n\n\n\n\n\n\n\nAlan Jenn, Ph.D.\nAlan Jenn is an Assistant Professor at the EV group of the Institute of Transportation Studies at the University of California, Davis as well as an affiliate at Lawrence Berkeley National Laboratory. His research is focused on PEVs: integration with the electric grid, adoption of the technology, use in ride-hailing companies, and its impact on transportation finance."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the Smart Charging Project",
+    "section": "",
+    "text": "This image was generated using DALLE 3."
+  },
+  {
+    "objectID": "about.html#project-summary",
+    "href": "about.html#project-summary",
+    "title": "About the Smart Charging Project",
+    "section": "Project Summary",
+    "text": "Project Summary\nThis project aims to understand BEV owners’ preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The three-year project will be performed in two research thrusts:\n\nThrust One: Measure and model BEV charging preferences using conjoint survey.\nThrust Two: Simulate grid performance under different SMC and V2G scenarios.\n\nThe Smart Charging programs contain both SMC and V2G:\n\nSMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption.\nV2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\n\nThe EV charging survey for the first thrust can be accessed here:\n\n EV Charging Survey \n\nThe second thrust is also in early stages, and we are coordinating with partners to begin modeling grid performance under different BEV loading scenarios.\nThis project is supported by the the Alfred P. Sloan Foundation’s Energy and Environment Program."
+  },
+  {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "Slides",
+    "section": "",
+    "text": "Press “F” for full screen, or access the full screen version here:  Project Slides ."
+  },
+  {
+    "objectID": "poster.html",
+    "href": "poster.html",
+    "title": "Poster",
+    "section": "",
+    "text": "Access the full screen version here:  Project Poster ."
+  },
+  {
+    "objectID": "slide_folder/index.html#introduction",
+    "href": "slide_folder/index.html#introduction",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Introduction",
-    "text": "Introduction\n\nBEV (Battery Electric Vehicle) reduces \\(CO_2\\) and prevents air pollution.\nHowever, managing BEV loads has become a problem.\nIntroducing smart charging: SMC and V2G."
+    "text": "Introduction\n\nBEVs (Battery Electric Vehicles) can reduce \\(CO_2\\) and prevent air pollution.\nBut managing BEV charging can become a problem for the grid.\nSmart charging can help, but depends on user acceptance.\n\n\n\n\n\n\n\nAs an introduction…"
   },
   {
-    "objectID": "slide_file/index.html#smc---supplier-managed-charging",
-    "href": "slide_file/index.html#smc---supplier-managed-charging",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#smc---supplier-managed-charging",
+    "href": "slide_folder/index.html#smc---supplier-managed-charging",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "SMC - Supplier Managed Charging",
-    "text": "SMC - Supplier Managed Charging\n\nSMC smooths out overnight EV charging demand.\nElectricity demand is controlled below capacity threshold."
+    "text": "SMC - Supplier Managed Charging\n\nSMC smooths out overnight EV charging demand.\nElectricity demand is controlled below capacity threshold.\n\n\n\n\n\n\n\nThis is the first type of smart charging…"
   },
   {
-    "objectID": "slide_file/index.html#v2g---vehicle-to-grid",
-    "href": "slide_file/index.html#v2g---vehicle-to-grid",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#v2g---vehicle-to-grid",
+    "href": "slide_folder/index.html#v2g---vehicle-to-grid",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "V2G - Vehicle-to-Grid",
-    "text": "V2G - Vehicle-to-Grid"
+    "text": "V2G - Vehicle-to-Grid\n\n\n\n\n\n\nThen, the other way of smart charging, is called V2G…"
   },
   {
-    "objectID": "slide_file/index.html#research-questions",
-    "href": "slide_file/index.html#research-questions",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#research-questions",
+    "href": "slide_folder/index.html#research-questions",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Research Questions",
-    "text": "Research Questions\n\nSensitivity: How do changes in smart charging program features influence BEV owners’ willingness to opt in?\nMarket Share: Under what conditions will BEV owners be more willing to opt in to smart charging programs?\n\n\nConjoint survey to collect BEV owners’ willingness.\n\n\nMixed logit model to evaluate utilities for simulations."
+    "text": "Research Questions\n\nSensitivity: How do changes in smart charging program features influence BEV owners’ willingness to opt in?\nMarket Share: Under what conditions will BEV owners be more willing to opt in to smart charging programs?\n\n\nConjoint survey to collect BEV owners’ willingness.\n\n\nMixed logit model to evaluate utilities for simulations.\n\n\n\nHere we have 2 research questions…\nFor sensitivity, we want to measure and quantify the program features’ influence to owners’ willingness.\nFor market share, we wonder under what conditions they will opt in."
   },
   {
-    "objectID": "slide_file/index.html#survey-design-with-formr",
-    "href": "slide_file/index.html#survey-design-with-formr",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#survey-design-with-formr",
+    "href": "slide_folder/index.html#survey-design-with-formr",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Survey Design with formr",
-    "text": "Survey Design with formr\n\n\nConjoint Questions:\n\nMonetary Incentives: one-time + recurring payment.\nCharging Limitations: remaining battery.\nFlexibility: monthly override (SMC) or occurrence (V2G).\n\nDemographic Questions:\n\nHeterogeneity: How different the BEV owners are based on their demographic information.\nAspects: BEV ownership, charging habits, commute method, age, income, house type, family size, etc."
+    "text": "Survey Design with formr\n\n\nConjoint Questions:\n\nMonetary Incentives: one-time + recurring payment.\nCharging Limitations: remaining battery.\nFlexibility: monthly override (SMC) or occurrence (V2G).\n\nDemographic Questions:\n\nHeterogeneity: How different the BEV owners are based on their demographic information.\nAspects: BEV ownership, charging habits, commute method, age, income, house type, family size, etc.\n\n\n\n\nOur first step will be survey design…"
   },
   {
-    "objectID": "slide_file/index.html#smc-programs",
-    "href": "slide_file/index.html#smc-programs",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#smc-programs",
+    "href": "slide_folder/index.html#smc-programs",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "SMC Programs",
-    "text": "SMC Programs\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nMonthly Cash\n$2 to $20\n\n\n3\nMonthly Override\n0 to 5\n\n\n4\nMin Battery\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nMonthly Cash\n$20\n\n\nMonthly Override\n5"
+    "text": "SMC Programs\n\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nMonthly Cash\n$2 to $20\n\n\n3\nMonthly Override\n0 to 5\n\n\n4\nMin Battery\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nMonthly Cash\n$20\n\n\nMonthly Override\n5\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor the SMC program…"
   },
   {
-    "objectID": "slide_file/index.html#v2g-programs",
-    "href": "slide_file/index.html#v2g-programs",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#v2g-programs",
+    "href": "slide_folder/index.html#v2g-programs",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "V2G Programs",
-    "text": "V2G Programs\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nOccurrence Cash\n$2 to $20\n\n\n3\nMonthly Occurrence\n1 to 4\n\n\n4\nLower Bound\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nOccurrence Cash\n$20\n\n\nMonthly Occurrence\n1"
+    "text": "V2G Programs\n\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nOccurrence Cash\n$2 to $20\n\n\n3\nMonthly Occurrence\n1 to 4\n\n\n4\nLower Bound\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nOccurrence Cash\n$20\n\n\nMonthly Occurrence\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor the V2G program…"
   },
   {
-    "objectID": "slide_file/index.html#sample-smc-question",
-    "href": "slide_file/index.html#sample-smc-question",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#sample-smc-question",
+    "href": "slide_folder/index.html#sample-smc-question",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Sample SMC Question",
-    "text": "Sample SMC Question"
+    "text": "Sample SMC Question\n\n\n\n\n\n\nSo here is a sample SMC question…"
   },
   {
-    "objectID": "slide_file/index.html#sample-v2g-question",
-    "href": "slide_file/index.html#sample-v2g-question",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#sample-v2g-question",
+    "href": "slide_folder/index.html#sample-v2g-question",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Sample V2G Question",
-    "text": "Sample V2G Question"
+    "text": "Sample V2G Question\n\n\n\n\n\n\nSame for the V2G questions…"
   },
   {
-    "objectID": "slide_file/index.html#survey-results",
-    "href": "slide_file/index.html#survey-results",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
-    "section": "Survey Results",
-    "text": "Survey Results\n\nOver 800 valid results from social media.\nConjoint: all attributes are contributive to enrollment, including “No Choice”.\nDemographic: rich elders with 2 or more vehicles."
+    "objectID": "slide_folder/index.html#survey-fielding",
+    "href": "slide_folder/index.html#survey-fielding",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Survey Fielding",
+    "text": "Survey Fielding\n\nMeta: Facebook, Messenger, Instagram - Voluntary\n4 months’ of fielding from March to July in 2024\n858 results after filtering\n\n\n\n\n\n\n\n\n\nWhen the design is done we start to field the survey…"
   },
   {
-    "objectID": "slide_file/index.html#mixed-logit-models-using-logitr-r-package",
-    "href": "slide_file/index.html#mixed-logit-models-using-logitr-r-package",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
-    "section": "Mixed Logit Models Using logitr R Package",
-    "text": "Mixed Logit Models Using logitr R Package\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates"
+    "objectID": "slide_folder/index.html#survey-results---demographics",
+    "href": "slide_folder/index.html#survey-results---demographics",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Survey Results - Demographics",
+    "text": "Survey Results - Demographics\n\n\n\n\n\n\n\n\n\n\nHere are part of the demographics of the survey results…"
   },
   {
-    "objectID": "slide_file/index.html#sensitivity-analysis",
-    "href": "slide_file/index.html#sensitivity-analysis",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#survey-results---willingness-to-participate",
+    "href": "slide_folder/index.html#survey-results---willingness-to-participate",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Survey Results - Willingness to Participate",
+    "text": "Survey Results - Willingness to Participate\nMixed Logit Models\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates\n\n\n\n\n\n\n\nWithout compensation, users will not participate.\n\n\nFor the conjoint results, we used the mixed logit models…"
+  },
+  {
+    "objectID": "slide_folder/index.html#sensitivity-analysis",
+    "href": "slide_folder/index.html#sensitivity-analysis",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Sensitivity Analysis",
-    "text": "Sensitivity Analysis\n\nSteeper slop indicates higher sensitivity."
+    "text": "Sensitivity Analysis\n\n\n\n\n\n\nSteeper slop indicates higher sensitivity.\n\n\nSo, how to judge which one is more sensitive and which one is not? We sketched these sensitivity plots…"
   },
   {
-    "objectID": "slide_file/index.html#tornado-plots",
-    "href": "slide_file/index.html#tornado-plots",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
-    "section": "Tornado Plots",
-    "text": "Tornado Plots\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonetary incentives are important.\nRecurring incentive is more important than one-time.\nFor SMC, range anxiety is vital, since it happens regularly.\nFor V2G, usability is compromised.\nDiminishing returns exist."
+    "objectID": "slide_folder/index.html#tornado-plots---smc",
+    "href": "slide_folder/index.html#tornado-plots---smc",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Tornado Plots - SMC",
+    "text": "Tornado Plots - SMC\n\n\n\n\n\n\nThis tornado plot is generated from the sensitivity plots…"
   },
   {
-    "objectID": "slide_file/index.html#market-simulation-for-smc",
-    "href": "slide_file/index.html#market-simulation-for-smc",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#tornado-plots---v2g",
+    "href": "slide_folder/index.html#tornado-plots---v2g",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Tornado Plots - V2G",
+    "text": "Tornado Plots - V2G\n\n\n\n\n\n\nFor V2G, things are a little different, since both monetary incentives are more sensitive than all others…"
+  },
+  {
+    "objectID": "slide_folder/index.html#tornado-plots---summary",
+    "href": "slide_folder/index.html#tornado-plots---summary",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Tornado Plots - Summary",
+    "text": "Tornado Plots - Summary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonetary incentives are important.\nRecurring incentives are more important than one-time.\nFor SMC, range anxiety is vital, since it happens regularly.\nFor V2G, usability is compromised.\nDiminishing returns exist."
+  },
+  {
+    "objectID": "slide_folder/index.html#market-simulation-for-smc",
+    "href": "slide_folder/index.html#market-simulation-for-smc",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Market Simulation for SMC",
-    "text": "Market Simulation for SMC"
+    "text": "Market Simulation for SMC\n\n\n\n\n\n\nFor marketing simulation, the programs start from simple all the way to sophisticated…"
   },
   {
-    "objectID": "slide_file/index.html#market-simulation-for-v2g",
-    "href": "slide_file/index.html#market-simulation-for-v2g",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#market-simulation-for-v2g",
+    "href": "slide_folder/index.html#market-simulation-for-v2g",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Market Simulation for V2G",
-    "text": "Market Simulation for V2G"
+    "text": "Market Simulation for V2G\n\n\n\n\n\n\nBut for V2G, money is more important than flexibility…"
   },
   {
-    "objectID": "slide_file/index.html#future-work",
-    "href": "slide_file/index.html#future-work",
-    "title": "Measuring Consumer Willingness to BEV Smart Charging Programs",
+    "objectID": "slide_folder/index.html#future-work",
+    "href": "slide_folder/index.html#future-work",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Future Work",
     "text": "Future Work\nData Collection\n\nOther than social media, use survey panels to collect more responses.\nIncrease data size from 800 to 2000.\n\nModeling\n\nSubgroup analysis considering heterogeneity.\nMore modeling techniques such as Apollo Choice Modeling.\n\nSimulation\n\nApply customer preferences to grid simulation.\nEstimate benefit-cost trade-offs for utilities.\n\n\n\n\n\nPingfan Hu - IEEE VPPC 2024"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "BEV (Battery Electric Vehicle) is an important solution to reduce \\(CO_2\\) and air pollution from vehicles. As BEVs gain popularity, managing their electric load on the grid will become increasingly important.\nThis project aims to understand BEV owners’ preferences of adopting the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The program contains both SMC (Supplier-Managed Charging) and V2G (Vehicle-to-Grid). See the About page for more details on the project.\nThis project is supported by the the Alfred P. Sloan Foundation’s Energy and Environment Program."
+  },
+  {
+    "objectID": "index.html#the-smart-charging-project",
+    "href": "index.html#the-smart-charging-project",
+    "title": "Home",
+    "section": "",
+    "text": "BEV (Battery Electric Vehicle) is an important solution to reduce \\(CO_2\\) and air pollution from vehicles. As BEVs gain popularity, managing their electric load on the grid will become increasingly important.\nThis project aims to understand BEV owners’ preferences of adopting the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The program contains both SMC (Supplier-Managed Charging) and V2G (Vehicle-to-Grid). See the About page for more details on the project.\nThis project is supported by the the Alfred P. Sloan Foundation’s Energy and Environment Program."
   },
   {
     "objectID": "faq.html",
@@ -131,54 +201,5 @@
     "title": "FAQ",
     "section": "Q & A",
     "text": "Q & A\nWhy Smart Charging - As BEVs are becoming a considerable part of vehicles, it is urgent to have a better power management process. The Smart Charging programs contribute to a zero-carbon power generation, and will be valuable to both the environment and the participants, including the grid providers and the BEV owners.\nWhy Conjoint Survey - A conjoint survey is a pilot simulation to people’s willingness of adopting to the smart charging program. By a proper modeling, executing, and analysis process, we’ll know in what conditions will BEV owners participate in the smart charging program, and how the program will be in details."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "BEV (Battery Electric Vehicle) is an important solution to reduce \\(CO_2\\) and air pollution from vehicles. As BEVs gain popularity, managing their electric load on the grid will become increasingly important.\nThis project aims to understand BEV owners’ preferences of adopting the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The program contains both SMC (Supplier-Managed Charging) and V2G (Vehicle-to-Grid). See the About page for more details on the project.\nThis project is supported by the the Alfred P. Sloan Foundation’s Energy and Environment Program."
-  },
-  {
-    "objectID": "index.html#the-smart-charging-project",
-    "href": "index.html#the-smart-charging-project",
-    "title": "Home",
-    "section": "",
-    "text": "BEV (Battery Electric Vehicle) is an important solution to reduce \\(CO_2\\) and air pollution from vehicles. As BEVs gain popularity, managing their electric load on the grid will become increasingly important.\nThis project aims to understand BEV owners’ preferences of adopting the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The program contains both SMC (Supplier-Managed Charging) and V2G (Vehicle-to-Grid). See the About page for more details on the project.\nThis project is supported by the the Alfred P. Sloan Foundation’s Energy and Environment Program."
-  },
-  {
-    "objectID": "poster.html",
-    "href": "poster.html",
-    "title": "Poster",
-    "section": "",
-    "text": "Access the full screen version here:  Project Poster ."
-  },
-  {
-    "objectID": "slides.html",
-    "href": "slides.html",
-    "title": "Slides",
-    "section": "",
-    "text": "Press “F” for full screen, or access the full screen version here:  Project Slides ."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About the Smart Charging Project",
-    "section": "",
-    "text": "This image was generated using DALLE 3."
-  },
-  {
-    "objectID": "about.html#project-summary",
-    "href": "about.html#project-summary",
-    "title": "About the Smart Charging Project",
-    "section": "Project Summary",
-    "text": "Project Summary\nThis project aims to understand BEV owners’ preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid. The three-year project will be performed in two research thrusts:\n\nThrust One: Measure and model BEV charging preferences using conjoint survey.\nThrust Two: Simulate grid performance under different SMC and V2G scenarios.\n\nThe Smart Charging programs contain both SMC and V2G:\n\nSMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption.\nV2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\n\nThe EV charging survey for the first thrust can be accessed here:\n\n EV Charging Survey \n\nThe second thrust is also in early stages, and we are coordinating with partners to begin modeling grid performance under different BEV loading scenarios.\nThis project is supported by the the Alfred P. Sloan Foundation’s Energy and Environment Program."
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "This project is led by PI John Paul Helveston from The George Washington University in a partnership with researchers from UC Irvine, UC Davis, and RIT. The team consists of the following members:\n\n\n\n\n\nJohn Paul Helveston, Ph.D.\nJohn Paul Helveston is an Assistant Professor in the Department of Engineering Management and Systems Engineering at the George Washington University. He studies technological change, with a particular interest in accelerating the transition to environmentally sustainable and energy-saving technologies.\n\n\n\n\n\n\n\nPingfan Hu\nPingfan Hu is a Ph.D. student in Systems Engineering at the George Washington University, supervised by PI John Helveston. His primary research topic is the adoption of BEV Smart Charging by conjoint surveys.\n\n\n\n\n\n\n\nBrian Tarroja, Ph.D., P.E.\nBrian Tarroja is a researcher and educator focused on improving the robustness of strategies to carry out the transition to a cleaner, decarbonized energy system. His research centers on understanding how to co-optimize concurrent transitions in energy, water, and transportation infrastructures to maximize beneficial outcomes and avoid or minimize harmful consequences.\n\n\n\n\n\n\n\nMatthew Dean, Ph.D.\nMatthew Dean is an Assistant Professor at UC Irvine conducting research at the intersection of transportation engineering and energy systems. His work prepares cities for emergent shared mobility services, strengthens our decarbonization goals by managing distributed energy assets, and creates healthy communities by getting people out biking, walking, and rolling.\n\n\n\n\n\n\n\nKate Forrest, Ph.D.\nKate E. Forrest is currently a Senior Scientist at Advanced Power and Energy Program (APEP) at the University of California, Irvine. She is an environmental scientist and engineer passionate about clean energy, environmental advocacy, sustainable energy and transportation solutions, science policy, and educational outreach.\n\n\n\n\n\n\n\nEric Hittinger, Ph.D.\nEric Hittinger is an Associate Professor of Public Policy at Rochester Institute of Technology, WILL International Chair at University of Lille, and President-Elect of the US Association for Energy Economics. His research is focused on energy policy, particularly the opportunities and challenges associated with new technologies such as energy storage, renewables, EVs, and efficiency.\n\n\n\n\n\n\n\nAlan Jenn, Ph.D.\nAlan Jenn is an Assistant Professor at the EV group of the Institute of Transportation Studies at the University of California, Davis as well as an affiliate at Lawrence Berkeley National Laboratory. His research is focused on PEVs: integration with the electric grid, adoption of the technology, use in ride-hailing companies, and its impact on transportation finance."
   }
 ]
