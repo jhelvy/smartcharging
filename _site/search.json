@@ -515,7 +515,7 @@
     "href": "slide_folder/index.html#survey-results---willingness-to-participate",
     "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Survey Results - Willingness to Participate",
-    "text": "Survey Results - Willingness to Participate\nMixed Logit Models\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates\n\n\n\n\n\n\n\n\nWithout compensation, users will not participate.\n\n\nFor the conjoint results, we used the mixed logit models…"
+    "text": "Survey Results - Willingness to Participate\n\n\nMixed Logit Models\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates\n\n\n\n\n\n\n\n\nWithout compensation, users will not participate.\n\n\nFor the conjoint results, we used the mixed logit models…"
   },
   {
     "objectID": "slide_folder/index.html#sensitivity-analysis",
@@ -565,5 +565,12 @@
     "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Future Work",
     "text": "Future Work\nData Collection\n\nOther than social media, use survey panels to collect more responses.\nIncrease data size from 800 to 2000.\n\nModeling\n\nSubgroup analysis considering heterogeneity.\nMore modeling techniques such as Apollo Choice Modeling.\n\nSimulation\n\nApply customer preferences to grid simulation.\nEstimate benefit-cost trade-offs for utilities.\n\n\n\n\n\nPingfan Hu - IEEE VPPC 2024"
+  },
+  {
+    "objectID": "slide_folder/index.html#smc---supplier-managed-charging-1",
+    "href": "slide_folder/index.html#smc---supplier-managed-charging-1",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "SMC - Supplier Managed Charging",
+    "text": "SMC - Supplier Managed Charging\n\nSMC smooths out overnight EV charging demand.\nElectricity demand is controlled below capacity threshold."
   }
 ]

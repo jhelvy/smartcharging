@@ -48,11 +48,18 @@ As an introduction...
 - SMC smooths out overnight EV charging demand.
 - Electricity demand is controlled below capacity threshold.
 
-![](figs/education_1.png){fig-align="center"}
+![](figs/education_1_half.png){fig-align="center"}
 
 ::: {.notes}
 This is the first type of smart charging...
 :::
+
+## SMC - Supplier Managed Charging
+
+- SMC smooths out overnight EV charging demand.
+- Electricity demand is controlled below capacity threshold.
+
+![](figs/education_1.png){fig-align="center"}
 
 ## V2G - Vehicle-to-Grid
 
@@ -256,6 +263,7 @@ Here are part of the demographics of the survey results...
 
 ## Survey Results - Willingness to Participate {.smaller}
 
+::: {.fragment}
 ### Mixed Logit Models {style="text-align: center; font-size: 36px; color: #739C69;"}
 
 $$
@@ -265,8 +273,9 @@ u_j = v_j + \epsilon_j = \beta' x + \epsilon_j
 P_j = \frac{e^{v_j}}{\sum_{k=1}^{J} e^{v_k}}
 \end{align*}
 $$
+:::
 
-::: {.columns}
+::: {.columns .fragment}
 ::: {.column width="50%"}
 ### SMC Estimates {style="text-align: center; font-size: 36px; color: #739C69;"}
 
@@ -280,7 +289,7 @@ $$
 :::
 :::
 
-::: {style="text-align: center;"}
+::: {.fragment style="text-align: center;"}
 Without compensation, users will not participate.
 :::
 
