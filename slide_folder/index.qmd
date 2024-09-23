@@ -256,6 +256,7 @@ Here are part of the demographics of the survey results...
 
 ## Survey Results - Willingness to Participate {.smaller}
 
+::: {.fragment}
 ### Mixed Logit Models {style="text-align: center; font-size: 36px; color: #739C69;"}
 
 $$
@@ -265,8 +266,9 @@ u_j = v_j + \epsilon_j = \beta' x + \epsilon_j
 P_j = \frac{e^{v_j}}{\sum_{k=1}^{J} e^{v_k}}
 \end{align*}
 $$
+:::
 
-::: {.columns}
+::: {.columns .fragment}
 ::: {.column width="50%"}
 ### SMC Estimates {style="text-align: center; font-size: 36px; color: #739C69;"}
 
@@ -280,7 +282,7 @@ $$
 :::
 :::
 
-::: {style="text-align: center;"}
+::: {.fragment style="text-align: center;"}
 Without compensation, users will not participate.
 :::
 
