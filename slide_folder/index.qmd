@@ -61,10 +61,6 @@ This is the first type of smart charging...
 
 ![](figs/education_1.png){fig-align="center"}
 
-::: {.notes}
-This is the first type of smart charging...
-:::
-
 ## V2G - Vehicle-to-Grid
 
 ![](figs/education_2.png){fig-align="center" width="70%"}
