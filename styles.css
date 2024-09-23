@@ -43,10 +43,3 @@ thead {
   height: 100%;
   border: 2px solid #5654A2;
 }
-
-/* Media query for screens narrower than 768 pixels */
-@media (max-width: 768px) {
-  .slide-wrapper {
-    display: none;
-  }
-}
