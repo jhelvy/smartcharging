@@ -565,5 +565,12 @@
     "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Future Work",
     "text": "Future Work\nData Collection\n\nOther than social media, use survey panels to collect more responses.\nIncrease data size from 800 to 2000.\n\nModeling\n\nSubgroup analysis considering heterogeneity.\nMore modeling techniques such as Apollo Choice Modeling.\n\nSimulation\n\nApply customer preferences to grid simulation.\nEstimate benefit-cost trade-offs for utilities.\n\n\n\n\n\nPingfan Hu - IEEE VPPC 2024"
+  },
+  {
+    "objectID": "slide_folder/index.html#smc---supplier-managed-charging-1",
+    "href": "slide_folder/index.html#smc---supplier-managed-charging-1",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "SMC - Supplier Managed Charging",
+    "text": "SMC - Supplier Managed Charging\n\nSMC smooths out overnight EV charging demand.\nElectricity demand is controlled below capacity threshold.\n\n\n\n\n\n\n\nThis is the first type of smart charging…"
   }
 ]
