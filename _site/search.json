@@ -466,21 +466,21 @@
     "href": "slide_folder/index.html#survey-design-with-formr",
     "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Survey Design with formr",
-    "text": "Survey Design with formr\n\n\nConjoint Questions:\n\nMonetary Incentives: one-time + recurring payment.\nCharging Limitations: remaining battery.\nFlexibility: monthly override (SMC) or occurrence (V2G).\n\nDemographic Questions:\n\nHeterogeneity: How different the BEV owners are based on their demographic information.\nAspects: BEV ownership, charging habits, commute method, age, income, house type, family size, etc.\n\n\n\n\nOur first step will be survey design…"
+    "text": "Survey Design with formr\n\n\n\nSurvey Components\n\nConjoint Questions:\n\nMonetary Incentives\nCharging Limitations\nFlexibility\n\nDemographic Questions:\n\nBEV Ownership & Usage\nPersonal & Household Info\n\n\n\n\nConjoint Attributes Sample\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nMonthly Cash\n$2 to $20\n\n\n3\nMonthly Override\n0 to 5\n\n\n4\nMin Battery\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nOur first step will be survey design…"
   },
   {
     "objectID": "slide_folder/index.html#smc-programs",
     "href": "slide_folder/index.html#smc-programs",
     "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "SMC Programs",
-    "text": "SMC Programs\n\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nMonthly Cash\n$2 to $20\n\n\n3\nMonthly Override\n0 to 5\n\n\n4\nMin Battery\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nMonthly Cash\n$20\n\n\nMonthly Override\n5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor the SMC program…"
+    "text": "SMC Programs\n\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nMonthly Cash\n$2 to $20\n\n\n3\nMonthly Override\n0 to 5\n\n\n4\nMin Battery\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nMonthly Cash\n$20\n\n\nMonthly Override\n5\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor the SMC program…"
   },
   {
     "objectID": "slide_folder/index.html#v2g-programs",
     "href": "slide_folder/index.html#v2g-programs",
     "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "V2G Programs",
-    "text": "V2G Programs\n\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nOccurrence Cash\n$2 to $20\n\n\n3\nMonthly Occurrence\n1 to 4\n\n\n4\nLower Bound\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nOccurrence Cash\n$20\n\n\nMonthly Occurrence\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor the V2G program…"
+    "text": "V2G Programs\n\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nOccurrence Cash\n$2 to $20\n\n\n3\nMonthly Occurrence\n1 to 4\n\n\n4\nLower Bound\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nOccurrence Cash\n$20\n\n\nMonthly Occurrence\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor the V2G program…"
   },
   {
     "objectID": "slide_folder/index.html#sample-smc-question",
@@ -515,14 +515,14 @@
     "href": "slide_folder/index.html#survey-results---willingness-to-participate",
     "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Survey Results - Willingness to Participate",
-    "text": "Survey Results - Willingness to Participate\n\n\nMixed Logit Models\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates\n\n\n\n\n\n\n\n\nWithout compensation, users will not participate.\n\n\nFor the conjoint results, we used the mixed logit models…"
+    "text": "Survey Results - Willingness to Participate\n\n\nMixed Logit Models\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates\n\n\n\n\n\n\n\nWithout compensation, users will not participate.\n\n\nFor the conjoint results, we used the mixed logit models…"
   },
   {
     "objectID": "slide_folder/index.html#sensitivity-analysis",
     "href": "slide_folder/index.html#sensitivity-analysis",
     "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Sensitivity Analysis",
-    "text": "Sensitivity Analysis\n\n\n\n\n\n\nSteeper slop indicates higher sensitivity.\n\n\nSo, how to judge which one is more sensitive and which one is not? We sketched these sensitivity plots…"
+    "text": "Sensitivity Analysis"
   },
   {
     "objectID": "slide_folder/index.html#tornado-plots---smc",
@@ -543,7 +543,7 @@
     "href": "slide_folder/index.html#tornado-plots---summary",
     "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Tornado Plots - Summary",
-    "text": "Tornado Plots - Summary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonetary incentives are important.\nRecurring incentives are more important than one-time.\nFor SMC, range anxiety is vital, since it happens regularly.\nFor V2G, usability is compromised.\nDiminishing returns exist."
+    "text": "Tornado Plots - Summary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonetary incentives are important.\nRecurring incentives are more important than one-time.\nFor SMC, range anxiety is vital, since it happens regularly.\nFor V2G, usability is compromised.\nDiminishing returns exist."
   },
   {
     "objectID": "slide_folder/index.html#market-simulation-for-smc",
@@ -572,5 +572,40 @@
     "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "SMC - Supplier Managed Charging",
     "text": "SMC - Supplier Managed Charging\n\nSMC smooths out overnight EV charging demand.\nElectricity demand is controlled below capacity threshold."
+  },
+  {
+    "objectID": "slide_folder/index.html#sensitivity-analysis-1",
+    "href": "slide_folder/index.html#sensitivity-analysis-1",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Sensitivity Analysis",
+    "text": "Sensitivity Analysis\n\n\n\n\n\n\nSteeper slope indicates higher sensitivity.\n\n\nSo, how to judge which one is more sensitive and which one is not? We sketched these sensitivity plots…"
+  },
+  {
+    "objectID": "slide_folder/index.html#top-10-bev-ownership",
+    "href": "slide_folder/index.html#top-10-bev-ownership",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Top 10 BEV Ownership",
+    "text": "Top 10 BEV Ownership"
+  },
+  {
+    "objectID": "slide_folder/index.html#top-10-bev-car-models",
+    "href": "slide_folder/index.html#top-10-bev-car-models",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Top 10 BEV Car Models",
+    "text": "Top 10 BEV Car Models"
+  },
+  {
+    "objectID": "slide_folder/index.html#survey-results---top-10-bev",
+    "href": "slide_folder/index.html#survey-results---top-10-bev",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Survey Results - Top 10 BEV",
+    "text": "Survey Results - Top 10 BEV"
+  },
+  {
+    "objectID": "slide_folder/index.html#conjoint-question-explained",
+    "href": "slide_folder/index.html#conjoint-question-explained",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Conjoint Question Explained",
+    "text": "Conjoint Question Explained\nA Sample Conjoint Question\n\n\n\n\n\n\n\nYou are provided with different sets of attributes.\nYou choose one set instead of one attribute."
   }
 ]

@@ -89,27 +89,23 @@ Then, the other way of smart charging, is called V2G...
 3. For market share, we wonder under what conditions they will opt in.
 :::
 
-## Survey Design with `formr`
-
-:::{style="margin: 0.5em;"}
-1. Conjoint Questions:
-    a. **Monetary Incentives**: one-time + recurring payment.
-    b. **Charging Limitations**: remaining battery.
-    c. **Flexibility**: monthly override (SMC) or occurrence (V2G).
-2. Demographic Questions:
-    a. **Heterogeneity**: How different the BEV owners are based on their demographic information.
-    b. **Aspects**: BEV ownership, charging habits, commute method, age, income, house type, family size, etc.
-:::
-
-::: {.notes}
-Our first step will be survey design...
-:::
-
-## SMC Programs {.smaller style="line-height: 1.8;"}
+## Survey Design with `formr` {.smaller style="line-height: 1.8;"}
 
 ::: {.columns}
 ::: {.column .fragment width="50%"}
-### Attributes {style="text-align: center; font-size: 36px; color: #739C69;"}
+### Survey Components {style="text-align: center; font-size: 36px; color: #739C69;"}
+
+1. **Conjoint Questions:**
+    a. Monetary Incentives
+    b. Charging Limitations
+    c. Flexibility
+2. **Demographic Questions:**
+    a. BEV Ownership & Usage
+    b. Personal & Household Info
+:::
+
+::: {.column .fragment width="50%"}
+### Conjoint Attributes Sample {style="text-align: center; font-size: 36px; color: #739C69;"}
 
 :::{style="border: 2px solid #333; border-radius: 8px;"}
 ```{r}
@@ -124,6 +120,35 @@ smc_attributes_kable <- smc_attributes %>%
     kable(escape = FALSE, align = c("c", "l", "l")) %>% 
     kable_styling(position = "center")
 
+smc_attributes_kable
+```
+:::
+:::
+:::
+
+::: {.notes}
+Our first step will be survey design...
+:::
+
+## Conjoint Question Explained
+
+### A Sample Conjoint Question {style="text-align: center; font-size: 36px; color: #739C69;"}
+
+![](figs/conjoint_example.jpg){fig-align="center"}
+
+:::{style="margin-left: 3em;"}
+1. You are provided with different **sets** of attributes.
+2. You choose one **set** instead of one **attribute**.
+:::
+
+## SMC Programs {.smaller style="line-height: 1.8;"}
+
+::: {.columns}
+::: {.column .fragment width="50%"}
+### Attributes {style="text-align: center; font-size: 36px; color: #739C69;"}
+
+:::{style="border: 2px solid #333; border-radius: 8px;"}
+```{r}
 smc_attributes_kable
 ```
 :::
@@ -243,6 +268,9 @@ Same for the V2G questions...
 When the design is done we start to field the survey...
 :::
 
+## Survey Results - Top 10 BEV
+![](figs/top_bev.png)
+
 ## Survey Results - Demographics
 
 ::: {.fragment style="fig-align: center;"}
@@ -299,10 +327,14 @@ For the conjoint results, we used the mixed logit models...
 
 ## Sensitivity Analysis
 
-![](figs/sensitivity_plots.png){fig-align="center"}
+![](figs/sensitivity_plots_1.png){fig-align="center"}
+
+## Sensitivity Analysis
+
+![](figs/sensitivity_plots_2.png){fig-align="center"}
 
 ::: {style="text-align: center;"}
-Steeper slop indicates higher sensitivity.
+Steeper slope indicates higher sensitivity.
 :::
 
 ::: {.notes}
