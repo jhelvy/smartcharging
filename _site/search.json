@@ -963,7 +963,7 @@
     "href": "slides/emse/index.html#literature-review",
     "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
     "section": "Literature Review",
-    "text": "Literature Review\n\nA study by Wong et al. (2023) examined incentives affect the EV owners’ acceptance, but EV ownership is only 19%.\nA study by Philip and Whitehead (2024) found range anxiety matters, but EV ownership is only 1.28%.\nAnother study by Huang et al. (2021) indicates the importance of fast charging, but the sample size is only 157.\n\nNone of them collected demographics data to study heterogeneity.\n\nWe need high EV ownership & large sample size, and consider heterogeneity."
+    "text": "Literature Review\n\nA study by Wong et al. (2023) examined incentives affect the EV owners’ acceptance, but EV ownership is only 19%.\nA study by Philip and Whitehead (2024) found range anxiety matters, but EV ownership is only 1.28%.\nAnother study by Huang et al. (2021) indicates the importance of fast charging, but the sample size is only 157.\n\nNone of them have demographics data to study heterogeneity.\n\nWe need high EV ownership & large sample size, and consider heterogeneity."
   },
   {
     "objectID": "slides/emse/index.html#reference-list",

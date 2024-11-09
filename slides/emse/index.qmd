@@ -64,7 +64,7 @@ library(kableExtra)
 2. A study by @philip_consumer_2024 found **range anxiety** matters, <span style="color: #739C69">but EV ownership is only 1.28%</span>.
 3. Another study by @huang_are_2021 indicates the importance of **fast charging**, <span style="color: #739C69">but the sample size is only 157</span>.
 
-None of them collected demographics data to study <span style="color: #739C69">heterogeneity</span>.
+None of them have demographics data to study <span style="color: #739C69">heterogeneity</span>.
 
 ::: {.centered-text .container}
 We need high EV ownership & large sample size, and consider heterogeneity.
