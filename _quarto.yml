@@ -48,8 +48,13 @@ website:
         href: poster.qmd
         text: "Poster"
       - icon: file-earmark-slides
-        href: slides.qmd
         text: "Slides"
+        menu: 
+          - href: slides_ieee.qmd
+            text: "IEEE VPPC"
+          - href: slides_emse.qmd
+            text: "EMSE 8999"
+          
     right:
       - icon: question-circle-fill
         href: faq.qmd

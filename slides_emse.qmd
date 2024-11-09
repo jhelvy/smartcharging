@@ -1,0 +1,11 @@
+---
+title: "Slides for EMSE 8001"
+page-layout: full
+toc: false
+---
+
+Press **"F"** for full screen, or access the full screen version here: <a href="slides/emse" class="btn btn-primary btn-sm" role="button" target="_blank"> Project Slides </a>.
+
+::: slide-wrapper
+<iframe class="slide-iframe" src="slides/emse"></iframe>
+:::

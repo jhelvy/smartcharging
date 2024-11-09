@@ -607,5 +607,418 @@
     "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
     "section": "Conjoint Question Explained",
     "text": "Conjoint Question Explained\nA Sample Conjoint Question\n\n\n\n\n\n\n\nYou are provided with different sets of attributes.\nYou choose one set instead of one attribute."
+  },
+  {
+    "objectID": "slides_emse.html",
+    "href": "slides_emse.html",
+    "title": "Slides for EMSE 8001",
+    "section": "",
+    "text": "Press “F” for full screen, or access the full screen version here:  Project Slides ."
+  },
+  {
+    "objectID": "slides/ieee/index.html",
+    "href": "slides/ieee/index.html",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "",
+    "text": "BEVs (Battery Electric Vehicles) can reduce \\(CO_2\\) and prevent air pollution.\nBut managing BEV charging can become a problem for the grid.\nSmart charging can help, but depends on user acceptance.\n\n\n\n\n\n\n\nAs an introduction…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#introduction",
+    "href": "slides/ieee/index.html#introduction",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Introduction",
+    "text": "Introduction\n\nBEVs (Battery Electric Vehicles) can reduce \\(CO_2\\) and prevent air pollution.\nBut managing BEV charging can become a problem for the grid.\nSmart charging can help, but depends on user acceptance.\n\n\n\n\n\n\n\nAs an introduction…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#smc---supplier-managed-charging",
+    "href": "slides/ieee/index.html#smc---supplier-managed-charging",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "SMC - Supplier Managed Charging",
+    "text": "SMC - Supplier Managed Charging\n\nSMC smooths out overnight EV charging demand.\nElectricity demand is controlled below capacity threshold.\n\n\n\n\n\n\n\nThis is the first type of smart charging…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#smc---supplier-managed-charging-1",
+    "href": "slides/ieee/index.html#smc---supplier-managed-charging-1",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "SMC - Supplier Managed Charging",
+    "text": "SMC - Supplier Managed Charging\n\nSMC smooths out overnight EV charging demand.\nElectricity demand is controlled below capacity threshold."
+  },
+  {
+    "objectID": "slides/ieee/index.html#v2g---vehicle-to-grid",
+    "href": "slides/ieee/index.html#v2g---vehicle-to-grid",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "V2G - Vehicle-to-Grid",
+    "text": "V2G - Vehicle-to-Grid\n\n\n\n\n\n\nThen, the other way of smart charging, is called V2G…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#research-questions",
+    "href": "slides/ieee/index.html#research-questions",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Research Questions",
+    "text": "Research Questions\n\nSensitivity: How do changes in smart charging program features influence BEV owners’ willingness to opt in?\nMarket Share: Under what conditions will BEV owners be more willing to opt in to smart charging programs?\n\n\nConjoint survey to collect BEV owners’ willingness.\n\n\nMixed logit model to evaluate utilities for simulations.\n\n\n\nHere we have 2 research questions…\nFor sensitivity, we want to measure and quantify the program features’ influence to owners’ willingness.\nFor market share, we wonder under what conditions they will opt in."
+  },
+  {
+    "objectID": "slides/ieee/index.html#survey-design-with-formr",
+    "href": "slides/ieee/index.html#survey-design-with-formr",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Survey Design with formr",
+    "text": "Survey Design with formr\n\n\n\nSurvey Components\n\nConjoint Questions:\n\nMonetary Incentives\nCharging Limitations\nFlexibility\n\nDemographic Questions:\n\nBEV Ownership & Usage\nPersonal & Household Info\n\n\n\n\nConjoint Attributes Sample\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nMonthly Cash\n$2 to $20\n\n\n3\nMonthly Override\n0 to 5\n\n\n4\nMin Battery\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nOur first step will be survey design…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#conjoint-question-explained",
+    "href": "slides/ieee/index.html#conjoint-question-explained",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Conjoint Question Explained",
+    "text": "Conjoint Question Explained\nA Sample Conjoint Question\n\n\n\n\n\n\n\nYou are provided with different sets of attributes.\nYou choose one set instead of one attribute."
+  },
+  {
+    "objectID": "slides/ieee/index.html#smc-programs",
+    "href": "slides/ieee/index.html#smc-programs",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "SMC Programs",
+    "text": "SMC Programs\n\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nMonthly Cash\n$2 to $20\n\n\n3\nMonthly Override\n0 to 5\n\n\n4\nMin Battery\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nMonthly Cash\n$20\n\n\nMonthly Override\n5\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor the SMC program…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#v2g-programs",
+    "href": "slides/ieee/index.html#v2g-programs",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "V2G Programs",
+    "text": "V2G Programs\n\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nOccurrence Cash\n$2 to $20\n\n\n3\nMonthly Occurrence\n1 to 4\n\n\n4\nLower Bound\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nOccurrence Cash\n$20\n\n\nMonthly Occurrence\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor the V2G program…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#sample-smc-question",
+    "href": "slides/ieee/index.html#sample-smc-question",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Sample SMC Question",
+    "text": "Sample SMC Question\n\n\n\n\n\n\nSo here is a sample SMC question…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#sample-v2g-question",
+    "href": "slides/ieee/index.html#sample-v2g-question",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Sample V2G Question",
+    "text": "Sample V2G Question\n\n\n\n\n\n\nSame for the V2G questions…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#survey-fielding",
+    "href": "slides/ieee/index.html#survey-fielding",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Survey Fielding",
+    "text": "Survey Fielding\n\nMeta: Facebook, Messenger, Instagram - Voluntary\n4 months’ of fielding from March to July in 2024\n858 results after filtering\n\n\n\n\n\n\n\n\n\nWhen the design is done we start to field the survey…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#survey-results---top-10-bev",
+    "href": "slides/ieee/index.html#survey-results---top-10-bev",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Survey Results - Top 10 BEV",
+    "text": "Survey Results - Top 10 BEV"
+  },
+  {
+    "objectID": "slides/ieee/index.html#survey-results---demographics",
+    "href": "slides/ieee/index.html#survey-results---demographics",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Survey Results - Demographics",
+    "text": "Survey Results - Demographics\n\n\n\n\n\n\n\n\n\n\nHere are part of the demographics of the survey results…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#survey-results---willingness-to-participate",
+    "href": "slides/ieee/index.html#survey-results---willingness-to-participate",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Survey Results - Willingness to Participate",
+    "text": "Survey Results - Willingness to Participate\n\n\nMixed Logit Models\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates\n\n\n\n\n\n\n\nWithout compensation, users will not participate.\n\n\nFor the conjoint results, we used the mixed logit models…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#sensitivity-analysis",
+    "href": "slides/ieee/index.html#sensitivity-analysis",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Sensitivity Analysis",
+    "text": "Sensitivity Analysis"
+  },
+  {
+    "objectID": "slides/ieee/index.html#sensitivity-analysis-1",
+    "href": "slides/ieee/index.html#sensitivity-analysis-1",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Sensitivity Analysis",
+    "text": "Sensitivity Analysis\n\n\n\n\n\n\nSteeper slope indicates higher sensitivity.\n\n\nSo, how to judge which one is more sensitive and which one is not? We sketched these sensitivity plots…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#tornado-plots---smc",
+    "href": "slides/ieee/index.html#tornado-plots---smc",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Tornado Plots - SMC",
+    "text": "Tornado Plots - SMC\n\n\n\n\n\n\nThis tornado plot is generated from the sensitivity plots…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#tornado-plots---v2g",
+    "href": "slides/ieee/index.html#tornado-plots---v2g",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Tornado Plots - V2G",
+    "text": "Tornado Plots - V2G\n\n\n\n\n\n\nFor V2G, things are a little different, since both monetary incentives are more sensitive than all others…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#tornado-plots---summary",
+    "href": "slides/ieee/index.html#tornado-plots---summary",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Tornado Plots - Summary",
+    "text": "Tornado Plots - Summary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonetary incentives are important.\nRecurring incentives are more important than one-time.\nFor SMC, range anxiety is vital, since it happens regularly.\nFor V2G, usability is compromised.\nDiminishing returns exist."
+  },
+  {
+    "objectID": "slides/ieee/index.html#market-simulation-for-smc",
+    "href": "slides/ieee/index.html#market-simulation-for-smc",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Market Simulation for SMC",
+    "text": "Market Simulation for SMC\n\n\n\n\n\n\nFor marketing simulation, the programs start from simple all the way to sophisticated…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#market-simulation-for-v2g",
+    "href": "slides/ieee/index.html#market-simulation-for-v2g",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Market Simulation for V2G",
+    "text": "Market Simulation for V2G\n\n\n\n\n\n\nBut for V2G, money is more important than flexibility…"
+  },
+  {
+    "objectID": "slides/ieee/index.html#future-work",
+    "href": "slides/ieee/index.html#future-work",
+    "title": "Measuring Consumer Willingness to Participate in BEV Smart Charging Programs",
+    "section": "Future Work",
+    "text": "Future Work\nData Collection\n\nOther than social media, use survey panels to collect more responses.\nIncrease data size from 800 to 2000.\n\nModeling\n\nSubgroup analysis considering heterogeneity.\nMore modeling techniques such as Apollo Choice Modeling.\n\nSimulation\n\nApply customer preferences to grid simulation.\nEstimate benefit-cost trade-offs for utilities.\n\n\n\n\n\nPingfan Hu - IEEE VPPC 2024"
+  },
+  {
+    "objectID": "slides_ieee.html",
+    "href": "slides_ieee.html",
+    "title": "Slides for IEEE VPPC",
+    "section": "",
+    "text": "Press “F” for full screen, or access the full screen version here:  Project Slides ."
+  },
+  {
+    "objectID": "slides/emse/index.html",
+    "href": "slides/emse/index.html",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "",
+    "text": "BEVs (Battery Electric Vehicles) can reduce \\(CO_2\\) and prevent air pollution.\nBut managing BEV charging can become a problem for the grid.\nSmart charging can help, but depends on user acceptance.\n\n\n\n\n\n\n\nAs an introduction…"
+  },
+  {
+    "objectID": "slides/emse/index.html#introduction",
+    "href": "slides/emse/index.html#introduction",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Introduction",
+    "text": "Introduction\n\nBEVs (Battery Electric Vehicles) can reduce \\(CO_2\\) and prevent air pollution.\nBut managing BEV charging can become a problem for the grid.\nSmart charging can help, but depends on user acceptance."
+  },
+  {
+    "objectID": "slides/emse/index.html#smc---supplier-managed-charging",
+    "href": "slides/emse/index.html#smc---supplier-managed-charging",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "SMC - Supplier Managed Charging",
+    "text": "SMC - Supplier Managed Charging\n\nSMC smooths out overnight EV charging demand.\nElectricity demand is controlled below capacity threshold."
+  },
+  {
+    "objectID": "slides/emse/index.html#smc---supplier-managed-charging-1",
+    "href": "slides/emse/index.html#smc---supplier-managed-charging-1",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "SMC - Supplier Managed Charging",
+    "text": "SMC - Supplier Managed Charging\n\nSMC smooths out overnight EV charging demand.\nElectricity demand is controlled below capacity threshold."
+  },
+  {
+    "objectID": "slides/emse/index.html#v2g---vehicle-to-grid",
+    "href": "slides/emse/index.html#v2g---vehicle-to-grid",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "V2G - Vehicle-to-Grid",
+    "text": "V2G - Vehicle-to-Grid"
+  },
+  {
+    "objectID": "slides/emse/index.html#research-questions",
+    "href": "slides/emse/index.html#research-questions",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Research Questions",
+    "text": "Research Questions\n\nSensitivity: How do changes in smart charging program features influence BEV owners’ willingness to opt in?\nMarket Share: Under what conditions will BEV owners be more willing to opt in to smart charging programs?\n\n\nConjoint survey to collect BEV owners’ willingness.\n\n\nMixed logit model to evaluate utilities for simulations."
+  },
+  {
+    "objectID": "slides/emse/index.html#survey-design-with-formr",
+    "href": "slides/emse/index.html#survey-design-with-formr",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Survey Design with formr",
+    "text": "Survey Design with formr\n\n\n\nSurvey Components\n\nConjoint Questions:\n\nMonetary Incentives\nCharging Limitations\nFlexibility\n\nDemographic Questions:\n\nBEV Ownership & Usage\nPersonal & Household Info\n\n\n\n\nConjoint Attributes Sample\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nMonthly Cash\n$2 to $20\n\n\n3\nMonthly Override\n0 to 5\n\n\n4\nMin Battery\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%"
+  },
+  {
+    "objectID": "slides/emse/index.html#conjoint-question-explained",
+    "href": "slides/emse/index.html#conjoint-question-explained",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Conjoint Question Explained",
+    "text": "Conjoint Question Explained\nA Sample Conjoint Question\n\n\n\n\n\n\n\nYou are provided with different sets of attributes.\nYou choose one set instead of one attribute."
+  },
+  {
+    "objectID": "slides/emse/index.html#smc-programs",
+    "href": "slides/emse/index.html#smc-programs",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "SMC Programs",
+    "text": "SMC Programs\n\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nMonthly Cash\n$2 to $20\n\n\n3\nMonthly Override\n0 to 5\n\n\n4\nMin Battery\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nMonthly Cash\n$20\n\n\nMonthly Override\n5"
+  },
+  {
+    "objectID": "slides/emse/index.html#v2g-programs",
+    "href": "slides/emse/index.html#v2g-programs",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "V2G Programs",
+    "text": "V2G Programs\n\n\n\nAttributes\n\n\n\n\n\n\nNo.\nAttributes\nRange\n\n\n\n\n1\nEnrollment Cash\n$50 to $300\n\n\n2\nOccurrence Cash\n$2 to $20\n\n\n3\nMonthly Occurrence\n1 to 4\n\n\n4\nLower Bound\n20% to 40%\n\n\n5\nGuaranteed Battery\n60% to 80%\n\n\n\n\n\n\n\n\n\n\nSample Program\n\n\n\n\n\n\nAttributes\nValues\n\n\n\n\nEnrollment Cash\n$300\n\n\nOccurrence Cash\n$20\n\n\nMonthly Occurrence\n1"
+  },
+  {
+    "objectID": "slides/emse/index.html#sample-smc-question",
+    "href": "slides/emse/index.html#sample-smc-question",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Sample SMC Question",
+    "text": "Sample SMC Question"
+  },
+  {
+    "objectID": "slides/emse/index.html#sample-v2g-question",
+    "href": "slides/emse/index.html#sample-v2g-question",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Sample V2G Question",
+    "text": "Sample V2G Question"
+  },
+  {
+    "objectID": "slides/emse/index.html#survey-fielding",
+    "href": "slides/emse/index.html#survey-fielding",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Survey Fielding",
+    "text": "Survey Fielding\nMeta: Facebook, Messenger, Instagram - Voluntary\n\nFielding from March to July in 2024\n803 results after filtering\n\nDynata: Survey Panel - Payment to real BEV owners only\n\nFielding from September to November in 2024\n553 results after filtering"
+  },
+  {
+    "objectID": "slides/emse/index.html#survey-results---top-10-bev",
+    "href": "slides/emse/index.html#survey-results---top-10-bev",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Survey Results - Top 10 BEV",
+    "text": "Survey Results - Top 10 BEV"
+  },
+  {
+    "objectID": "slides/emse/index.html#survey-results---demographics",
+    "href": "slides/emse/index.html#survey-results---demographics",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Survey Results - Demographics",
+    "text": "Survey Results - Demographics"
+  },
+  {
+    "objectID": "slides/emse/index.html#survey-results---willingness-to-participate",
+    "href": "slides/emse/index.html#survey-results---willingness-to-participate",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Survey Results - Willingness to Participate",
+    "text": "Survey Results - Willingness to Participate\n\n\nMixed Logit Models\n\\[\n\\begin{align*}\nu_j = v_j + \\epsilon_j = \\beta' x + \\epsilon_j\n\\qquad\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\end{align*}\n\\]\n\n\n\nSMC Estimates\n\n\n\n\n\n\nV2G Estimates\n\n\n\n\n\n\n\nWithout compensation, users will not participate."
+  },
+  {
+    "objectID": "slides/emse/index.html#sensitivity-analysis",
+    "href": "slides/emse/index.html#sensitivity-analysis",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Sensitivity Analysis",
+    "text": "Sensitivity Analysis"
+  },
+  {
+    "objectID": "slides/emse/index.html#sensitivity-analysis-1",
+    "href": "slides/emse/index.html#sensitivity-analysis-1",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Sensitivity Analysis",
+    "text": "Sensitivity Analysis\n\n\n\n\n\n\nSteeper slope indicates higher sensitivity.\n\n\nSo, how to judge which one is more sensitive and which one is not? We sketched these sensitivity plots…"
+  },
+  {
+    "objectID": "slides/emse/index.html#tornado-plots---smc",
+    "href": "slides/emse/index.html#tornado-plots---smc",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Tornado Plots - SMC",
+    "text": "Tornado Plots - SMC\n\n\n\n\n\n\nThis tornado plot is generated from the sensitivity plots…"
+  },
+  {
+    "objectID": "slides/emse/index.html#tornado-plots---v2g",
+    "href": "slides/emse/index.html#tornado-plots---v2g",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Tornado Plots - V2G",
+    "text": "Tornado Plots - V2G\n\n\n\n\n\n\nFor V2G, things are a little different, since both monetary incentives are more sensitive than all others…"
+  },
+  {
+    "objectID": "slides/emse/index.html#tornado-plots---summary",
+    "href": "slides/emse/index.html#tornado-plots---summary",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Tornado Plots - Summary",
+    "text": "Tornado Plots - Summary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonetary incentives are important.\nRecurring incentives are more important than one-time.\nFor SMC, range anxiety is vital, since it happens regularly.\nFor V2G, usability is compromised.\nDiminishing returns exist."
+  },
+  {
+    "objectID": "slides/emse/index.html#market-simulation-for-smc",
+    "href": "slides/emse/index.html#market-simulation-for-smc",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Market Simulation for SMC",
+    "text": "Market Simulation for SMC\n\n\n\n\n\n\nFor marketing simulation, the programs start from simple all the way to sophisticated…"
+  },
+  {
+    "objectID": "slides/emse/index.html#market-simulation-for-v2g",
+    "href": "slides/emse/index.html#market-simulation-for-v2g",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Market Simulation for V2G",
+    "text": "Market Simulation for V2G\n\n\n\n\n\n\nBut for V2G, money is more important than flexibility…"
+  },
+  {
+    "objectID": "slides/emse/index.html#future-work",
+    "href": "slides/emse/index.html#future-work",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Future Work",
+    "text": "Future Work\nData Collection\n\nOther than social media, use survey panels to collect more responses.\nIncrease data size from 800 to 2000.\n\nModeling\n\nSubgroup analysis considering heterogeneity.\nMore modeling techniques such as Apollo Choice Modeling.\n\nSimulation\n\nApply customer preferences to grid simulation.\nEstimate benefit-cost trade-offs for utilities."
+  },
+  {
+    "objectID": "slides/emse/index.html#literature-review",
+    "href": "slides/emse/index.html#literature-review",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Literature Review",
+    "text": "Literature Review\n\nA study by Wong et al. (2023) examined incentives affect the EV owners’ acceptance, but EV ownership is only 19%.\nA study by Philip and Whitehead (2024) found range anxiety matters, but EV ownership is only 1.28%.\nAnother study by Huang et al. (2021) indicates the importance of fast charging, but the sample size is only 157.\n\nNone of them collected demographics data to study heterogeneity.\n\nWe need high EV ownership & large sample size, and consider heterogeneity."
+  },
+  {
+    "objectID": "slides/emse/index.html#reference-list",
+    "href": "slides/emse/index.html#reference-list",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Reference List",
+    "text": "Reference List\n\n\n\n\nPingfan Hu - EMSE 8001\n\n\n\n\nHuang, Bing, Aart Gerard Meijssen, Jan Anne Annema, and Zofia Lukszo. 2021. “Are Electric Vehicle Drivers Willing to Participate in Vehicle-to-Grid Contracts? A Context-Dependent Stated Choice Experiment.” Energy Policy 156 (September): 112410. https://doi.org/10.1016/j.enpol.2021.112410.\n\n\nPhilip, Thara, and Jake Whitehead. 2024. “Consumer Preferences Towards Electric Vehicle Smart Charging Program Attributes: A Stated Preference Study.” Rochester, NY. https://doi.org/10.2139/ssrn.4812923.\n\n\nWong, Stephen D., Susan A. Shaheen, Elliot Martin, and Robert Uyeki. 2023. “Do Incentives Make a Difference? Understanding Smart Charging Program Adoption for Electric Vehicles.” Transportation Research Part C: Emerging Technologies 151 (June): 104123. https://doi.org/10.1016/j.trc.2023.104123."
+  },
+  {
+    "objectID": "slides/emse/index.html#enrollment-sensitivity",
+    "href": "slides/emse/index.html#enrollment-sensitivity",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Enrollment Sensitivity",
+    "text": "Enrollment Sensitivity"
+  },
+  {
+    "objectID": "slides/emse/index.html#enrollment-sensitivity-1",
+    "href": "slides/emse/index.html#enrollment-sensitivity-1",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Enrollment Sensitivity",
+    "text": "Enrollment Sensitivity\n\n\n\n\n\n\nSteeper slope indicates higher sensitivity."
+  },
+  {
+    "objectID": "slides/emse/index.html#enrollment-sensitivity-combined---smc",
+    "href": "slides/emse/index.html#enrollment-sensitivity-combined---smc",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Enrollment Sensitivity Combined - SMC",
+    "text": "Enrollment Sensitivity Combined - SMC"
+  },
+  {
+    "objectID": "slides/emse/index.html#enrollment-sensitivity-combined---v2g",
+    "href": "slides/emse/index.html#enrollment-sensitivity-combined---v2g",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Enrollment Sensitivity Combined - V2G",
+    "text": "Enrollment Sensitivity Combined - V2G"
+  },
+  {
+    "objectID": "slides/emse/index.html#enrollment-sensitivity-combined---summary",
+    "href": "slides/emse/index.html#enrollment-sensitivity-combined---summary",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Enrollment Sensitivity Combined - Summary",
+    "text": "Enrollment Sensitivity Combined - Summary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonetary incentives are important.\nRecurring incentives are more important than one-time.\nFor SMC, range anxiety is vital, since it happens regularly.\nFor V2G, usability is compromised.\nDiminishing returns exist."
+  },
+  {
+    "objectID": "slides/emse/index.html#market-simulation---smc",
+    "href": "slides/emse/index.html#market-simulation---smc",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Market Simulation - SMC",
+    "text": "Market Simulation - SMC"
+  },
+  {
+    "objectID": "slides/emse/index.html#market-simulation---v2g",
+    "href": "slides/emse/index.html#market-simulation---v2g",
+    "title": "Measuring Electric Vehicle Owners’ Willingness to Enroll in Smart Charging Programs",
+    "section": "Market Simulation - V2G",
+    "text": "Market Simulation - V2G"
   }
 ]
