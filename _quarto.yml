@@ -53,7 +53,7 @@ website:
           - href: slides_ieee.qmd
             text: "IEEE VPPC"
           - href: slides_emse.qmd
-            text: "EMSE 8999"
+            text: "EMSE 8001"
           
     right:
       - icon: question-circle-fill
