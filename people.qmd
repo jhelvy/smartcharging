@@ -11,7 +11,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 :::
 
 ::: {style="width: 76%;"}
-**John Paul Helveston, Ph.D.**
+**John Paul Helveston, Ph.D.** (ORCID: [0000-0002-2657-9191](https://orcid.org/0000-0002-2657-9191))
 
 [John Paul Helveston](https://www.jhelvy.com) is an Assistant Professor in the Department of Engineering Management and Systems Engineering at the George Washington University. He studies technological change, with a particular interest in accelerating the transition to environmentally sustainable and energy-saving technologies.
 :::
@@ -23,7 +23,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 :::
 
 ::: {style="width: 76%;"}
-**Pingfan Hu**
+**Pingfan Hu** (ORCID: [0009-0001-4877-4844](https://orcid.org/0009-0001-4877-4844))
 
 [Pingfan Hu](https://pingfanhu.com) is a Ph.D. student in Systems Engineering at the George Washington University, supervised by PI John Helveston. His primary research topic is the adoption of BEV Smart Charging by conjoint surveys.
 :::
@@ -35,7 +35,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 :::
 
 ::: {style="width: 76%;"}
-**Brian Tarroja, Ph.D., P.E.**
+**Brian Tarroja, Ph.D., P.E.** (ORCID: [0000-0002-7736-8642](https://orcid.org/0000-0002-7736-8642))
 
 [Brian Tarroja](https://btarroja.wixsite.com/btarroja) is a researcher and educator focused on improving the robustness of strategies to carry out the transition to a cleaner, decarbonized energy system. His research centers on understanding how to co-optimize concurrent transitions in energy, water, and transportation infrastructures to maximize beneficial outcomes and avoid or minimize harmful consequences.
 :::
@@ -47,7 +47,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 :::
 
 ::: {style="width: 76%;"}
-**Matthew Dean, Ph.D.**
+**Matthew Dean, Ph.D.** (ORCID: [0000-0002-0346-4316](https://orcid.org/0000-0002-0346-4316))
 
 [Matthew Dean](https://engineering.uci.edu/users/matthew-dean) is an Assistant Professor at UC Irvine conducting research at the intersection of transportation engineering and energy systems. His work prepares cities for emergent shared mobility services, strengthens our decarbonization goals by managing distributed energy assets, and creates healthy communities by getting people out biking, walking, and rolling.
 :::
@@ -59,7 +59,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 :::
 
 ::: {style="width: 76%;"}
-**Kate Forrest, Ph.D.**
+**Kate Forrest, Ph.D.** (ORCID: [0000-0001-6375-1299](https://orcid.org/0000-0001-6375-1299))
 
 [Kate E. Forrest](https://www.linkedin.com/in/kate-forrest-ph-d-7688112b/) is currently a Senior Scientist at Advanced Power and Energy Program (APEP) at the University of California, Irvine. She is an environmental scientist and engineer passionate about clean energy, environmental advocacy, sustainable energy and transportation solutions, science policy, and educational outreach.
 :::
@@ -71,7 +71,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 :::
 
 ::: {style="width: 76%;"}
-**Eric Hittinger, Ph.D.**
+**Eric Hittinger, Ph.D.** (ORCID: [0000-0001-8439-4016](https://orcid.org/0000-0001-8439-4016))
 
 [Eric Hittinger](https://www.rit.edu/directory/eshgpt-eric-hittinger) is an Associate Professor of Public Policy at Rochester Institute of Technology, WILL International Chair at University of Lille, and President-Elect of the US Association for Energy Economics. His research is focused on energy policy, particularly the opportunities and challenges associated with new technologies such as energy storage, renewables, EVs, and efficiency.
 :::
@@ -83,7 +83,7 @@ This project is led by PI [John Paul Helveston](https://www.jhelvy.com/) from Th
 :::
 
 ::: {style="width: 76%;"}
-**Alan Jenn, Ph.D.**
+**Alan Jenn, Ph.D.** (ORCID: [0000-0003-4232-0697](https://orcid.org/0000-0003-4232-0697))
 
 [Alan Jenn](https://its.ucdavis.edu/people/alan-jenn/) is an Assistant Professor at the EV group of the Institute of Transportation Studies at the University of California, Davis as well as an affiliate at Lawrence Berkeley National Laboratory. His research is focused on PEVs: integration with the electric grid, adoption of the technology, use in ride-hailing companies, and its impact on transportation finance.
 :::
