@@ -2,30 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jhelvy.github.io/smartcharging/people.html</loc>
-    <lastmod>2024-09-23T16:25:37.598Z</lastmod>
+    <lastmod>2024-11-11T18:05:37.610Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/smartcharging/about.html</loc>
-    <lastmod>2024-09-23T16:25:37.572Z</lastmod>
+    <lastmod>2024-11-11T18:05:37.584Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/smartcharging/slides.html</loc>
-    <lastmod>2024-09-23T16:25:37.645Z</lastmod>
+    <loc>https://jhelvy.github.io/smartcharging/slides/emse/index.html</loc>
+    <lastmod>2024-11-11T18:05:37.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jhelvy.github.io/smartcharging/slides_ieee.html</loc>
+    <lastmod>2024-11-11T18:05:37.692Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/smartcharging/poster.html</loc>
-    <lastmod>2024-09-23T16:25:37.598Z</lastmod>
+    <lastmod>2024-11-11T18:05:37.610Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/smartcharging/slide_folder/index.html</loc>
-    <lastmod>2024-09-23T16:25:37.644Z</lastmod>
+    <loc>https://jhelvy.github.io/smartcharging/slides_emse.html</loc>
+    <lastmod>2024-11-11T18:05:37.692Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/smartcharging/index.html</loc>
-    <lastmod>2024-09-23T16:25:37.598Z</lastmod>
+    <lastmod>2024-11-11T18:05:37.610Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jhelvy.github.io/smartcharging/slides/ieee/index.html</loc>
+    <lastmod>2024-11-11T18:05:37.692Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/smartcharging/faq.html</loc>
-    <lastmod>2024-09-23T16:25:37.572Z</lastmod>
+    <lastmod>2024-11-11T18:05:37.584Z</lastmod>
   </url>
 </urlset>
