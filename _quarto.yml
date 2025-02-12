@@ -54,6 +54,10 @@ website:
             text: "IEEE VPPC"
           - href: slides_emse.qmd
             text: "EMSE 8001"
+      - icon: calculator
+        href: https://gwuvehicle.shinyapps.io/enrollment_simulator/
+        text: "Simulator"
+        target: _blank
           
     right:
       - icon: question-circle-fill
