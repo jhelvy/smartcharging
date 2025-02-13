@@ -22,7 +22,6 @@ knitr:
     fig.show: "hold"
     fig.asp: 0.618
     fig.retna: 3
-    fig.path: figs_auto/
     out.width: 70%
 
 execute: 
@@ -30,7 +29,7 @@ execute:
   warning: false
 
 website:
-  title: "Home"
+  title: "Smart Charging"
   favicon: figs/favicon.ico
   search: false
   navbar:
@@ -44,16 +43,18 @@ website:
       - icon: person-badge
         href: people.qmd
         text: "People"
+      - icon: file-richtext
+        href: https://gwu.quarto.pub/smartchargingsurvey/
+        text: "Survey"
+        target: _blank
       - icon: file-slides
-        href: poster.qmd
+        href: poster.pdf
         text: "Poster"
+        target: _blank
       - icon: file-earmark-slides
+        href: https://slides.pingfanhu.com/slides/2024_ieee_vppc/
         text: "Slides"
-        menu: 
-          - href: slides_ieee.qmd
-            text: "IEEE VPPC"
-          - href: slides_emse.qmd
-            text: "EMSE 8001"
+        target: _blank
       - icon: calculator
         href: https://gwuvehicle.shinyapps.io/enrollment_simulator/
         text: "Simulator"
