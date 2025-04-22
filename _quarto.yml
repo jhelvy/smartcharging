@@ -2,6 +2,8 @@ page-layout: article
 
 project:
   type: website
+  resources:
+    - pdf/
 
 format:
   html:
@@ -48,11 +50,11 @@ website:
         text: "Survey"
         target: _blank
       - icon: file-slides
-        href: poster.pdf
+        href: pdf/poster.pdf
         text: "Poster"
         target: _blank
       - icon: file-earmark-slides
-        href: https://slides.pingfanhu.com/slides/2024_ieee_vppc/
+        href: https://talks.pingfanhu.com/slides/2025_dqe/
         text: "Slides"
         target: _blank
       - icon: calculator
